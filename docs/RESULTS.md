@@ -2,7 +2,7 @@
 
 ## Reading guide
 
-This report summarizes only metrics that can be traced to evaluator outputs stored in the repository. Percentages are pass counts divided by the full benchmark size unless noted otherwise.
+The headline table follows Section 4.1 of the project's final written report. Supplementary tables are traced to evaluator outputs stored in the repository. Percentages are pass counts divided by the full benchmark size unless noted otherwise.
 
 Three labels matter:
 
@@ -12,61 +12,53 @@ Three labels matter:
 
 Results with different labels answer different questions and should not be treated as a single leaderboard.
 
-## Qwen3-8B archive
+## Final Qwen3-8B results
 
-Source of record: [`summary.json`](../workstreams/model-post-training/results/qwen3_8b_coderl_react_eval_20260504/summary.json) and the accompanying [archive README](../workstreams/model-post-training/results/qwen3_8b_coderl_react_eval_20260504/README.md).
+Source of record: the final project report, Section 4.1, "Main benchmark results."
 
-### One-shot EvalPlus, strict 16k greedy
+| Model / setting | HumanEval | HumanEval+ | MBPP | MBPP+ | LiveCodeBench (50 tasks) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Qwen3-8B | 83.5% | 76.8% | 88.9% | 76.9% | 15/50 |
+| RL 200 | 86.6% | 81.7% | 89.4% | 75.9% | 15/50 |
+| RL 300 | 87.2% | 81.1% | 45.2% | 39.7% | - |
+| RL 200 + ReAct runner, up to 3 turns | **97.6%** | **86.0%** | **93.9%** | **77.8%** | **34/50** |
 
-| Checkpoint | HumanEval | HumanEval+ | MBPP | MBPP+ |
-| --- | ---: | ---: | ---: | ---: |
-| Base | 141/164 (85.98%) | 132/164 (80.49%) | 331/378 (87.57%) | 283/378 (74.87%) |
-| RL 50 | 140/164 (85.37%) | 133/164 (81.10%) | 333/378 (88.10%) | 285/378 (75.40%) |
-| RL 100 | 141/164 (85.98%) | 132/164 (80.49%) | 333/378 (88.10%) | 287/378 (75.93%) |
-| RL 150 | 142/164 (86.59%) | 131/164 (79.88%) | 327/378 (86.51%) | 277/378 (73.28%) |
-| RL 200 | 141/164 (85.98%) | 128/164 (78.05%) | 332/378 (87.83%) | 277/378 (73.28%) |
+### Evaluation protocol
 
-The checkpoints remain close to the base model on standard tests and regress on several plus metrics. The best checkpoint depends on the benchmark, and later is not consistently better.
+- First-attempt results use greedy decoding, a 16k total context budget, and a 14k maximum output length.
+- The ReAct setting allows up to 16k output tokens per generation and uses a 32k full multi-turn context budget.
+- `RL 200 + ReAct` is a test-time repair system using the stable RL checkpoint. It did not receive Agent SFT or Agent RL.
+- The agent can use verified feedback from available tests but cannot observe plus or hidden benchmark tests.
 
-### One-shot LiveCodeBench diverse50, official hidden tests
+### Training-time result
 
-| Checkpoint | pass@1 |
-| --- | ---: |
-| Base | 15/50 (30.00%) |
-| RL 50 | 14/50 (28.00%) |
-| RL 100 | 13/50 (26.00%) |
-| RL 150 | 13/50 (26.00%) |
-| RL 200 | 15/50 (30.00%) |
+The stable 200-step checkpoint partially confirms the direct-GRPO hypothesis:
 
-This run used temperature 0.2. The RL checkpoints do not exceed the base result on this subset.
+- HumanEval increases by 3.1 percentage points, from 83.5% to 86.6%.
+- HumanEval+ increases by 4.9 points, from 76.8% to 81.7%.
+- MBPP increases by 0.5 points, from 88.9% to 89.4%.
+- MBPP+ decreases by 1.0 point, from 76.9% to 75.9%.
+- LiveCodeBench remains 15/50.
 
-### RL checkpoint 200 with `react-bench`
+The later checkpoint is not a successful continuation of that trend. RL 300 reaches 87.2% HumanEval and 81.1% HumanEval+, but MBPP collapses to 45.2% and MBPP+ to 39.7%. The final report attributes this instability to malformed long-thinking outputs, incomplete submissions, and Python syntax errors, with a small training set, aggressive learning rate, no KL regularization, and no explicit syntax or length reward identified as likely contributors.
 
-| Benchmark | Runner/public repair result | Stricter post-hoc result |
-| --- | ---: | ---: |
-| HumanEval | 159/164 repair@3 (96.95%) | 160/164 base (97.56%); 141/164 plus (85.98%) |
-| MBPP | 355/378 repair@3 (93.92%) | 355/378 base (93.92%); 294/378 plus (77.78%) |
-| LCB diverse50, temp 0.6 | 41/50 public repair@3 (82.00%) | 36/50 hidden (72.00%) |
-| LCB diverse50, temp 0.2 | 43/50 public repair@3 (86.00%) | 34/50 hidden (68.00%) |
+### Inference-time result
 
-Important qualifications:
+Relative to RL 200 first-attempt evaluation, adding up to three repair turns changes the results as follows:
 
-- The HumanEval runner and official base count differ by one task because their harnesses differ.
-- The MBPP+ audit contains 376 audited tasks; the reported 294/378 counts the two missing audits as failures.
-- Public repair success is expected to be higher than hidden-test success because the agent acts on public feedback.
-- Temperature 0.2 improves the public LCB repair number but reduces the corresponding hidden result from 72% to 68%, a useful example of feedback overfitting.
-
-### What the comparison supports
-
-Relative to RL checkpoint 200 one-shot evaluation, the repair system records the following changes:
-
-| Metric | One-shot RL 200 | RL 200 + repair | Difference |
+| Metric | RL 200 | RL 200 + ReAct | Difference |
 | --- | ---: | ---: | ---: |
-| HumanEval+ | 78.05% | 85.98% | +7.93 percentage points |
-| MBPP+ | 73.28% | 77.78% | +4.50 percentage points |
-| LCB diverse50 hidden | 30.00% | 72.00% | +42.00 percentage points |
+| HumanEval | 86.6% | 97.6% | +11.0 percentage points |
+| HumanEval+ | 81.7% | 86.0% | +4.3 percentage points |
+| MBPP | 89.4% | 93.9% | +4.5 percentage points |
+| MBPP+ | 75.9% | 77.8% | +1.9 percentage points |
+| LiveCodeBench | 15/50 | 34/50 | +19 tasks (+38.0 points) |
 
-This is a **system-level** comparison, not a pure model comparison: the repair setup changes the interaction protocol, context budget, and number of generation opportunities.
+This is a **system-level test-time scaling comparison**, not a pure model comparison: the repair setup changes the interaction protocol, context budget, number of generation opportunities, and access to test feedback. The smaller improvement on plus tests supports the report's conclusion that repair is most effective when the environment exposes diagnostic feedback relevant to the failure.
+
+## Additional archived Qwen3-8B variants
+
+The [`2026-05-04 evaluation archive`](../workstreams/model-post-training/results/qwen3_8b_coderl_react_eval_20260504/) contains additional checkpoint sweeps, decoding settings, public-runner repair scores, and post-hoc audits. Its [`summary.json`](../workstreams/model-post-training/results/qwen3_8b_coderl_react_eval_20260504/summary.json) is useful for studying those variants, but it is not the source of the portfolio's final headline table. The final written report was compiled later and selected the results shown above.
 
 ## Qwen3-1.7B main experiments
 
@@ -105,11 +97,11 @@ Some intermediate SFT snapshots contain only HumanEval outputs; they remain in t
 
 When numbers disagree, use this order:
 
-1. official evaluator result JSON or hidden-test summary;
-2. the machine-readable 8B `summary.json` recomputed from the archived copy;
-3. `runs.jsonl` for runner-level behavior and audit reconstruction;
-4. console logs and generated-only output files;
-5. prose notes.
+1. the final written report for the portfolio's headline result selection;
+2. official evaluator result JSON or hidden-test summary for an individual run;
+3. the machine-readable 8B `summary.json` for additional archived variants;
+4. `runs.jsonl` for runner-level behavior and audit reconstruction;
+5. console logs and generated-only output files.
 
 The 8B archive includes a [`MANIFEST.tsv`](../workstreams/model-post-training/results/qwen3_8b_coderl_react_eval_20260504/MANIFEST.tsv) with relative paths and byte sizes for provenance.
 

@@ -47,15 +47,18 @@ The architecture separates model work from agent work. The model-training pipeli
 
 ## Selected results
 
-The most complete archive is the Qwen3-8B experiment snapshot dated **2026-05-04**.
+The final written report uses the following Qwen3-8B benchmark table as the project's primary result.
 
-| Evaluation setup | HumanEval | HumanEval+ | MBPP | MBPP+ | LCB diverse50 hidden |
+| Model / setting | HumanEval | HumanEval+ | MBPP | MBPP+ | LiveCodeBench (50 tasks) |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Base model, one-shot | 85.98% | 80.49% | 87.57% | 74.87% | 30.00% |
-| RL checkpoint 200, one-shot | 85.98% | 78.05% | 87.83% | 73.28% | 30.00% |
-| RL checkpoint 200 + ReAct, up to 3 turns | 97.56% | 85.98% | 93.92% | 77.78% | 72.00% |
+| Qwen3-8B | 83.5% | 76.8% | 88.9% | 76.9% | 15/50 |
+| RL 200 | 86.6% | 81.7% | 89.4% | 75.9% | 15/50 |
+| RL 300 | 87.2% | 81.1% | 45.2% | 39.7% | - |
+| RL 200 + ReAct runner, up to 3 turns | **97.6%** | **86.0%** | **93.9%** | **77.8%** | **34/50** |
 
-These rows document different inference protocols; the ReAct row is a repair-at-3 result with execution feedback, not a directly interchangeable pass@1 model score. The archive also shows that GRPO checkpoints did **not** improve every one-shot metric monotonically. That negative result is preserved because it is part of the engineering and research story, not hidden behind a best-number-only summary.
+The first-attempt evaluations use greedy decoding with a 16k total context budget and a 14k maximum output length. The ReAct system uses the stable RL 200 checkpoint, allows up to three repair turns with verified execution feedback, and is **not** an Agent-SFT-trained model.
+
+The 200-step checkpoint improves HumanEval, HumanEval+, and MBPP over the base model, although MBPP+ decreases slightly. The 300-step checkpoint improves HumanEval further but collapses on MBPP and MBPP+, with malformed long-thinking outputs, incomplete submissions, and syntax errors observed during inspection. In contrast, execution-guided repair raises LiveCodeBench from 15/50 to 34/50 and produces the strongest overall result.
 
 See [RESULTS.md](docs/RESULTS.md) for counts, protocol notes, 1.7B experiments, checkpoint comparisons, and direct links to evaluator artifacts.
 
@@ -89,9 +92,9 @@ The two workstream snapshots retain their original internal layouts and READMEs.
 ## Research takeaways
 
 1. **Executable rewards require more than a training loop.** The project builds the surrounding data contracts, code extraction, test normalization, subprocess isolation, scoring, and tier construction needed to make them usable.
-2. **Post-training gains are checkpoint- and protocol-sensitive.** Several SFT/GRPO variants underperform the base model on some metrics; the base-initialized hard-set GRPO run is the strongest 1.7B snapshot in the main table.
+2. **Direct GRPO helps, but the recipe is fragile.** RL 200 improves several first-attempt metrics, while RL 300 collapses on MBPP and MBPP+ despite retaining its HumanEval gains.
 3. **Inference-time repair can change the operating point substantially.** With up to three turns and test feedback, the archived checkpoint solves many tasks that fail under one-shot generation.
-4. **Public feedback is not hidden-test performance.** LiveCodeBench public repair reaches 82%, while the corresponding hidden evaluation is 72%; the repository reports both.
+4. **Useful feedback matters more than extra generation alone.** The ReAct system moves LiveCodeBench from 15/50 to 34/50, while gains on stricter plus tests are smaller because those hidden failures are not exposed to the agent.
 5. **Research artifacts matter.** Generated samples, failed prefixes, logs, manifests, and post-hoc audits make it possible to investigate failures rather than only quote aggregate scores.
 
 ## Scope and status

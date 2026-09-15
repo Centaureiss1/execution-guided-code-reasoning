@@ -45,15 +45,18 @@ flowchart LR
 
 ## 代表性结果
 
-数据最完整的部分是 **2026-05-04** 的 Qwen3-8B 实验快照。
+项目 final report 将下表作为 Qwen3-8B 的最终主结果。
 
-| 评测设置 | HumanEval | HumanEval+ | MBPP | MBPP+ | LCB diverse50 hidden |
+| 模型 / 设置 | HumanEval | HumanEval+ | MBPP | MBPP+ | LiveCodeBench（50 题） |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Base model，单轮 | 85.98% | 80.49% | 87.57% | 74.87% | 30.00% |
-| RL checkpoint 200，单轮 | 85.98% | 78.05% | 87.83% | 73.28% | 30.00% |
-| RL checkpoint 200 + ReAct，最多 3 轮 | 97.56% | 85.98% | 93.92% | 77.78% | 72.00% |
+| Qwen3-8B | 83.5% | 76.8% | 88.9% | 76.9% | 15/50 |
+| RL 200 | 86.6% | 81.7% | 89.4% | 75.9% | 15/50 |
+| RL 300 | 87.2% | 81.1% | 45.2% | 39.7% | - |
+| RL 200 + ReAct runner，最多 3 轮 | **97.6%** | **86.0%** | **93.9%** | **77.8%** | **34/50** |
 
-这三行的推理 protocol 不同。ReAct 行是有执行反馈的 repair@3，不能直接当成同口径的模型 pass@1 排名。同时，GRPO checkpoint 并没有在所有单轮指标上稳定提升。这个负结果被完整保留，因为它同样属于真实的研究结论。
+前三行的 first-attempt 评测使用 greedy decoding、16k 总 context budget 和 14k 最大输出长度。ReAct 系统使用稳定的 RL 200 checkpoint，通过可验证的执行反馈进行最多三轮修复；它**不是**经过 Agent SFT 的模型。
+
+RL 200 在 HumanEval、HumanEval+ 和 MBPP 上超过 base model，但 MBPP+ 小幅下降。RL 300 的 HumanEval 继续提升，但 MBPP 和 MBPP+ 出现崩溃；人工检查发现了过长且格式错乱的 thinking、不完整提交和语法错误。相比之下，执行反馈驱动的 ReAct repair 将 LiveCodeBench 从 15/50 提高到 34/50，得到了整体最强的结果。
 
 更完整的 1.7B/8B 结果、样本数、评测口径和原始证据链接见 [RESULTS.md](docs/RESULTS.md)。
 
