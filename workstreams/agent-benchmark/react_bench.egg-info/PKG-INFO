@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: react-bench
+Version: 0.1.0
+Summary: Benchmark-oriented Code ReAct runner for EvalPlus and LiveCodeBench
+Requires-Python: >=3.10
+Provides-Extra: openai
+Requires-Dist: openai>=1.0.0; extra == "openai"
+Provides-Extra: evalplus
+Requires-Dist: evalplus; extra == "evalplus"
+Provides-Extra: livecodebench
+Provides-Extra: prepare
+Requires-Dist: datasets>=2.18.0; extra == "prepare"

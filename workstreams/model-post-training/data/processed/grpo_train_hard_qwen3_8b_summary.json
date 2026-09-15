@@ -1,0 +1,31 @@
+{
+  "input": "/workspace/cs639_final/data/processed/debug_qwen3_8b_512_clean_n8_scored.jsonl",
+  "output": "/workspace/cs639_final/data/processed/grpo_train_hard_qwen3_8b.jsonl",
+  "seed": 42,
+  "total": 3000,
+  "main_pass_count_1_2": 2794,
+  "extra_kodcode_pass_count_0": 206,
+  "extra_filter": {
+    "source": "kodcode",
+    "pass_count": 0,
+    "n_samples": 8,
+    "min_tests": 4,
+    "max_prompt_chars": 3000,
+    "exclude_prompt_regex": "\\b(flask|django|fastapi|web application|html|css|javascript|http server|api endpoint|database|sqlalchemy)\\b",
+    "candidate_count_after_filter": 7039
+  },
+  "by_source": {
+    "opencode": 2103,
+    "kodcode": 897
+  },
+  "by_pass_count": {
+    "0": 206,
+    "1": 1978,
+    "2": 816
+  },
+  "by_tier": {
+    "pass_count_1": 1978,
+    "pass_count_2": 816,
+    "kodcode_pass_count_0_extra": 206
+  }
+}

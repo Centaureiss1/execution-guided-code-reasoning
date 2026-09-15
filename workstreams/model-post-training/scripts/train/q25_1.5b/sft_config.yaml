@@ -1,0 +1,41 @@
+# ── 模型 ──────────────────────────────────────────────
+model: /home/brui/cs639_final/models/Qwen2.5-Coder-1.5B-Instruct
+
+# ── 训练类型 ──────────────────────────────────────────
+train_type: lora
+
+# ── 数据 ──────────────────────────────────────────────
+dataset: /home/brui/cs639_final/data/processed/kodcode_sft_50k_2tier.jsonl
+
+# ── LoRA ──────────────────────────────────────────────
+lora_rank: 64
+lora_alpha: 128
+target_modules: all-linear        # 先在 4k 下试回 Attention + FFN 全部层
+
+# ── 精度 & 注意力 ─────────────────────────────────────
+torch_dtype: bfloat16
+attn_impl: sdpa                   # 本地 12GB 验证优先走 PyTorch 原生注意力
+quant_method: bnb                 # QLoRA: 用 bitsandbytes 4-bit 加载基座模型
+quant_bits: 4
+bnb_4bit_compute_dtype: bfloat16
+bnb_4bit_quant_type: nf4
+bnb_4bit_use_double_quant: true
+
+# ── 训练超参 ──────────────────────────────────────────
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16   # effective batch_size = 16
+max_length: 4096                  # 回到 4k，优先保证 12GB 上稳定训练
+learning_rate: 1e-4
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+# ── 显存优化 ──────────────────────────────────────────
+gradient_checkpointing: true
+
+# ── 输出 & Checkpoint ─────────────────────────────────
+output_dir: /home/brui/cs639_final/models/Qwen2.5-Coder-1.5B-Instruct/phase1_sft_50k
+save_steps: 1560                  # ~9375 total steps 下约均匀保留 6 个 checkpoint
+save_total_limit: 6               # 保留全程更均匀的 checkpoint 快照
+logging_steps: 10

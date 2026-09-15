@@ -1,0 +1,891 @@
+[1/164] evalplus:HumanEval/0 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1790 submit_tokens~=61 finish=stop latency=37.99s prompt_tokens=197 completion_tokens=1901
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[1/164] HumanEval/0: pass turns=1
+[2/164] evalplus:HumanEval/1 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2000 submit_tokens~=126 finish=stop latency=39.09s prompt_tokens=188 completion_tokens=1964
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[2/164] HumanEval/1: pass turns=1
+[3/164] evalplus:HumanEval/2 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4125 submit_tokens~=24 finish=stop latency=91.93s prompt_tokens=158 completion_tokens=4560
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[3/164] HumanEval/2: pass turns=1
+[4/164] evalplus:HumanEval/3 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=971 submit_tokens~=144 finish=stop latency=22.10s prompt_tokens=192 completion_tokens=1112
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[4/164] HumanEval/3: pass turns=1
+[5/164] evalplus:HumanEval/4 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=910 submit_tokens~=133 finish=stop latency=22.76s prompt_tokens=190 completion_tokens=1143
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[5/164] HumanEval/4: pass turns=1
+[6/164] evalplus:HumanEval/5 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1332 submit_tokens~=66 finish=stop latency=28.75s prompt_tokens=165 completion_tokens=1448
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[6/164] HumanEval/5: pass turns=1
+[7/164] evalplus:HumanEval/6 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1571 submit_tokens~=126 finish=stop latency=33.38s prompt_tokens=185 completion_tokens=1676
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[7/164] HumanEval/6: pass turns=1
+[8/164] evalplus:HumanEval/7 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=740 submit_tokens~=89 finish=stop latency=15.63s prompt_tokens=166 completion_tokens=787
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_jguzz121/solution.py", line 1, in <module> def filter_by_substring(strings: List[str], substring: str) -> List[str]: ^^^^ NameError: name 'List' is not defined. Did you mean: 'list'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=949 submit_tokens~=95 finish=stop latency=18.80s prompt_tokens=1055 completion_tokens=932
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[8/164] HumanEval/7: pass turns=2
+[9/164] evalplus:HumanEval/8 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=757 submit_tokens~=132 finish=stop latency=19.09s prompt_tokens=185 completion_tokens=961
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[9/164] HumanEval/8: pass turns=1
+[10/164] evalplus:HumanEval/9 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1077 submit_tokens~=128 finish=stop latency=26.05s prompt_tokens=173 completion_tokens=1309
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_uhbtwi39/solution.py", line 1, in <module> def rolling_max(numbers: List[int]) -> List[int]: ^^^^ NameError: name 'List' is not defined. Did you mean: 'list'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1040 submit_tokens~=136 finish=stop latency=22.52s prompt_tokens=1578 completion_tokens=1111
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[10/164] HumanEval/9: pass turns=2
+[11/164] evalplus:HumanEval/10 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2343 submit_tokens~=203 finish=stop latency=54.24s prompt_tokens=215 completion_tokens=2708
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[11/164] HumanEval/10: pass turns=1
+[12/164] evalplus:HumanEval/11 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1293 submit_tokens~=101 finish=stop latency=27.76s prompt_tokens=155 completion_tokens=1396
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[12/164] HumanEval/11: pass turns=1
+[13/164] evalplus:HumanEval/12 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2274 submit_tokens~=145 finish=stop latency=46.87s prompt_tokens=175 completion_tokens=2347
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[13/164] HumanEval/12: pass turns=1
+[14/164] evalplus:HumanEval/13 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1417 submit_tokens~=27 finish=stop latency=35.30s prompt_tokens=145 completion_tokens=1772
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[14/164] HumanEval/13: pass turns=1
+[15/164] evalplus:HumanEval/14 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=523 submit_tokens~=67 finish=stop latency=12.96s prompt_tokens=132 completion_tokens=651
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[15/164] HumanEval/14: pass turns=1
+[16/164] evalplus:HumanEval/15 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=824 submit_tokens~=20 finish=stop latency=18.43s prompt_tokens=141 completion_tokens=927
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[16/164] HumanEval/15: pass turns=1
+[17/164] evalplus:HumanEval/16 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=588 submit_tokens~=22 finish=stop latency=12.24s prompt_tokens=143 completion_tokens=617
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[17/164] HumanEval/16: pass turns=1
+[18/164] evalplus:HumanEval/17 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1203 submit_tokens~=82 finish=stop latency=26.06s prompt_tokens=245 completion_tokens=1309
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[18/164] HumanEval/17: pass turns=1
+[19/164] evalplus:HumanEval/18 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2225 submit_tokens~=78 finish=stop latency=46.82s prompt_tokens=161 completion_tokens=2346
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[19/164] HumanEval/18: pass turns=1
+[20/164] evalplus:HumanEval/19 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1275 submit_tokens~=209 finish=stop latency=31.34s prompt_tokens=178 completion_tokens=1573
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[20/164] HumanEval/19: pass turns=1
+[21/164] evalplus:HumanEval/20 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1672 submit_tokens~=118 finish=stop latency=44.39s prompt_tokens=239 completion_tokens=2221
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[21/164] HumanEval/20: pass turns=1
+[22/164] evalplus:HumanEval/21 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1339 submit_tokens~=134 finish=stop latency=34.43s prompt_tokens=198 completion_tokens=1713
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[22/164] HumanEval/21: pass turns=1
+[23/164] evalplus:HumanEval/22 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1852 submit_tokens~=73 finish=stop latency=38.84s prompt_tokens=165 completion_tokens=1950
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench__lv17e5q/solution.py", line 1, in <module> def filter_integers(values: List[Any]) -> List[int]: ^^^^ NameError: name 'List' is not defined. Did you mean: 'list'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=421 submit_tokens~=81 finish=stop latency=10.03s prompt_tokens=2214 completion_tokens=482
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[23/164] HumanEval/22: pass turns=2
+[24/164] evalplus:HumanEval/23 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=339 submit_tokens~=39 finish=stop latency=6.86s prompt_tokens=116 completion_tokens=347
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[24/164] HumanEval/23: pass turns=1
+[25/164] evalplus:HumanEval/24 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2557 submit_tokens~=43 finish=stop latency=60.58s prompt_tokens=126 completion_tokens=3025
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[25/164] HumanEval/24: pass turns=1
+[26/164] evalplus:HumanEval/25 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1491 submit_tokens~=66 finish=stop latency=40.24s prompt_tokens=201 completion_tokens=2018
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[26/164] HumanEval/25: pass turns=1
+[27/164] evalplus:HumanEval/26 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2619 submit_tokens~=82 finish=stop latency=51.71s prompt_tokens=157 completion_tokens=2585
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[27/164] HumanEval/26: pass turns=1
+[28/164] evalplus:HumanEval/27 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=814 submit_tokens~=16 finish=stop latency=15.27s prompt_tokens=121 completion_tokens=769
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[28/164] HumanEval/27: pass turns=1
+[29/164] evalplus:HumanEval/28 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=379 submit_tokens~=54 finish=stop latency=7.92s prompt_tokens=130 completion_tokens=400
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_4xd4cj7t/solution.py", line 1, in <module> def concatenate(strings: List[str]) -> str: ^^^^ NameError: name 'List' is not defined. Did you mean: 'list'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=349 submit_tokens~=60 finish=stop latency=7.26s prompt_tokens=626 completion_tokens=361
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[29/164] HumanEval/28: pass turns=2
+[30/164] evalplus:HumanEval/29 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1284 submit_tokens~=92 finish=stop latency=25.77s prompt_tokens=160 completion_tokens=1294
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[30/164] HumanEval/29: pass turns=1
+[31/164] evalplus:HumanEval/30 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=415 submit_tokens~=16 finish=stop latency=9.94s prompt_tokens=191 completion_tokens=502
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[31/164] HumanEval/30: pass turns=1
+[32/164] evalplus:HumanEval/31 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2274 submit_tokens~=66 finish=stop latency=63.84s prompt_tokens=179 completion_tokens=3185
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[32/164] HumanEval/31: pass turns=1
+[33/164] evalplus:HumanEval/32 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=9194 submit_tokens~=173 finish=stop latency=224.23s prompt_tokens=334 completion_tokens=10619
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_012fe30a/solution.py", line 57, in <module> check(find_zero) File "/tmp/cs639_grpo/tmp/react_bench_012fe30a/solution.py", line 53, in check assert math.fabs(poly(coeffs, solution)) < 1e-4 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4017 submit_tokens~=127 finish=stop latency=114.89s prompt_tokens=3324 completion_tokens=5459
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_bbnvdr6y/solution.py", line 45, in <module> check(find_zero) File "/tmp/cs639_grpo/tmp/react_bench_bbnvdr6y/solution.py", line 41, in check assert math.fabs(poly(coeffs, solution)) < 1e-4 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=4126 submit_tokens~=175 finish=stop latency=95.42s prompt_tokens=3861 completion_tokens=4551
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_3u2vp9yp/solution.py", line 57, in <module> check(find_zero) File "/tmp/cs639_grpo/tmp/react_bench_3u2vp9yp/solution.py", line 53, in check assert math.fabs(poly(coeffs, solution)) < 1e-4 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+[33/164] HumanEval/32: fail turns=3
+[34/164] evalplus:HumanEval/33 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2299 submit_tokens~=96 finish=stop latency=55.74s prompt_tokens=223 completion_tokens=2787
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[34/164] HumanEval/33: pass turns=1
+[35/164] evalplus:HumanEval/34 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1104 submit_tokens~=43 finish=stop latency=25.12s prompt_tokens=150 completion_tokens=1262
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[35/164] HumanEval/34: pass turns=1
+[36/164] evalplus:HumanEval/35 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1214 submit_tokens~=50 finish=stop latency=24.65s prompt_tokens=160 completion_tokens=1240
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[36/164] HumanEval/35: pass turns=1
+[37/164] evalplus:HumanEval/36 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1412 submit_tokens~=40 finish=stop latency=44.28s prompt_tokens=157 completion_tokens=2217
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[37/164] HumanEval/36: pass turns=1
+[38/164] evalplus:HumanEval/37 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2012 submit_tokens~=97 finish=stop latency=51.97s prompt_tokens=196 completion_tokens=2598
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[38/164] HumanEval/37: pass turns=1
+[39/164] evalplus:HumanEval/38 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1180 submit_tokens~=110 finish=stop latency=27.16s prompt_tokens=231 completion_tokens=1367
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_bfsnvt9e/solution.py", line 28, in <module> check(decode_cyclic) File "/tmp/cs639_grpo/tmp/react_bench_bfsnvt9e/solution.py", line 23, in check encoded_str = encode_cyclic(str) ^^^^^^^^^^^^^ NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=904 submit_tokens~=110 finish=stop latency=19.08s prompt_tokens=1732 completion_tokens=934
+  turn=2 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_gcbc_w7n/solution.py", line 28, in <module> check(decode_cyclic) File "/tmp/cs639_grpo/tmp/react_bench_gcbc_w7n/solution.py", line 23, in check encoded_str = encode_cyclic(str) ^^^^^^^^^^^^^ NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=998 submit_tokens~=110 finish=stop latency=20.88s prompt_tokens=2799 completion_tokens=1010
+  turn=3 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_5__tnjyr/solution.py", line 28, in <module> check(decode_cyclic) File "/tmp/cs639_grpo/tmp/react_bench_5__tnjyr/solution.py", line 23, in check encoded_str = encode_cyclic(str) ^^^^^^^^^^^^^ NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?
+[39/164] HumanEval/38: fail turns=3
+[40/164] evalplus:HumanEval/39 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3338 submit_tokens~=137 finish=stop latency=82.87s prompt_tokens=172 completion_tokens=4121
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[40/164] HumanEval/39: pass turns=1
+[41/164] evalplus:HumanEval/40 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4603 submit_tokens~=108 finish=stop latency=104.92s prompt_tokens=232 completion_tokens=5183
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[41/164] HumanEval/40: pass turns=1
+[42/164] evalplus:HumanEval/41 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1069 submit_tokens~=12 finish=stop latency=19.75s prompt_tokens=224 completion_tokens=994
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[42/164] HumanEval/41: pass turns=1
+[43/164] evalplus:HumanEval/42 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=450 submit_tokens~=60 finish=stop latency=10.68s prompt_tokens=186 completion_tokens=539
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[43/164] HumanEval/42: pass turns=1
+[44/164] evalplus:HumanEval/43 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1552 submit_tokens~=37 finish=stop latency=34.10s prompt_tokens=230 completion_tokens=1711
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[44/164] HumanEval/43: pass turns=1
+[45/164] evalplus:HumanEval/44 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1362 submit_tokens~=126 finish=stop latency=34.30s prompt_tokens=170 completion_tokens=1721
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[45/164] HumanEval/44: pass turns=1
+[46/164] evalplus:HumanEval/45 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=458 submit_tokens~=40 finish=stop latency=10.79s prompt_tokens=119 completion_tokens=545
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[46/164] HumanEval/45: pass turns=1
+[47/164] evalplus:HumanEval/46 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1985 submit_tokens~=74 finish=stop latency=57.95s prompt_tokens=245 completion_tokens=2891
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[47/164] HumanEval/46: pass turns=1
+[48/164] evalplus:HumanEval/47 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4169 submit_tokens~=58 finish=stop latency=111.72s prompt_tokens=154 completion_tokens=5521
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_z0m4_tbi/solution.py", line 26, in <module> check(median) File "/tmp/cs639_grpo/tmp/react_bench_z0m4_tbi/solution.py", line 19, in check assert candidate([-10, 4, 6, 1000, 10, 20]) == 8.0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2527 submit_tokens~=58 finish=stop latency=69.65s prompt_tokens=4153 completion_tokens=3329
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_xnhydlwm/solution.py", line 26, in <module> check(median) File "/tmp/cs639_grpo/tmp/react_bench_xnhydlwm/solution.py", line 19, in check assert candidate([-10, 4, 6, 1000, 10, 20]) == 8.0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2244 submit_tokens~=58 finish=stop latency=58.54s prompt_tokens=3862 completion_tokens=2809
+  turn=3 obs=status: pass passed_tests: 1 failed_tests: 0
+[48/164] HumanEval/47: pass turns=3
+[49/164] evalplus:HumanEval/48 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=948 submit_tokens~=68 finish=stop latency=18.90s prompt_tokens=144 completion_tokens=949
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[49/164] HumanEval/48: pass turns=1
+[50/164] evalplus:HumanEval/49 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1519 submit_tokens~=51 finish=stop latency=39.57s prompt_tokens=189 completion_tokens=1984
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[50/164] HumanEval/49: pass turns=1
+[51/164] evalplus:HumanEval/50 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1184 submit_tokens~=53 finish=stop latency=32.29s prompt_tokens=164 completion_tokens=1623
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_cxwwmgh2/solution.py", line 25, in <module> check(decode_shift) File "/tmp/cs639_grpo/tmp/react_bench_cxwwmgh2/solution.py", line 20, in check encoded_str = encode_shift(str) ^^^^^^^^^^^^ NameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1780 submit_tokens~=103 finish=stop latency=32.35s prompt_tokens=1919 completion_tokens=1586
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[51/164] HumanEval/50: pass turns=2
+[52/164] evalplus:HumanEval/51 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=998 submit_tokens~=139 finish=stop latency=24.52s prompt_tokens=195 completion_tokens=1230
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[52/164] HumanEval/51: pass turns=1
+[53/164] evalplus:HumanEval/52 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=524 submit_tokens~=64 finish=stop latency=11.60s prompt_tokens=157 completion_tokens=585
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[53/164] HumanEval/52: pass turns=1
+[54/164] evalplus:HumanEval/53 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=294 submit_tokens~=33 finish=stop latency=6.95s prompt_tokens=127 completion_tokens=351
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[54/164] HumanEval/53: pass turns=1
+[55/164] evalplus:HumanEval/54 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4307 submit_tokens~=16 finish=stop latency=97.10s prompt_tokens=213 completion_tokens=4808
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[55/164] HumanEval/54: pass turns=1
+[56/164] evalplus:HumanEval/55 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=891 submit_tokens~=63 finish=stop latency=26.50s prompt_tokens=128 completion_tokens=1331
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[56/164] HumanEval/55: pass turns=1
+[57/164] evalplus:HumanEval/56 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1244 submit_tokens~=141 finish=stop latency=26.09s prompt_tokens=165 completion_tokens=1309
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[57/164] HumanEval/56: pass turns=1
+[58/164] evalplus:HumanEval/57 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1418 submit_tokens~=89 finish=stop latency=31.46s prompt_tokens=164 completion_tokens=1582
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[58/164] HumanEval/57: pass turns=1
+[59/164] evalplus:HumanEval/58 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=846 submit_tokens~=33 finish=stop latency=18.28s prompt_tokens=196 completion_tokens=919
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[59/164] HumanEval/58: pass turns=1
+[60/164] evalplus:HumanEval/59 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2094 submit_tokens~=100 finish=stop latency=57.58s prompt_tokens=142 completion_tokens=2877
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[60/164] HumanEval/59: pass turns=1
+[61/164] evalplus:HumanEval/60 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=433 submit_tokens~=13 finish=stop latency=11.02s prompt_tokens=177 completion_tokens=555
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[61/164] HumanEval/60: pass turns=1
+[62/164] evalplus:HumanEval/61 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=843 submit_tokens~=61 finish=stop latency=17.71s prompt_tokens=162 completion_tokens=891
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[62/164] HumanEval/61: pass turns=1
+[63/164] evalplus:HumanEval/62 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1620 submit_tokens~=94 finish=stop latency=40.06s prompt_tokens=183 completion_tokens=2003
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_h5c48vz2/solution.py", line 28, in <module> check(derivative) File "/tmp/cs639_grpo/tmp/react_bench_h5c48vz2/solution.py", line 24, in check assert candidate([1]) == [] ^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1722 submit_tokens~=93 finish=stop latency=38.77s prompt_tokens=2305 completion_tokens=1896
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[63/164] HumanEval/62: pass turns=2
+[64/164] evalplus:HumanEval/63 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1788 submit_tokens~=61 finish=stop latency=53.53s prompt_tokens=223 completion_tokens=2674
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[64/164] HumanEval/63: pass turns=1
+[65/164] evalplus:HumanEval/64 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4135 submit_tokens~=222 finish=stop latency=96.31s prompt_tokens=199 completion_tokens=4772
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[65/164] HumanEval/64: pass turns=1
+[66/164] evalplus:HumanEval/65 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2024 submit_tokens~=38 finish=stop latency=46.69s prompt_tokens=159 completion_tokens=2337
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[66/164] HumanEval/65: pass turns=1
+[67/164] evalplus:HumanEval/66 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=662 submit_tokens~=31 finish=stop latency=14.95s prompt_tokens=193 completion_tokens=752
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[67/164] HumanEval/66: pass turns=1
+[68/164] evalplus:HumanEval/67 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1055 submit_tokens~=35 finish=stop latency=23.05s prompt_tokens=299 completion_tokens=1156
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[68/164] HumanEval/67: pass turns=1
+[69/164] evalplus:HumanEval/68 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2426 submit_tokens~=114 finish=stop latency=55.33s prompt_tokens=388 completion_tokens=2756
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[69/164] HumanEval/68: pass turns=1
+[70/164] evalplus:HumanEval/69 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2188 submit_tokens~=55 finish=stop latency=51.93s prompt_tokens=238 completion_tokens=2594
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[70/164] HumanEval/69: pass turns=1
+[71/164] evalplus:HumanEval/70 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1779 submit_tokens~=69 finish=stop latency=42.61s prompt_tokens=197 completion_tokens=2132
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[71/164] HumanEval/70: pass turns=1
+[72/164] evalplus:HumanEval/71 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2462 submit_tokens~=59 finish=stop latency=59.56s prompt_tokens=196 completion_tokens=2976
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[72/164] HumanEval/71: pass turns=1
+[73/164] evalplus:HumanEval/72 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1325 submit_tokens~=16 finish=stop latency=28.21s prompt_tokens=303 completion_tokens=1414
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[73/164] HumanEval/72: pass turns=1
+[74/164] evalplus:HumanEval/73 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=888 submit_tokens~=42 finish=stop latency=23.13s prompt_tokens=230 completion_tokens=1163
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[74/164] HumanEval/73: pass turns=1
+[75/164] evalplus:HumanEval/74 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=638 submit_tokens~=54 finish=stop latency=17.41s prompt_tokens=266 completion_tokens=873
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[75/164] HumanEval/74: pass turns=1
+[76/164] evalplus:HumanEval/75 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2863 submit_tokens~=108 finish=stop latency=66.78s prompt_tokens=156 completion_tokens=3330
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[76/164] HumanEval/75: pass turns=1
+[77/164] evalplus:HumanEval/76 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=8096 submit_tokens~=133 finish=stop latency=210.21s prompt_tokens=215 completion_tokens=10045
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[77/164] HumanEval/76: pass turns=1
+[78/164] evalplus:HumanEval/77 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4627 submit_tokens~=36 finish=stop latency=116.60s prompt_tokens=186 completion_tokens=5751
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[78/164] HumanEval/77: pass turns=1
+[79/164] evalplus:HumanEval/78 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=713 submit_tokens~=45 finish=stop latency=18.10s prompt_tokens=388 completion_tokens=908
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[79/164] HumanEval/78: pass turns=1
+[80/164] evalplus:HumanEval/79 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=631 submit_tokens~=19 finish=stop latency=15.16s prompt_tokens=220 completion_tokens=761
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[80/164] HumanEval/79: pass turns=1
+[81/164] evalplus:HumanEval/80 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1050 submit_tokens~=42 finish=stop latency=25.75s prompt_tokens=194 completion_tokens=1294
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[81/164] HumanEval/80: pass turns=1
+[82/164] evalplus:HumanEval/81 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6262 submit_tokens~=201 finish=stop latency=175.97s prompt_tokens=343 completion_tokens=8537
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[82/164] HumanEval/81: pass turns=1
+[83/164] evalplus:HumanEval/82 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=806 submit_tokens~=51 finish=stop latency=20.23s prompt_tokens=154 completion_tokens=1016
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[83/164] HumanEval/82: pass turns=1
+[84/164] evalplus:HumanEval/83 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2819 submit_tokens~=50 finish=stop latency=81.57s prompt_tokens=117 completion_tokens=4057
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[84/164] HumanEval/83: pass turns=1
+[85/164] evalplus:HumanEval/84 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=811 submit_tokens~=23 finish=stop latency=20.99s prompt_tokens=220 completion_tokens=1056
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[85/164] HumanEval/84: pass turns=1
+[86/164] evalplus:HumanEval/85 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=675 submit_tokens~=40 finish=stop latency=16.27s prompt_tokens=128 completion_tokens=818
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[86/164] HumanEval/85: pass turns=1
+[87/164] evalplus:HumanEval/86 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2217 submit_tokens~=89 finish=stop latency=49.96s prompt_tokens=203 completion_tokens=2498
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[87/164] HumanEval/86: pass turns=1
+[88/164] evalplus:HumanEval/87 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1676 submit_tokens~=72 finish=stop latency=41.83s prompt_tokens=332 completion_tokens=2091
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[88/164] HumanEval/87: pass turns=1
+[89/164] evalplus:HumanEval/88 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1302 submit_tokens~=58 finish=stop latency=30.45s prompt_tokens=276 completion_tokens=1526
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[89/164] HumanEval/88: pass turns=1
+[90/164] evalplus:HumanEval/89 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=983 submit_tokens~=42 finish=stop latency=25.17s prompt_tokens=183 completion_tokens=1265
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[90/164] HumanEval/89: pass turns=1
+[91/164] evalplus:HumanEval/90 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5946 submit_tokens~=45 finish=stop latency=128.18s prompt_tokens=197 completion_tokens=6309
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[91/164] HumanEval/90: pass turns=1
+[92/164] evalplus:HumanEval/91 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4336 submit_tokens~=60 finish=stop latency=89.56s prompt_tokens=180 completion_tokens=4444
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[92/164] HumanEval/91: pass turns=1
+[93/164] evalplus:HumanEval/92 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3833 submit_tokens~=65 finish=stop latency=88.19s prompt_tokens=208 completion_tokens=4372
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: t recent call last): File "/tmp/cs639_grpo/tmp/react_bench_5q48h9_t/solution.py", line 26, in <module> check(any_int) File "/tmp/cs639_grpo/tmp/react_bench_5q48h9_t/solution.py", line 22, in check assert candidate(3.0,4,7)==False, "This prints if this assert fails 10 (also good for debugging!)" ^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError: This prints if this assert fails 10 (also good for debugging!)
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1772 submit_tokens~=43 finish=stop latency=40.64s prompt_tokens=3387 completion_tokens=1957
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[93/164] HumanEval/92: pass turns=2
+[94/164] evalplus:HumanEval/93 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5844 submit_tokens~=142 finish=stop latency=130.27s prompt_tokens=182 completion_tokens=6405
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[94/164] HumanEval/93: pass turns=1
+[95/164] evalplus:HumanEval/94 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2488 submit_tokens~=92 finish=stop latency=71.89s prompt_tokens=400 completion_tokens=3568
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[95/164] HumanEval/94: pass turns=1
+[96/164] evalplus:HumanEval/95 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2595 submit_tokens~=74 finish=stop latency=54.16s prompt_tokens=246 completion_tokens=2704
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[96/164] HumanEval/95: pass turns=1
+[97/164] evalplus:HumanEval/96 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2227 submit_tokens~=90 finish=stop latency=49.52s prompt_tokens=228 completion_tokens=2475
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[97/164] HumanEval/96: pass turns=1
+[98/164] evalplus:HumanEval/97 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=676 submit_tokens~=13 finish=stop latency=19.40s prompt_tokens=186 completion_tokens=975
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[98/164] HumanEval/97: pass turns=1
+[99/164] evalplus:HumanEval/98 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1044 submit_tokens~=46 finish=stop latency=26.58s prompt_tokens=145 completion_tokens=1335
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[99/164] HumanEval/98: pass turns=1
+[100/164] evalplus:HumanEval/99 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5636 submit_tokens~=67 finish=stop latency=132.66s prompt_tokens=237 completion_tokens=6520
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[100/164] HumanEval/99: pass turns=1
+[101/164] evalplus:HumanEval/100 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=905 submit_tokens~=15 finish=stop latency=20.91s prompt_tokens=205 completion_tokens=1054
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[101/164] HumanEval/100: pass turns=1
+[102/164] evalplus:HumanEval/101 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=669 submit_tokens~=18 finish=stop latency=12.76s prompt_tokens=189 completion_tokens=643
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[102/164] HumanEval/101: pass turns=1
+[103/164] evalplus:HumanEval/102 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2758 submit_tokens~=51 finish=stop latency=68.36s prompt_tokens=172 completion_tokens=3407
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[103/164] HumanEval/102: pass turns=1
+[104/164] evalplus:HumanEval/103 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1636 submit_tokens~=34 finish=stop latency=42.70s prompt_tokens=223 completion_tokens=2138
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[104/164] HumanEval/103: pass turns=1
+[105/164] evalplus:HumanEval/104 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=913 submit_tokens~=44 finish=stop latency=21.40s prompt_tokens=188 completion_tokens=1074
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[105/164] HumanEval/104: pass turns=1
+[106/164] evalplus:HumanEval/105 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1174 submit_tokens~=68 finish=stop latency=28.73s prompt_tokens=352 completion_tokens=1442
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[106/164] HumanEval/105: pass turns=1
+[107/164] evalplus:HumanEval/106 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1527 submit_tokens~=77 finish=stop latency=37.38s prompt_tokens=199 completion_tokens=1875
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[107/164] HumanEval/106: pass turns=1
+[108/164] evalplus:HumanEval/107 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=997 submit_tokens~=70 finish=stop latency=27.13s prompt_tokens=287 completion_tokens=1359
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[108/164] HumanEval/107: pass turns=1
+[109/164] evalplus:HumanEval/108 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1823 submit_tokens~=96 finish=stop latency=44.38s prompt_tokens=201 completion_tokens=2220
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[109/164] HumanEval/108: pass turns=1
+[110/164] evalplus:HumanEval/109 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5447 submit_tokens~=144 finish=stop latency=122.90s prompt_tokens=372 completion_tokens=6047
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[110/164] HumanEval/109: pass turns=1
+[111/164] evalplus:HumanEval/110 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2232 submit_tokens~=47 finish=stop latency=50.30s prompt_tokens=270 completion_tokens=2510
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[111/164] HumanEval/110: pass turns=1
+[112/164] evalplus:HumanEval/111 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2588 submit_tokens~=74 finish=stop latency=52.55s prompt_tokens=224 completion_tokens=2627
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[112/164] HumanEval/111: pass turns=1
+[113/164] evalplus:HumanEval/112 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1246 submit_tokens~=44 finish=stop latency=26.31s prompt_tokens=235 completion_tokens=1319
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[113/164] HumanEval/112: pass turns=1
+[114/164] evalplus:HumanEval/113 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5372 submit_tokens~=73 finish=stop latency=115.55s prompt_tokens=255 completion_tokens=5687
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: l last): File "/tmp/cs639_grpo/tmp/react_bench_anx5lv9l/solution.py", line 26, in <module> check(odd_count) File "/tmp/cs639_grpo/tmp/react_bench_anx5lv9l/solution.py", line 13, in check assert candidate(['1234567']) == ["the number of odd elements 4n the str4ng 4 of the 4nput."], "Test 1" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError: Test 1
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4564 submit_tokens~=73 finish=stop latency=99.70s prompt_tokens=3262 completion_tokens=4790
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: l last): File "/tmp/cs639_grpo/tmp/react_bench_j229qx17/solution.py", line 26, in <module> check(odd_count) File "/tmp/cs639_grpo/tmp/react_bench_j229qx17/solution.py", line 13, in check assert candidate(['1234567']) == ["the number of odd elements 4n the str4ng 4 of the 4nput."], "Test 1" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError: Test 1
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=45.32s prompt_tokens=3295 completion_tokens=2187
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[114/164] HumanEval/113: fail turns=3
+[115/164] evalplus:HumanEval/114 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1547 submit_tokens~=53 finish=stop latency=37.07s prompt_tokens=161 completion_tokens=1859
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[115/164] HumanEval/114: pass turns=1
+[116/164] evalplus:HumanEval/115 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1135 submit_tokens~=43 finish=stop latency=26.06s prompt_tokens=398 completion_tokens=1305
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[116/164] HumanEval/115: pass turns=1
+[117/164] evalplus:HumanEval/116 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5504 submit_tokens~=11 finish=stop latency=119.66s prompt_tokens=243 completion_tokens=5901
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_sd_p023v/solution.py", line 22, in <module> check(sort_array) File "/tmp/cs639_grpo/tmp/react_bench_sd_p023v/solution.py", line 8, in check assert candidate([1,5,2,3,4]) == [1, 2, 4, 3, 5] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1156 submit_tokens~=11 finish=stop latency=26.78s prompt_tokens=3349 completion_tokens=1288
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_09izzk3t/solution.py", line 22, in <module> check(sort_array) File "/tmp/cs639_grpo/tmp/react_bench_09izzk3t/solution.py", line 8, in check assert candidate([1,5,2,3,4]) == [1, 2, 4, 3, 5] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1091 submit_tokens~=11 finish=stop latency=22.16s prompt_tokens=1838 completion_tokens=1088
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_54mh4e5e/solution.py", line 22, in <module> check(sort_array) File "/tmp/cs639_grpo/tmp/react_bench_54mh4e5e/solution.py", line 8, in check assert candidate([1,5,2,3,4]) == [1, 2, 4, 3, 5] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+[117/164] HumanEval/116: fail turns=3
+[118/164] evalplus:HumanEval/117 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1952 submit_tokens~=76 finish=stop latency=46.86s prompt_tokens=254 completion_tokens=2342
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[118/164] HumanEval/117: pass turns=1
+[119/164] evalplus:HumanEval/118 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3693 submit_tokens~=99 finish=stop latency=96.46s prompt_tokens=222 completion_tokens=4778
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[119/164] HumanEval/118: pass turns=1
+[120/164] evalplus:HumanEval/119 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=101 finish=length latency=349.25s prompt_tokens=241 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1031 completion_tokens=122
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[120/164] HumanEval/119: pass turns=1
+[121/164] evalplus:HumanEval/120 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1394 submit_tokens~=38 finish=stop latency=30.95s prompt_tokens=296 completion_tokens=1550
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[121/164] HumanEval/120: pass turns=1
+[122/164] evalplus:HumanEval/121 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=704 submit_tokens~=38 finish=stop latency=19.82s prompt_tokens=176 completion_tokens=995
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[122/164] HumanEval/121: pass turns=1
+[123/164] evalplus:HumanEval/122 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1084 submit_tokens~=38 finish=stop latency=25.99s prompt_tokens=210 completion_tokens=1305
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[123/164] HumanEval/122: pass turns=1
+[124/164] evalplus:HumanEval/123 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2160 submit_tokens~=81 finish=stop latency=51.28s prompt_tokens=305 completion_tokens=2564
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[124/164] HumanEval/123: pass turns=1
+[125/164] evalplus:HumanEval/124 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3884 submit_tokens~=185 finish=stop latency=96.36s prompt_tokens=362 completion_tokens=4762
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[125/164] HumanEval/124: pass turns=1
+[126/164] evalplus:HumanEval/125 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1369 submit_tokens~=81 finish=stop latency=30.12s prompt_tokens=214 completion_tokens=1513
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[126/164] HumanEval/125: pass turns=1
+[127/164] evalplus:HumanEval/126 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2335 submit_tokens~=106 finish=stop latency=52.04s prompt_tokens=322 completion_tokens=2597
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[127/164] HumanEval/126: pass turns=1
+[128/164] evalplus:HumanEval/127 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2344 submit_tokens~=86 finish=stop latency=58.03s prompt_tokens=327 completion_tokens=2890
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[128/164] HumanEval/127: pass turns=1
+[129/164] evalplus:HumanEval/128 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2409 submit_tokens~=98 finish=stop latency=58.14s prompt_tokens=195 completion_tokens=2903
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[129/164] HumanEval/128: pass turns=1
+[130/164] evalplus:HumanEval/129 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=8181 submit_tokens~=166 finish=stop latency=172.04s prompt_tokens=469 completion_tokens=8344
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[130/164] HumanEval/129: pass turns=1
+[131/164] evalplus:HumanEval/130 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3405 submit_tokens~=65 finish=stop latency=97.85s prompt_tokens=308 completion_tokens=4840
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[131/164] HumanEval/130: pass turns=1
+[132/164] evalplus:HumanEval/131 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1339 submit_tokens~=53 finish=stop latency=32.23s prompt_tokens=147 completion_tokens=1620
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[132/164] HumanEval/131: pass turns=1
+[133/164] evalplus:HumanEval/132 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3411 submit_tokens~=52 finish=stop latency=66.38s prompt_tokens=206 completion_tokens=3305
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_whgd5pry/solution.py", line 34, in <module> check(is_nested) File "/tmp/cs639_grpo/tmp/react_bench_whgd5pry/solution.py", line 22, in check assert candidate('[[]') == False ^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2585 submit_tokens~=63 finish=stop latency=54.27s prompt_tokens=2939 completion_tokens=2629
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_r8ho0lpl/solution.py", line 34, in <module> check(is_nested) File "/tmp/cs639_grpo/tmp/react_bench_r8ho0lpl/solution.py", line 29, in check assert candidate('[[[[[[[[') == False ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=8160 submit_tokens~=74 finish=stop latency=173.83s prompt_tokens=3093 completion_tokens=8013
+  turn=3 obs=status: pass passed_tests: 1 failed_tests: 0
+[133/164] HumanEval/132: pass turns=3
+[134/164] evalplus:HumanEval/133 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2326 submit_tokens~=32 finish=stop latency=56.57s prompt_tokens=234 completion_tokens=2822
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[134/164] HumanEval/133: pass turns=1
+[135/164] evalplus:HumanEval/134 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7730 submit_tokens~=56 finish=stop latency=155.45s prompt_tokens=210 completion_tokens=7611
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[135/164] HumanEval/134: pass turns=1
+[136/164] evalplus:HumanEval/135 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1051 submit_tokens~=38 finish=stop latency=26.39s prompt_tokens=176 completion_tokens=1324
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[136/164] HumanEval/135: pass turns=1
+[137/164] evalplus:HumanEval/136 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1563 submit_tokens~=81 finish=stop latency=35.23s prompt_tokens=211 completion_tokens=1769
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[137/164] HumanEval/136: pass turns=1
+[138/164] evalplus:HumanEval/137 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2741 submit_tokens~=116 finish=stop latency=60.27s prompt_tokens=214 completion_tokens=3008
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[138/164] HumanEval/137: pass turns=1
+[139/164] evalplus:HumanEval/138 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1375 submit_tokens~=16 finish=stop latency=36.75s prompt_tokens=150 completion_tokens=1842
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[139/164] HumanEval/138: pass turns=1
+[140/164] evalplus:HumanEval/139 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2500 submit_tokens~=47 finish=stop latency=66.64s prompt_tokens=170 completion_tokens=3321
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[140/164] HumanEval/139: pass turns=1
+[141/164] evalplus:HumanEval/140 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5512 submit_tokens~=124 finish=stop latency=105.31s prompt_tokens=179 completion_tokens=5209
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: , in <module> check(fix_spaces) File "/tmp/cs639_grpo/tmp/react_bench_dc8mfj3s/solution.py", line 27, in check assert candidate("Yellow Yellow Dirty Fellow") == "Yellow_Yellow__Dirty__Fellow", "This prints if this assert fails 3 (good for debugging!)" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError: This prints if this assert fails 3 (good for debugging!)
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=5582 submit_tokens~=127 finish=stop latency=104.25s prompt_tokens=2918 completion_tokens=5020
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[141/164] HumanEval/140: pass turns=2
+[142/164] evalplus:HumanEval/141 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2467 submit_tokens~=107 finish=stop latency=54.01s prompt_tokens=287 completion_tokens=2697
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[142/164] HumanEval/141: pass turns=1
+[143/164] evalplus:HumanEval/142 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1475 submit_tokens~=63 finish=stop latency=39.72s prompt_tokens=244 completion_tokens=1976
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[143/164] HumanEval/142: pass turns=1
+[144/164] evalplus:HumanEval/143 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1579 submit_tokens~=108 finish=stop latency=37.46s prompt_tokens=222 completion_tokens=1874
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[144/164] HumanEval/143: pass turns=1
+[145/164] evalplus:HumanEval/144 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1209 submit_tokens~=51 finish=stop latency=29.15s prompt_tokens=230 completion_tokens=1461
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[145/164] HumanEval/144: pass turns=1
+[146/164] evalplus:HumanEval/145 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10096 submit_tokens~=62 finish=stop latency=266.04s prompt_tokens=194 completion_tokens=12491
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_jn5fbv6v/solution.py", line 23, in <module> check(order_by_points) File "/tmp/cs639_grpo/tmp/react_bench_jn5fbv6v/solution.py", line 11, in check assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4984 submit_tokens~=62 finish=stop latency=135.34s prompt_tokens=3689 completion_tokens=6323
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_ix51prh3/solution.py", line 23, in <module> check(order_by_points) File "/tmp/cs639_grpo/tmp/react_bench_ix51prh3/solution.py", line 11, in check assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2864 submit_tokens~=62 finish=stop latency=83.79s prompt_tokens=3991 completion_tokens=4011
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench__h5a8al1/solution.py", line 23, in <module> check(order_by_points) File "/tmp/cs639_grpo/tmp/react_bench__h5a8al1/solution.py", line 11, in check assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+[146/164] HumanEval/145: fail turns=3
+[147/164] evalplus:HumanEval/146 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1704 submit_tokens~=85 finish=stop latency=45.37s prompt_tokens=202 completion_tokens=2271
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[147/164] HumanEval/146: pass turns=1
+[148/164] evalplus:HumanEval/147 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4616 submit_tokens~=56 finish=stop latency=146.87s prompt_tokens=241 completion_tokens=7203
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[148/164] HumanEval/147: pass turns=1
+[149/164] evalplus:HumanEval/148 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2206 submit_tokens~=98 finish=stop latency=51.37s prompt_tokens=284 completion_tokens=2567
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[149/164] HumanEval/148: pass turns=1
+[150/164] evalplus:HumanEval/149 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1208 submit_tokens~=33 finish=stop latency=24.25s prompt_tokens=260 completion_tokens=1220
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[150/164] HumanEval/149: pass turns=1
+[151/164] evalplus:HumanEval/150 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1114 submit_tokens~=87 finish=stop latency=27.28s prompt_tokens=163 completion_tokens=1370
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[151/164] HumanEval/150: pass turns=1
+[152/164] evalplus:HumanEval/151 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2706 submit_tokens~=79 finish=stop latency=56.67s prompt_tokens=212 completion_tokens=2829
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[152/164] HumanEval/151: pass turns=1
+[153/164] evalplus:HumanEval/152 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=696 submit_tokens~=51 finish=stop latency=17.00s prompt_tokens=303 completion_tokens=852
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[153/164] HumanEval/152: pass turns=1
+[154/164] evalplus:HumanEval/153 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1931 submit_tokens~=114 finish=stop latency=42.34s prompt_tokens=350 completion_tokens=2115
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[154/164] HumanEval/153: pass turns=1
+[155/164] evalplus:HumanEval/154 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2973 submit_tokens~=50 finish=stop latency=76.49s prompt_tokens=202 completion_tokens=3804
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[155/164] HumanEval/154: pass turns=1
+[156/164] evalplus:HumanEval/155 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=734 submit_tokens~=64 finish=stop latency=18.07s prompt_tokens=141 completion_tokens=910
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[156/164] HumanEval/155: pass turns=1
+[157/164] evalplus:HumanEval/156 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1096 submit_tokens~=119 finish=stop latency=31.15s prompt_tokens=181 completion_tokens=1562
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[157/164] HumanEval/156: pass turns=1
+[158/164] evalplus:HumanEval/157 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1031 submit_tokens~=29 finish=stop latency=22.16s prompt_tokens=182 completion_tokens=1114
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[158/164] HumanEval/157: pass turns=1
+[159/164] evalplus:HumanEval/158 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2455 submit_tokens~=89 finish=stop latency=52.47s prompt_tokens=193 completion_tokens=2623
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[159/164] HumanEval/158: pass turns=1
+[160/164] evalplus:HumanEval/159 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1061 submit_tokens~=29 finish=stop latency=23.92s prompt_tokens=363 completion_tokens=1199
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[160/164] HumanEval/159: pass turns=1
+[161/164] evalplus:HumanEval/160 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2237 submit_tokens~=45 finish=stop latency=46.73s prompt_tokens=280 completion_tokens=2335
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[161/164] HumanEval/160: pass turns=1
+[162/164] evalplus:HumanEval/161 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1944 submit_tokens~=36 finish=stop latency=39.85s prompt_tokens=184 completion_tokens=1998
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[162/164] HumanEval/161: pass turns=1
+[163/164] evalplus:HumanEval/162 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=951 submit_tokens~=34 finish=stop latency=19.97s prompt_tokens=159 completion_tokens=1007
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[163/164] HumanEval/162: pass turns=1
+[164/164] evalplus:HumanEval/163 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1620 submit_tokens~=84 finish=stop latency=38.66s prompt_tokens=179 completion_tokens=1938
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_l2uelw8h/solution.py", line 28, in <module> check(generate_integers) File "/tmp/cs639_grpo/tmp/react_bench_l2uelw8h/solution.py", line 20, in check assert candidate(132, 2) == [2, 4, 6, 8], "Test 3" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError: Test 3
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4008 submit_tokens~=54 finish=stop latency=97.12s prompt_tokens=2259 completion_tokens=4715
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[164/164] HumanEval/163: pass turns=2
+completed=164 passed=159 repair@3=0.970

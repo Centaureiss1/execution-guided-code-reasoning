@@ -1,0 +1,40 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model and dependency caches (weights are intentionally not part of this portfolio)
+**/models/
+**/.cache/
+**/huggingface/
+**/wandb/
+
+# New temporary training artifacts
+**/merged_model/
+**/checkpoint-*/
+**/data/raw/
+
+# Packaging output
+build/
+dist/

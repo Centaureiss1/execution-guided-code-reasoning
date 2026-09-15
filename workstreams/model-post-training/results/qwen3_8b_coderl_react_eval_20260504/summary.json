@@ -1,0 +1,311 @@
+{
+  "archive_root": "/workspace/cs639_final/results/qwen3_8b_coderl_react_eval_20260504",
+  "created_date_utc": "2026-05-04",
+  "non_agentic_evalplus_16k_greedy": {
+    "base": {
+      "humaneval": {
+        "base_pass": 141,
+        "plus_pass": 132,
+        "total": 164,
+        "base_rate": 0.8597560975609756,
+        "plus_rate": 0.8048780487804879
+      },
+      "mbpp": {
+        "base_pass": 331,
+        "plus_pass": 283,
+        "total": 378,
+        "base_rate": 0.8756613756613757,
+        "plus_rate": 0.7486772486772487
+      }
+    },
+    "rl50": {
+      "humaneval": {
+        "base_pass": 140,
+        "plus_pass": 133,
+        "total": 164,
+        "base_rate": 0.8536585365853658,
+        "plus_rate": 0.8109756097560976
+      },
+      "mbpp": {
+        "base_pass": 333,
+        "plus_pass": 285,
+        "total": 378,
+        "base_rate": 0.8809523809523809,
+        "plus_rate": 0.753968253968254
+      }
+    },
+    "rl100": {
+      "humaneval": {
+        "base_pass": 141,
+        "plus_pass": 132,
+        "total": 164,
+        "base_rate": 0.8597560975609756,
+        "plus_rate": 0.8048780487804879
+      },
+      "mbpp": {
+        "base_pass": 333,
+        "plus_pass": 287,
+        "total": 378,
+        "base_rate": 0.8809523809523809,
+        "plus_rate": 0.7592592592592593
+      }
+    },
+    "rl150": {
+      "humaneval": {
+        "base_pass": 142,
+        "plus_pass": 131,
+        "total": 164,
+        "base_rate": 0.8658536585365854,
+        "plus_rate": 0.7987804878048781
+      },
+      "mbpp": {
+        "base_pass": 327,
+        "plus_pass": 277,
+        "total": 378,
+        "base_rate": 0.8650793650793651,
+        "plus_rate": 0.7328042328042328
+      }
+    },
+    "rl200": {
+      "humaneval": {
+        "base_pass": 141,
+        "plus_pass": 128,
+        "total": 164,
+        "base_rate": 0.8597560975609756,
+        "plus_rate": 0.7804878048780488
+      },
+      "mbpp": {
+        "base_pass": 332,
+        "plus_pass": 277,
+        "total": 378,
+        "base_rate": 0.8783068783068783,
+        "plus_rate": 0.7328042328042328
+      }
+    }
+  },
+  "standalone_mbpp_greedy": {
+    "base": {
+      "base_pass": 336,
+      "plus_pass": 291,
+      "total": 378,
+      "base_rate": 0.8888888888888888,
+      "plus_rate": 0.7698412698412699
+    },
+    "cp100": {
+      "base_pass": 342,
+      "plus_pass": 292,
+      "total": 378,
+      "base_rate": 0.9047619047619048,
+      "plus_rate": 0.7724867724867724
+    },
+    "cp200": {
+      "base_pass": 338,
+      "plus_pass": 287,
+      "total": 378,
+      "base_rate": 0.8941798941798942,
+      "plus_rate": 0.7592592592592593
+    },
+    "cp300": {
+      "base_pass": 171,
+      "plus_pass": 150,
+      "total": 378,
+      "base_rate": 0.4523809523809524,
+      "plus_rate": 0.3968253968253968
+    }
+  },
+  "non_agentic_lcb50_official": {
+    "base": {
+      "pass_at_1": 0.3,
+      "total": 50,
+      "passed": 15,
+      "by_difficulty": {
+        "easy": 0.5333333333333333,
+        "hard": 0.11764705882352941,
+        "medium": 0.2777777777777778
+      },
+      "by_platform": {
+        "atcoder": 0.48148148148148145,
+        "codeforces": 0.3333333333333333,
+        "leetcode": 0.05
+      },
+      "summary_file": "lcb_runs_34k32k_temp0p2_diverse50/base/base_lcb_lite50_34k32k_temp0p2_subset_score_summary.json"
+    },
+    "cp50": {
+      "pass_at_1": 0.28,
+      "total": 50,
+      "passed": 14,
+      "by_difficulty": {
+        "easy": 0.5333333333333333,
+        "hard": 0.058823529411764705,
+        "medium": 0.2777777777777778
+      },
+      "by_platform": {
+        "atcoder": 0.4074074074074074,
+        "codeforces": 0.6666666666666666,
+        "leetcode": 0.05
+      },
+      "summary_file": "lcb_runs_34k32k_temp0p2_diverse50/cp50/cp50_lcb_lite50_34k32k_temp0p2_subset_score_summary.json"
+    },
+    "cp100": {
+      "pass_at_1": 0.26,
+      "total": 50,
+      "passed": 13,
+      "by_difficulty": {
+        "easy": 0.5333333333333333,
+        "hard": 0.058823529411764705,
+        "medium": 0.2222222222222222
+      },
+      "by_platform": {
+        "atcoder": 0.3333333333333333,
+        "codeforces": 0.6666666666666666,
+        "leetcode": 0.1
+      },
+      "summary_file": "lcb_runs_34k32k_temp0p2_diverse50/cp100/cp100_lcb_lite50_34k32k_temp0p2_subset_score_summary.json"
+    },
+    "cp150": {
+      "pass_at_1": 0.26,
+      "total": 50,
+      "passed": 13,
+      "by_difficulty": {
+        "easy": 0.4666666666666667,
+        "hard": 0.11764705882352941,
+        "medium": 0.2222222222222222
+      },
+      "by_platform": {
+        "atcoder": 0.4074074074074074,
+        "codeforces": 0.3333333333333333,
+        "leetcode": 0.05
+      },
+      "summary_file": "lcb_runs_34k32k_temp0p2_diverse50/cp150/cp150_lcb_lite50_34k32k_temp0p2_subset_score_summary.json"
+    },
+    "cp200": {
+      "pass_at_1": 0.3,
+      "total": 50,
+      "passed": 15,
+      "by_difficulty": {
+        "easy": 0.5333333333333333,
+        "hard": 0.11764705882352941,
+        "medium": 0.2777777777777778
+      },
+      "by_platform": {
+        "atcoder": 0.4444444444444444,
+        "codeforces": 0.6666666666666666,
+        "leetcode": 0.05
+      },
+      "summary_file": "lcb_runs_34k32k_temp0p2_diverse50/cp200/cp200_lcb_lite50_34k32k_temp0p2_subset_score_summary.json"
+    }
+  },
+  "agentic_cp200": {
+    "evalplus_humaneval": {
+      "public_or_runner_pass": 159,
+      "total": 164,
+      "rate": 0.9695121951219512,
+      "turn_counts": {
+        "1": 148,
+        "2": 9,
+        "3": 7
+      },
+      "runs_file": "agentic_cp200_evalplus_lcb50/logs/evalplus_humaneval/runs.jsonl"
+    },
+    "evalplus_mbpp": {
+      "public_or_runner_pass": 355,
+      "total": 378,
+      "rate": 0.9391534391534392,
+      "turn_counts": {
+        "1": 339,
+        "2": 16,
+        "3": 23
+      },
+      "runs_file": "agentic_cp200_evalplus_lcb50/logs/evalplus_mbpp/runs.jsonl"
+    },
+    "lcb50_32k16k_3turn_public": {
+      "public_or_runner_pass": 41,
+      "total": 50,
+      "rate": 0.82,
+      "turn_counts": {
+        "1": 35,
+        "2": 6,
+        "3": 9
+      },
+      "runs_file": "agentic_cp200_evalplus_lcb50/logs/lcb50_32k16k_3turn_public/runs.jsonl"
+    },
+    "humaneval_official_evalplus_posthoc": {
+      "base_pass": 160,
+      "plus_pass": 141,
+      "total": 164,
+      "base_rate": 0.975609756097561,
+      "plus_rate": 0.8597560975609756,
+      "result_file": "agentic_cp200_evalplus_lcb50/official_evalplus_humaneval/react_cp200_humaneval_final_submits_eval_results.json"
+    },
+    "lcb50_official_hidden_posthoc": {
+      "pass_at_1": 0.72,
+      "total": 50,
+      "passed": 36,
+      "by_difficulty": {
+        "easy": 1.0,
+        "hard": 0.47058823529411764,
+        "medium": 0.7222222222222222
+      },
+      "by_platform": {
+        "atcoder": 0.7407407407407407,
+        "codeforces": 1.0,
+        "leetcode": 0.65
+      },
+      "summary_file": "agentic_cp200_evalplus_lcb50/official_lcb_eval/react_cp200_lcb50_official_subset_score_summary.json"
+    },
+    "mbpp_official_evalplus_audit_from_runs": {
+      "base_pass": 355,
+      "plus_pass": 294,
+      "total": 378,
+      "audited": 376,
+      "base_rate_count_missing_as_fail": 0.9391534391534392,
+      "plus_rate_count_missing_as_fail": 0.7777777777777778
+    },
+    "lcb50_32k16k_3turn_temp0p2_public": {
+      "public_or_runner_pass": 43,
+      "total": 50,
+      "rate": 0.86,
+      "turn_counts": {
+        "1": 39,
+        "2": 1,
+        "3": 10
+      },
+      "runs_file": "agentic_cp200_evalplus_lcb50/logs/lcb50_32k16k_3turn_temp0p2_public/runs.jsonl"
+    },
+    "lcb50_temp0p2_official_hidden_posthoc": {
+      "pass_at_1": 0.68,
+      "total": 50,
+      "passed": 34,
+      "by_difficulty": {
+        "easy": 0.9333333333333333,
+        "hard": 0.35294117647058826,
+        "medium": 0.7777777777777778
+      },
+      "by_platform": {
+        "atcoder": 0.6666666666666666,
+        "codeforces": 0.6666666666666666,
+        "leetcode": 0.7
+      },
+      "summary_file": "agentic_cp200_evalplus_lcb50/official_lcb_eval_temp0p2/react_cp200_lcb50_temp0p2_official_subset_score_summary.json"
+    }
+  },
+  "generated_only_lcb100": {
+    "base": {
+      "custom_output_file": "lcb_runs_32k30k_greedy_bs32/base/custom_outputs/base_lcb_lite100_32k30k_greedy_bs32.json",
+      "records": 100
+    },
+    "cp200": {
+      "custom_output_file": "lcb_runs_32k30k_greedy_bs32/cp200/custom_outputs/cp200_lcb_lite100_32k30k_greedy_bs32.json",
+      "records": 100
+    },
+    "cp300": {
+      "custom_output_file": "lcb_runs_32k30k_greedy_bs32/cp300/custom_outputs/cp300_lcb_lite100_32k30k_greedy_bs32.json",
+      "records": 100
+    },
+    "cp400": {
+      "custom_output_file": "lcb_runs_32k30k_greedy_bs32/cp400/custom_outputs/cp400_lcb_lite100_32k30k_greedy_bs32.json",
+      "records": 64
+    }
+  },
+  "manifest": "MANIFEST.tsv"
+}

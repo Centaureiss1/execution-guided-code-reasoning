@@ -1,0 +1,190 @@
+Generating train split:   0%|          | 0/10000 [00:00<?, ? examples/s]Generating train split:  10%|█         | 1000/10000 [00:00<00:01, 8439.58 examples/s]Generating train split:  50%|█████     | 5000/10000 [00:00<00:00, 16688.45 examples/s]Generating train split:  90%|█████████ | 9000/10000 [00:00<00:00, 19704.38 examples/s]Generating train split: 100%|██████████| 10000/10000 [00:00<00:00, 19817.58 examples/s]
+[1/10000] kodcode:Filter_36434_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=789 submit_tokens~=52 finish=stop latency=16.90s prompt_tokens=159 completion_tokens=819
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[1/10000] Filter_36434_I: pass turns=1
+[2/10000] kodcode:Filter_28763_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=536 submit_tokens~=15 finish=stop latency=10.26s prompt_tokens=136 completion_tokens=520
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[2/10000] Filter_28763_I: pass turns=1
+[3/10000] kodcode:Leetcode_32641_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4070 submit_tokens~=65 finish=stop latency=91.35s prompt_tokens=183 completion_tokens=4539
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 5 failed_tests: 1 stderr_tail: le, name, func, params, out_buffer, err_buffer, tmp_root) File "/tmp/cs639_grpo/tmp/react_bench_c4isgoaj/_react_bench_test_runner.py", line 153, in run_one func(**kwargs) File "/tmp/cs639_grpo/tmp/react_bench_c4isgoaj/test_solution.py", line 16, in test_all_buildings_of_same_height assert buildings_with_sunset_view([4, 4, 4, 4]) == [3] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2796 submit_tokens~=64 finish=stop latency=61.36s prompt_tokens=3382 completion_tokens=2961
+  turn=2 obs=status: pass passed_tests: 6 failed_tests: 0
+[3/10000] Leetcode_32641_I: pass turns=2
+[4/10000] kodcode:Leetcode_32486_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1797 submit_tokens~=65 finish=stop latency=37.14s prompt_tokens=193 completion_tokens=1862
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[4/10000] Leetcode_32486_I: pass turns=1
+[5/10000] kodcode:Filter_4304_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2339 submit_tokens~=31 finish=stop latency=44.65s prompt_tokens=180 completion_tokens=2235
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[5/10000] Filter_4304_I: pass turns=1
+[6/10000] kodcode:Leetcode_590_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3775 submit_tokens~=91 finish=stop latency=79.53s prompt_tokens=285 completion_tokens=3953
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[6/10000] Leetcode_590_I: pass turns=1
+[7/10000] kodcode:Filter_41148_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=716 submit_tokens~=75 finish=stop latency=16.28s prompt_tokens=148 completion_tokens=818
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[7/10000] Filter_41148_I: pass turns=1
+[8/10000] kodcode:Algorithm_20713_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3151 submit_tokens~=266 finish=stop latency=69.01s prompt_tokens=646 completion_tokens=3421
+  turn=1 obs=status: pass passed_tests: 9 failed_tests: 0
+[8/10000] Algorithm_20713_I: pass turns=1
+[9/10000] kodcode:Algorithm_39626_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1217 submit_tokens~=70 finish=stop latency=25.54s prompt_tokens=426 completion_tokens=1277
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[9/10000] Algorithm_39626_I: pass turns=1
+[10/10000] kodcode:Leetcode_44191_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3519 submit_tokens~=73 finish=stop latency=91.19s prompt_tokens=223 completion_tokens=4511
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[10/10000] Leetcode_44191_I: pass turns=1
+[11/10000] kodcode:Taco_88948_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1646 submit_tokens~=33 finish=stop latency=30.61s prompt_tokens=259 completion_tokens=1534
+  turn=1 obs=status: pass passed_tests: 9 failed_tests: 0
+[11/10000] Taco_88948_I: pass turns=1
+[12/10000] kodcode:Data_Structure_11104_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5712 submit_tokens~=193 finish=stop latency=150.58s prompt_tokens=633 completion_tokens=7354
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[12/10000] Data_Structure_11104_I: pass turns=1
+[13/10000] kodcode:Filter_57093_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1118 submit_tokens~=82 finish=stop latency=28.27s prompt_tokens=145 completion_tokens=1420
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[13/10000] Filter_57093_I: pass turns=1
+[14/10000] kodcode:Prefill_13609_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=640 submit_tokens~=39 finish=stop latency=12.52s prompt_tokens=184 completion_tokens=632
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[14/10000] Prefill_13609_I: pass turns=1
+[15/10000] kodcode:Data_Structure_12494_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3447 submit_tokens~=53 finish=stop latency=78.65s prompt_tokens=450 completion_tokens=3899
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[15/10000] Data_Structure_12494_I: pass turns=1
+[16/10000] kodcode:Taco_62294_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4524 submit_tokens~=146 finish=stop latency=102.82s prompt_tokens=360 completion_tokens=5077
+  turn=1 obs=status: pass passed_tests: 7 failed_tests: 0
+[16/10000] Taco_62294_I: pass turns=1
+[17/10000] kodcode:Code_Contests_44641_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1711 submit_tokens~=141 finish=stop latency=37.54s prompt_tokens=274 completion_tokens=1882
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[17/10000] Code_Contests_44641_I: pass turns=1
+[18/10000] kodcode:Apps_12417_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1300 submit_tokens~=102 finish=stop latency=27.46s prompt_tokens=383 completion_tokens=1374
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[18/10000] Apps_12417_I: pass turns=1
+[19/10000] kodcode:Filter_64704_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6058 submit_tokens~=86 finish=stop latency=132.31s prompt_tokens=169 completion_tokens=6511
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 3 stderr_tail: in main run_one(module, name, func, params, out_buffer, err_buffer, tmp_root) File "/tmp/cs639_grpo/tmp/react_bench_n7v1ysmn/_react_bench_test_runner.py", line 153, in run_one func(**kwargs) File "/tmp/cs639_grpo/tmp/react_bench_n7v1ysmn/test_solution.py", line 9, in test_generate_pyramid_three_rows assert generate_pyramid(3) == expected_output ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=5336 submit_tokens~=70 finish=stop latency=115.68s prompt_tokens=3390 completion_tokens=5495
+  turn=2 obs=status: pass passed_tests: 5 failed_tests: 0
+[19/10000] Filter_64704_I: pass turns=2
+[20/10000] kodcode:Filter_23984_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6300 submit_tokens~=224 finish=stop latency=137.13s prompt_tokens=172 completion_tokens=6744
+  turn=1 obs=status: pass passed_tests: 8 failed_tests: 0
+[20/10000] Filter_23984_I: pass turns=1
+[21/10000] kodcode:Leetcode_1195_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1004 submit_tokens~=31 finish=stop latency=18.49s prompt_tokens=218 completion_tokens=929
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[21/10000] Leetcode_1195_I: pass turns=1
+[22/10000] kodcode:Apps_9735_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1384 submit_tokens~=85 finish=stop latency=34.99s prompt_tokens=617 completion_tokens=1745
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[22/10000] Apps_9735_I: pass turns=1
+[23/10000] kodcode:Codeforces_11074_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3074 submit_tokens~=113 finish=stop latency=78.97s prompt_tokens=334 completion_tokens=3920
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[23/10000] Codeforces_11074_I: pass turns=1
+[24/10000] kodcode:Prefill_30071_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3752 submit_tokens~=33 finish=stop latency=68.21s prompt_tokens=144 completion_tokens=3400
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 6 failed_tests: 1 stderr_tail: er.py", line 153, in run_one func(**kwargs) File "/tmp/cs639_grpo/tmp/react_bench_udt4u_hz/test_solution.py", line 13, in test_with_empty_array assert most_frequent_element([]) == None ^^^^^^^^^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_udt4u_hz/solution.py", line 5, in most_frequent_element return counts.most_common(1)[0][0] ~~~~~~~~~~~~~~~~~~~~~^^^ IndexError: list index out of range
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=430 submit_tokens~=42 finish=stop latency=8.98s prompt_tokens=2759 completion_tokens=423
+  turn=2 obs=status: pass passed_tests: 7 failed_tests: 0
+[24/10000] Prefill_30071_I: pass turns=2
+[25/10000] kodcode:Evol_5896_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2740 submit_tokens~=77 finish=stop latency=60.15s prompt_tokens=428 completion_tokens=2994
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[25/10000] Evol_5896_I: pass turns=1
+[26/10000] kodcode:Filter_76266_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=487 submit_tokens~=19 finish=stop latency=9.40s prompt_tokens=181 completion_tokens=472
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[26/10000] Filter_76266_I: pass turns=1
+[27/10000] kodcode:Package_3272_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1245 submit_tokens~=86 finish=stop latency=23.67s prompt_tokens=413 completion_tokens=1187
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: er.py", line 224, in main run_one(module, name, func, params, out_buffer, err_buffer, tmp_root) File "/tmp/cs639_grpo/tmp/react_bench_c8ni2op2/_react_bench_test_runner.py", line 153, in run_one func(**kwargs) File "/tmp/cs639_grpo/tmp/react_bench_c8ni2op2/test_solution.py", line 30, in test_summarize_csv_column_A assert np.isclose(std_dev, 3.87298, atol=1e-5) ^^ NameError: name 'np' is not defined
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3801 submit_tokens~=93 finish=stop latency=73.35s prompt_tokens=1764 completion_tokens=3589
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[27/10000] Package_3272_I: pass turns=2
+[28/10000] kodcode:Filter_235_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3247 submit_tokens~=59 finish=stop latency=66.74s prompt_tokens=243 completion_tokens=3324
+  turn=1 obs=status: pass passed_tests: 8 failed_tests: 0
+[28/10000] Filter_235_I: pass turns=1
+[29/10000] kodcode:Filter_29374_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=585 submit_tokens~=44 finish=stop latency=11.97s prompt_tokens=148 completion_tokens=604
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[29/10000] Filter_29374_I: pass turns=1
+[30/10000] kodcode:Taco_98839_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1846 submit_tokens~=52 finish=stop latency=44.44s prompt_tokens=518 completion_tokens=2216
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[30/10000] Taco_98839_I: pass turns=1
+[31/10000] kodcode:Package_5147_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2516 submit_tokens~=58 finish=stop latency=42.76s prompt_tokens=410 completion_tokens=2133
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[31/10000] Package_5147_I: pass turns=1
+[32/10000] kodcode:Docs: Python310_23981_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2302 submit_tokens~=54 finish=stop latency=42.86s prompt_tokens=709 completion_tokens=2132
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[32/10000] Docs: Python310_23981_I: pass turns=1
+[33/10000] kodcode:Apps_593_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2394 submit_tokens~=91 finish=stop latency=62.03s prompt_tokens=220 completion_tokens=3095
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[33/10000] Apps_593_I: pass turns=1
+[34/10000] kodcode:Leetcode_8760_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2837 submit_tokens~=174 finish=stop latency=63.27s prompt_tokens=304 completion_tokens=3152
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[34/10000] Leetcode_8760_I: pass turns=1
+[35/10000] kodcode:Data_Structure_5716_I start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2079 submit_tokens~=132 finish=stop latency=46.15s prompt_tokens=558 completion_tokens=2299
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[35/10000] Data_Structure_5716_I: pass turns=1
+[36/10000] kodcode:Taco_77045_I start
+  turn=1 generate...

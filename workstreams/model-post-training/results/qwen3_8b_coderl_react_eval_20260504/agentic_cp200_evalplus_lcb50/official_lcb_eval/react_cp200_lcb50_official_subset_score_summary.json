@@ -1,0 +1,61 @@
+{
+  "custom_output_file": "/tmp/cs639_grpo/agentic_cp200_evalplus_lcb50/official_lcb_eval/react_cp200_lcb50_final_submits.json",
+  "subset_file": "/workspace/cs639_final/data/eval/lcb_release_v6_lite_diverse50_seed42.json",
+  "benchmark_summary": {
+    "num_questions": 50,
+    "platform": {
+      "codeforces": 3,
+      "leetcode": 20,
+      "atcoder": 27
+    },
+    "difficulty": {
+      "medium": 18,
+      "easy": 15,
+      "hard": 17
+    },
+    "date_bin": {
+      "2023-Q3": 5,
+      "2023-Q4": 7,
+      "2023-Q2": 5,
+      "2024-Q1": 4,
+      "2024-Q2": 6,
+      "2024-Q4": 7,
+      "2024-Q3": 6,
+      "2025-Q1": 5,
+      "2025-Q2": 5
+    },
+    "starter_code": {
+      "no_starter": 30,
+      "with_starter": 20
+    },
+    "platform_difficulty": {
+      "codeforces|medium": 1,
+      "codeforces|easy": 1,
+      "codeforces|hard": 1,
+      "leetcode|medium": 9,
+      "leetcode|easy": 6,
+      "leetcode|hard": 5,
+      "atcoder|medium": 8,
+      "atcoder|hard": 11,
+      "atcoder|easy": 8
+    }
+  },
+  "score_summary": {
+    "num_questions": 50,
+    "num_samples_per_question": 1,
+    "pass_at_k": {
+      "pass@1": 0.72
+    },
+    "pass@1_mean": 0.72,
+    "pass@1_by_difficulty": {
+      "easy": 1.0,
+      "hard": 0.47058823529411764,
+      "medium": 0.7222222222222222
+    },
+    "pass@1_by_platform": {
+      "atcoder": 0.7407407407407407,
+      "codeforces": 1.0,
+      "leetcode": 0.65
+    }
+  }
+}

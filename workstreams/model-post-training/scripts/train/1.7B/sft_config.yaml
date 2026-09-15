@@ -1,0 +1,41 @@
+# ── 模型 ──────────────────────────────────────────────
+model: /home/brui/cs639_final/models/Qwen3-1.7B
+
+# ── 训练类型 ──────────────────────────────────────────
+train_type: lora
+
+# ── 数据 ──────────────────────────────────────────────
+dataset: /home/brui/cs639_final/data/processed/sft_train.jsonl
+
+# ── LoRA（按 Proposal）────────────────────────────────
+lora_rank: 64
+lora_alpha: 128
+target_modules: all-linear        # Attention + FFN 全部层
+
+# ── 精度 & 注意力 ─────────────────────────────────────
+torch_dtype: bfloat16
+attn_impl: sdpa                   # flash-attn 不支持 Blackwell sm_120，用 PyTorch 原生
+
+# ── 训练超参（按 Proposal）────────────────────────────
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16    # effective batch_size = 16
+max_length: 2048                  # 数据均值 ~450 tokens，2048 足够且比 4096 省显存
+learning_rate: 1e-4
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+# ── 显存优化 ──────────────────────────────────────────
+gradient_checkpointing: true
+
+# ── Qwen3 思考模式：SFT 阶段不训练 thinking ───────────
+# loss_scale: ignore_empty_think 让模型保留 thinking 能力，
+# 但 SFT loss 不计算空 <think></think> 前缀部分
+loss_scale: ignore_empty_think
+
+# ── 输出 & Checkpoint ─────────────────────────────────
+output_dir: /home/brui/cs639_final/models/Qwen3-1.7B/phase1_sft
+save_steps: 100
+save_total_limit: 3               # 保留最近 3 个 checkpoint，节省磁盘
+logging_steps: 10

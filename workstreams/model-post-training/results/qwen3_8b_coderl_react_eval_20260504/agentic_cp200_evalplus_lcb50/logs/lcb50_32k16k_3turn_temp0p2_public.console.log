@@ -1,0 +1,332 @@
+[1/50] livecodebench:1883_B start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=381 finish=length latency=351.65s prompt_tokens=924 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1449 completion_tokens=368
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 case_index: 0 expected: YES NO YES YES YES YES NO NO YES YES YES YES NO YES actual: YES YES YES YES YES YES YES YES YES YES YES YES YES YES
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=8911 submit_tokens~=231 finish=stop latency=209.23s prompt_tokens=1351 completion_tokens=9864
+  turn=2 obs=status: pass passed_tests: 1 failed_tests: 0
+[1/50] 1883_B: pass turns=2
+[2/50] livecodebench:1899_A start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6061 submit_tokens~=33 finish=stop latency=146.79s prompt_tokens=365 completion_tokens=7187
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[2/50] 1899_A: pass turns=1
+[3/50] livecodebench:1899_C start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7212 submit_tokens~=239 finish=stop latency=173.26s prompt_tokens=689 completion_tokens=8365
+  turn=1 obs=status: pass passed_tests: 1 failed_tests: 0
+[3/50] 1899_C: pass turns=1
+[4/50] livecodebench:2817 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=13691 submit_tokens~=57 finish=stop latency=339.56s prompt_tokens=542 completion_tokens=15582
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[4/50] 2817: pass turns=1
+[5/50] livecodebench:2857 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5063 submit_tokens~=100 finish=stop latency=129.78s prompt_tokens=431 completion_tokens=6376
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[5/50] 2857: pass turns=1
+[6/50] livecodebench:2869 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3210 submit_tokens~=234 finish=stop latency=104.79s prompt_tokens=669 completion_tokens=5156
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[6/50] 2869: pass turns=1
+[7/50] livecodebench:3174 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3160 submit_tokens~=50 finish=stop latency=69.12s prompt_tokens=484 completion_tokens=3434
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[7/50] 3174: pass turns=1
+[8/50] livecodebench:3176 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3425 submit_tokens~=219 finish=stop latency=86.53s prompt_tokens=581 completion_tokens=4276
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[8/50] 3176: pass turns=1
+[9/50] livecodebench:3223 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=13593 submit_tokens~=538 finish=stop latency=297.88s prompt_tokens=411 completion_tokens=13797
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[9/50] 3223: pass turns=1
+[10/50] livecodebench:3279 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1896 submit_tokens~=55 finish=stop latency=45.62s prompt_tokens=443 completion_tokens=2276
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[10/50] 3279: pass turns=1
+[11/50] livecodebench:3420 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1051 submit_tokens~=109 finish=stop latency=24.96s prompt_tokens=502 completion_tokens=1248
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[11/50] 3420: pass turns=1
+[12/50] livecodebench:3460 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=11103 submit_tokens~=412 finish=stop latency=294.19s prompt_tokens=697 completion_tokens=13497
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[12/50] 3460: pass turns=1
+[13/50] livecodebench:3487 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=303 finish=length latency=350.31s prompt_tokens=642 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1449 completion_tokens=268
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 4 case_index: 0 expected: 1 actual: 0
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=10041 submit_tokens~=169 finish=stop latency=228.09s prompt_tokens=945 completion_tokens=10768
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 3 failed_tests: 1 case_index: 3 expected: 2 actual: 1
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=12805 submit_tokens~=172 finish=stop latency=324.30s prompt_tokens=5872 completion_tokens=14072
+  turn=3 obs=status: pass passed_tests: 4 failed_tests: 0
+[13/50] 3487: pass turns=3
+[14/50] livecodebench:3494 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=9972 submit_tokens~=209 finish=stop latency=218.72s prompt_tokens=688 completion_tokens=10365
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[14/50] 3494: pass turns=1
+[15/50] livecodebench:3519 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2031 submit_tokens~=113 finish=stop latency=49.21s prompt_tokens=578 completion_tokens=2448
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[15/50] 3519: pass turns=1
+[16/50] livecodebench:3552 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10670 submit_tokens~=285 finish=stop latency=257.59s prompt_tokens=357 completion_tokens=12108
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[16/50] 3552: pass turns=1
+[17/50] livecodebench:3579 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2052 submit_tokens~=97 finish=stop latency=48.13s prompt_tokens=355 completion_tokens=2400
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[17/50] 3579: pass turns=1
+[18/50] livecodebench:3621 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10785 submit_tokens~=97 finish=stop latency=262.80s prompt_tokens=520 completion_tokens=12294
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[18/50] 3621: pass turns=1
+[19/50] livecodebench:3700 start
+  turn=1 generate...
+  turn=1 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=length latency=351.83s prompt_tokens=594 completion_tokens=16000
+  turn=1 recovery=parse=format_error finish=length disable_thinking=True prompt_tokens=1022 completion_tokens=4096
+  turn=1 obs=status: fail error_type: format_error reason: missing_submit_after_recovery
+[19/50] 3700: fail turns=1
+[20/50] livecodebench:3722 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=222 finish=length latency=350.76s prompt_tokens=450 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1419 completion_tokens=252
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 13 actual: 10
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=10850 submit_tokens~=427 finish=stop latency=282.63s prompt_tokens=739 completion_tokens=13116
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 13 actual: 17
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=221.42s prompt_tokens=6892 completion_tokens=9681
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[20/50] 3722: fail turns=3
+[21/50] livecodebench:3773 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10064 submit_tokens~=234 finish=stop latency=268.19s prompt_tokens=381 completion_tokens=12576
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[21/50] 3773: pass turns=1
+[22/50] livecodebench:3777 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=241 finish=length latency=349.24s prompt_tokens=707 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1497 completion_tokens=238
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 case_index: 0 expected: 6 actual: 2
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=11638 submit_tokens~=287 finish=stop latency=272.55s prompt_tokens=980 completion_tokens=12603
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 case_index: 2 expected: 9 actual: 4
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=0 submit_tokens~=276 finish=length latency=376.72s prompt_tokens=6808 completion_tokens=16000
+  turn=3 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1260 completion_tokens=261
+  turn=3 obs=status: pass passed_tests: 3 failed_tests: 0
+[22/50] 3777: pass turns=3
+[23/50] livecodebench:3799 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5018 submit_tokens~=94 finish=stop latency=108.61s prompt_tokens=492 completion_tokens=5350
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[23/50] 3799: pass turns=1
+[24/50] livecodebench:abc303_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7976 submit_tokens~=422 finish=stop latency=198.15s prompt_tokens=727 completion_tokens=9462
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[24/50] abc303_d: pass turns=1
+[25/50] livecodebench:abc303_e start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=246 finish=length latency=351.50s prompt_tokens=863 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1593 completion_tokens=306
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 case_index: 2 expected: 2 3 4 7 actual: 2 2 2 2 2 2 2
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=391 finish=length latency=352.39s prompt_tokens=1222 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1426 completion_tokens=442
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 case_index: 0 expected: 2 2 actual: 2 2 2 2
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=0 submit_tokens~=199 finish=length latency=359.12s prompt_tokens=1707 completion_tokens=16000
+  turn=3 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1461 completion_tokens=217
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 case_index: 0 expected: 2 2 actual: 2 2 2
+[25/50] abc303_e: fail turns=3
+[26/50] livecodebench:abc306_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=579 submit_tokens~=33 finish=stop latency=15.35s prompt_tokens=839 completion_tokens=763
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[26/50] abc306_b: pass turns=1
+[27/50] livecodebench:abc308_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1645 submit_tokens~=58 finish=stop latency=48.56s prompt_tokens=574 completion_tokens=2418
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[27/50] abc308_b: pass turns=1
+[28/50] livecodebench:abc309_e start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7531 submit_tokens~=332 finish=stop latency=183.66s prompt_tokens=705 completion_tokens=8812
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[28/50] abc309_e: pass turns=1
+[29/50] livecodebench:abc314_c start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3167 submit_tokens~=197 finish=stop latency=78.79s prompt_tokens=755 completion_tokens=3891
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[29/50] abc314_c: pass turns=1
+[30/50] livecodebench:abc327_e start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5593 submit_tokens~=184 finish=stop latency=156.74s prompt_tokens=729 completion_tokens=7622
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 case_index: 0 expected: 256.735020470879931 actual: 256.735020470880
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3663 submit_tokens~=184 finish=stop latency=126.61s prompt_tokens=8039 completion_tokens=5404
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 case_index: 0 expected: 256.735020470879931 actual: 256.735020470880158
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=3227 submit_tokens~=207 finish=stop latency=97.53s prompt_tokens=6533 completion_tokens=4388
+  turn=3 obs=status: pass passed_tests: 3 failed_tests: 0
+[30/50] abc327_e: pass turns=3
+[31/50] livecodebench:abc329_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=791 submit_tokens~=33 finish=stop latency=19.03s prompt_tokens=444 completion_tokens=953
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[31/50] abc329_b: pass turns=1
+[32/50] livecodebench:abc338_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1447 submit_tokens~=51 finish=stop latency=29.10s prompt_tokens=366 completion_tokens=1459
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[32/50] abc338_b: pass turns=1
+[33/50] livecodebench:abc339_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=378 finish=length latency=351.28s prompt_tokens=739 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1495 completion_tokens=482
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[33/50] abc339_d: pass turns=1
+[34/50] livecodebench:abc344_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6430 submit_tokens~=264 finish=stop latency=188.49s prompt_tokens=765 completion_tokens=9021
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[34/50] abc344_d: pass turns=1
+[35/50] livecodebench:abc351_e start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7730 submit_tokens~=245 finish=stop latency=231.89s prompt_tokens=826 completion_tokens=10843
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[35/50] abc351_e: pass turns=1
+[36/50] livecodebench:abc355_c start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3909 submit_tokens~=148 finish=stop latency=106.88s prompt_tokens=624 completion_tokens=5257
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[36/50] abc355_c: pass turns=1
+[37/50] livecodebench:abc358_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1149 submit_tokens~=49 finish=stop latency=28.46s prompt_tokens=1066 completion_tokens=1413
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[37/50] abc358_b: pass turns=1
+[38/50] livecodebench:abc359_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=13214 submit_tokens~=312 finish=stop latency=324.08s prompt_tokens=625 completion_tokens=14814
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[38/50] abc359_d: pass turns=1
+[39/50] livecodebench:abc365_e start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4928 submit_tokens~=155 finish=stop latency=124.77s prompt_tokens=605 completion_tokens=6117
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[39/50] abc365_e: pass turns=1
+[40/50] livecodebench:abc370_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4038 submit_tokens~=66 finish=stop latency=112.27s prompt_tokens=642 completion_tokens=5515
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[40/50] abc370_b: pass turns=1
+[41/50] livecodebench:abc373_c start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=824 submit_tokens~=28 finish=stop latency=20.03s prompt_tokens=457 completion_tokens=1001
+  turn=1 obs=status: pass passed_tests: 2 failed_tests: 0
+[41/50] abc373_c: pass turns=1
+[42/50] livecodebench:abc375_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2992 submit_tokens~=152 finish=stop latency=86.59s prompt_tokens=395 completion_tokens=4287
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[42/50] abc375_d: pass turns=1
+[43/50] livecodebench:abc385_b start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4779 submit_tokens~=162 finish=stop latency=119.09s prompt_tokens=1341 completion_tokens=5811
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[43/50] abc385_b: pass turns=1
+[44/50] livecodebench:abc390_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=11066 submit_tokens~=250 finish=stop latency=254.75s prompt_tokens=892 completion_tokens=11734
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[44/50] abc390_d: pass turns=1
+[45/50] livecodebench:abc392_f start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=301 finish=length latency=350.72s prompt_tokens=544 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1148 completion_tokens=329
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 4 2 3 1 actual: 4 0 0 0
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=244 finish=length latency=353.60s prompt_tokens=920 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1033 completion_tokens=269
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 1 case_index: 0 expected: 4 2 3 1 actual: 1 4 3 0
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=13250 submit_tokens~=72 finish=stop latency=308.23s prompt_tokens=1236 completion_tokens=14134
+  turn=3 obs=status: pass passed_tests: 2 failed_tests: 0
+[45/50] abc392_f: pass turns=3
+[46/50] livecodebench:abc400_a start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=475 submit_tokens~=19 finish=stop latency=13.41s prompt_tokens=316 completion_tokens=673
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[46/50] abc400_a: pass turns=1
+[47/50] livecodebench:abc400_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=399 finish=length latency=360.20s prompt_tokens=1384 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1984 completion_tokens=505
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 4 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_pea1ws5d/solution.py", line 54, in <module> main() File "/tmp/cs639_grpo/tmp/react_bench_pea1ws5d/solution.py", line 45, in main grid[nx][ny] = '.' # Convert wall to road ~~~~~~~~^^^^ TypeError: 'str' object does not support item assignment
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3283 submit_tokens~=422 finish=stop latency=79.58s prompt_tokens=2015 completion_tokens=3881
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 2 case_index: 0 expected: 1 actual: 0
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=134.93s prompt_tokens=5931 completion_tokens=5810
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[47/50] abc400_d: fail turns=3
+[48/50] livecodebench:abc400_g start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10444 submit_tokens~=336 finish=stop latency=276.59s prompt_tokens=1177 completion_tokens=12670
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 1 case_index: 1 expected: 209 333 actual: 209 324
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=516 finish=length latency=375.16s prompt_tokens=6921 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1705 completion_tokens=492
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 12 actual: 9
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=269.16s prompt_tokens=2023 completion_tokens=12344
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[48/50] abc400_g: fail turns=3
+[49/50] livecodebench:arc185_d start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=150 finish=length latency=350.14s prompt_tokens=788 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1496 completion_tokens=229
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 20 actual: 9
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=109 finish=length latency=354.16s prompt_tokens=1053 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1321 completion_tokens=164
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 20 actual: 3
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=0 submit_tokens~=170 finish=length latency=351.71s prompt_tokens=1253 completion_tokens=16000
+  turn=3 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1366 completion_tokens=264
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 2 case_index: 0 expected: 20 actual: 499122182
+[49/50] arc185_d: fail turns=3
+[50/50] livecodebench:arc191_c start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=428 finish=length latency=355.14s prompt_tokens=586 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=1300 completion_tokens=572
+  turn=1 obs=status: fail error_type: timeout passed_tests: 0 failed_tests: 1
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=7088 submit_tokens~=462 finish=stop latency=184.74s prompt_tokens=1179 completion_tokens=8781
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 case_index: 0 expected: 2 7 11 68 20250126 1 33 662 actual: 2 7 3 17 20250126 1 67 331
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=4224 submit_tokens~=462 finish=stop latency=129.40s prompt_tokens=7146 completion_tokens=5652
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 1 case_index: 0 expected: 2 7 11 68 20250126 1 33 662 actual: 2 7 3 17 20250126 1 67 331
+[50/50] arc191_c: fail turns=3
+completed=50 passed=43 repair@3=0.860

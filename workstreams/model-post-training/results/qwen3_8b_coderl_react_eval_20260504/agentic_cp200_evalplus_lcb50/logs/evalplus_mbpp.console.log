@@ -1,0 +1,2117 @@
+[1/378] evalplus:Mbpp/2 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=659 submit_tokens~=19 finish=stop latency=12.97s prompt_tokens=132 completion_tokens=645
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_km56m1sp/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (4, 5), got {4, 5}
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=968 submit_tokens~=21 finish=stop latency=19.68s prompt_tokens=884 completion_tokens=979
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[1/378] Mbpp/2: pass turns=2
+[2/378] evalplus:Mbpp/3 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=868 submit_tokens~=61 finish=stop latency=20.99s prompt_tokens=102 completion_tokens=1058
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[2/378] Mbpp/3: pass turns=1
+[3/378] evalplus:Mbpp/4 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2237 submit_tokens~=92 finish=stop latency=56.05s prompt_tokens=158 completion_tokens=2802
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[3/378] Mbpp/4: pass turns=1
+[4/378] evalplus:Mbpp/6 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=682 submit_tokens~=31 finish=stop latency=17.03s prompt_tokens=116 completion_tokens=859
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[4/378] Mbpp/6: pass turns=1
+[5/378] evalplus:Mbpp/7 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1147 submit_tokens~=20 finish=stop latency=21.93s prompt_tokens=126 completion_tokens=1106
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[5/378] Mbpp/7: pass turns=1
+[6/378] evalplus:Mbpp/8 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=247 submit_tokens~=38 finish=stop latency=6.62s prompt_tokens=166 completion_tokens=334
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[6/378] Mbpp/8: pass turns=1
+[7/378] evalplus:Mbpp/9 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1820 submit_tokens~=32 finish=stop latency=42.72s prompt_tokens=117 completion_tokens=2143
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[7/378] Mbpp/9: pass turns=1
+[8/378] evalplus:Mbpp/11 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2312 submit_tokens~=73 finish=stop latency=52.94s prompt_tokens=113 completion_tokens=2651
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[8/378] Mbpp/11: pass turns=1
+[9/378] evalplus:Mbpp/12 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=792 submit_tokens~=19 finish=stop latency=17.42s prompt_tokens=158 completion_tokens=877
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[9/378] Mbpp/12: pass turns=1
+[10/378] evalplus:Mbpp/14 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1459 submit_tokens~=20 finish=stop latency=32.08s prompt_tokens=112 completion_tokens=1612
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[10/378] Mbpp/14: pass turns=1
+[11/378] evalplus:Mbpp/16 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4393 submit_tokens~=81 finish=stop latency=80.71s prompt_tokens=119 completion_tokens=4016
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[11/378] Mbpp/16: pass turns=1
+[12/378] evalplus:Mbpp/17 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=179 submit_tokens~=12 finish=stop latency=3.91s prompt_tokens=109 completion_tokens=197
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[12/378] Mbpp/17: pass turns=1
+[13/378] evalplus:Mbpp/18 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=747 submit_tokens~=44 finish=stop latency=16.17s prompt_tokens=117 completion_tokens=815
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[13/378] Mbpp/18: pass turns=1
+[14/378] evalplus:Mbpp/19 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=608 submit_tokens~=16 finish=stop latency=11.84s prompt_tokens=114 completion_tokens=599
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[14/378] Mbpp/19: pass turns=1
+[15/378] evalplus:Mbpp/20 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2157 submit_tokens~=65 finish=stop latency=61.20s prompt_tokens=109 completion_tokens=3058
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[15/378] Mbpp/20: pass turns=1
+[16/378] evalplus:Mbpp/56 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1207 submit_tokens~=22 finish=stop latency=32.44s prompt_tokens=108 completion_tokens=1632
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[16/378] Mbpp/56: pass turns=1
+[17/378] evalplus:Mbpp/57 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1046 submit_tokens~=35 finish=stop latency=23.04s prompt_tokens=118 completion_tokens=1162
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[17/378] Mbpp/57: pass turns=1
+[18/378] evalplus:Mbpp/58 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1555 submit_tokens~=19 finish=stop latency=34.38s prompt_tokens=111 completion_tokens=1727
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[18/378] Mbpp/58: pass turns=1
+[19/378] evalplus:Mbpp/59 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1454 submit_tokens~=12 finish=stop latency=33.86s prompt_tokens=104 completion_tokens=1700
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[19/378] Mbpp/59: pass turns=1
+[20/378] evalplus:Mbpp/61 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1851 submit_tokens~=96 finish=stop latency=53.21s prompt_tokens=118 completion_tokens=2662
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[20/378] Mbpp/61: pass turns=1
+[21/378] evalplus:Mbpp/62 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1048 submit_tokens~=11 finish=stop latency=18.52s prompt_tokens=119 completion_tokens=933
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[21/378] Mbpp/62: pass turns=1
+[22/378] evalplus:Mbpp/63 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3738 submit_tokens~=53 finish=stop latency=83.49s prompt_tokens=130 completion_tokens=4150
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_tas4fczp/solution.py", line 22, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 15, got -1
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2677 submit_tokens~=53 finish=stop latency=62.38s prompt_tokens=3313 completion_tokens=3016
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_xydhl4qm/solution.py", line 22, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 15, got -1
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1347 submit_tokens~=53 finish=stop latency=34.41s prompt_tokens=3407 completion_tokens=1656
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_dtrfncxa/solution.py", line 22, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 15, got -1
+[22/378] Mbpp/63: fail turns=3
+[23/378] evalplus:Mbpp/64 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=631 submit_tokens~=21 finish=stop latency=12.91s prompt_tokens=163 completion_tokens=649
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[23/378] Mbpp/64: pass turns=1
+[24/378] evalplus:Mbpp/65 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=826 submit_tokens~=54 finish=stop latency=18.13s prompt_tokens=118 completion_tokens=913
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[24/378] Mbpp/65: pass turns=1
+[25/378] evalplus:Mbpp/66 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=348 submit_tokens~=29 finish=stop latency=8.04s prompt_tokens=112 completion_tokens=405
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[25/378] Mbpp/66: pass turns=1
+[26/378] evalplus:Mbpp/67 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5074 submit_tokens~=77 finish=stop latency=126.38s prompt_tokens=106 completion_tokens=6232
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[26/378] Mbpp/67: pass turns=1
+[27/378] evalplus:Mbpp/68 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1388 submit_tokens~=81 finish=stop latency=28.98s prompt_tokens=118 completion_tokens=1457
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[27/378] Mbpp/68: pass turns=1
+[28/378] evalplus:Mbpp/69 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1594 submit_tokens~=62 finish=stop latency=36.12s prompt_tokens=117 completion_tokens=1815
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[28/378] Mbpp/69: pass turns=1
+[29/378] evalplus:Mbpp/70 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1056 submit_tokens~=52 finish=stop latency=21.60s prompt_tokens=127 completion_tokens=1087
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[29/378] Mbpp/70: pass turns=1
+[30/378] evalplus:Mbpp/71 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4710 submit_tokens~=94 finish=stop latency=123.67s prompt_tokens=133 completion_tokens=6099
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_pnft6zhv/solution.py", line 27, in <module> _actual = comb_sort(*_args) ^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_pnft6zhv/solution.py", line 6, in comb_sort for i in range(n - gap): ^^^^^^^^^^^^^^ TypeError: 'float' object cannot be interpreted as an integer
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1079 submit_tokens~=97 finish=stop latency=27.92s prompt_tokens=4030 completion_tokens=1330
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[30/378] Mbpp/71: pass turns=2
+[31/378] evalplus:Mbpp/72 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2244 submit_tokens~=14 finish=stop latency=55.72s prompt_tokens=113 completion_tokens=2782
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[31/378] Mbpp/72: pass turns=1
+[32/378] evalplus:Mbpp/74 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1182 submit_tokens~=94 finish=stop latency=26.58s prompt_tokens=120 completion_tokens=1332
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[32/378] Mbpp/74: pass turns=1
+[33/378] evalplus:Mbpp/75 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=835 submit_tokens~=25 finish=stop latency=19.61s prompt_tokens=151 completion_tokens=976
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[33/378] Mbpp/75: pass turns=1
+[34/378] evalplus:Mbpp/77 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=980 submit_tokens~=10 finish=stop latency=22.85s prompt_tokens=111 completion_tokens=1144
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[34/378] Mbpp/77: pass turns=1
+[35/378] evalplus:Mbpp/79 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=521 submit_tokens~=13 finish=stop latency=10.62s prompt_tokens=108 completion_tokens=531
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[35/378] Mbpp/79: pass turns=1
+[36/378] evalplus:Mbpp/80 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=789 submit_tokens~=16 finish=stop latency=21.25s prompt_tokens=106 completion_tokens=1066
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[36/378] Mbpp/80: pass turns=1
+[37/378] evalplus:Mbpp/82 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=476 submit_tokens~=18 finish=stop latency=12.98s prompt_tokens=130 completion_tokens=655
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[37/378] Mbpp/82: pass turns=1
+[38/378] evalplus:Mbpp/84 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1062 submit_tokens~=51 finish=stop latency=37.98s prompt_tokens=107 completion_tokens=1901
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[38/378] Mbpp/84: pass turns=1
+[39/378] evalplus:Mbpp/85 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=455 submit_tokens~=21 finish=stop latency=10.27s prompt_tokens=133 completion_tokens=519
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[39/378] Mbpp/85: pass turns=1
+[40/378] evalplus:Mbpp/86 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=470 submit_tokens~=16 finish=stop latency=11.60s prompt_tokens=107 completion_tokens=586
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[40/378] Mbpp/86: pass turns=1
+[41/378] evalplus:Mbpp/87 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2954 submit_tokens~=18 finish=stop latency=63.60s prompt_tokens=188 completion_tokens=3152
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[41/378] Mbpp/87: pass turns=1
+[42/378] evalplus:Mbpp/88 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1914 submit_tokens~=43 finish=stop latency=40.10s prompt_tokens=179 completion_tokens=2005
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[42/378] Mbpp/88: pass turns=1
+[43/378] evalplus:Mbpp/89 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1089 submit_tokens~=9 finish=stop latency=20.88s prompt_tokens=105 completion_tokens=1049
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[43/378] Mbpp/89: pass turns=1
+[44/378] evalplus:Mbpp/90 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=548 submit_tokens~=16 finish=stop latency=10.85s prompt_tokens=109 completion_tokens=548
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[44/378] Mbpp/90: pass turns=1
+[45/378] evalplus:Mbpp/91 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=820 submit_tokens~=29 finish=stop latency=15.53s prompt_tokens=125 completion_tokens=780
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[45/378] Mbpp/91: pass turns=1
+[46/378] evalplus:Mbpp/92 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2950 submit_tokens~=59 finish=stop latency=67.91s prompt_tokens=113 completion_tokens=3386
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[46/378] Mbpp/92: pass turns=1
+[47/378] evalplus:Mbpp/93 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=258 submit_tokens~=9 finish=stop latency=5.52s prompt_tokens=110 completion_tokens=279
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[47/378] Mbpp/93: pass turns=1
+[48/378] evalplus:Mbpp/94 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=766 submit_tokens~=21 finish=stop latency=15.04s prompt_tokens=140 completion_tokens=760
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[48/378] Mbpp/94: pass turns=1
+[49/378] evalplus:Mbpp/95 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=564 submit_tokens~=18 finish=stop latency=11.99s prompt_tokens=114 completion_tokens=604
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[49/378] Mbpp/95: pass turns=1
+[50/378] evalplus:Mbpp/96 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1274 submit_tokens~=52 finish=stop latency=33.37s prompt_tokens=107 completion_tokens=1676
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[50/378] Mbpp/96: pass turns=1
+[51/378] evalplus:Mbpp/97 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1874 submit_tokens~=59 finish=stop latency=37.17s prompt_tokens=196 completion_tokens=1863
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[51/378] Mbpp/97: pass turns=1
+[52/378] evalplus:Mbpp/98 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2918 submit_tokens~=24 finish=stop latency=55.50s prompt_tokens=138 completion_tokens=2776
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[52/378] Mbpp/98: pass turns=1
+[53/378] evalplus:Mbpp/99 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1249 submit_tokens~=63 finish=stop latency=28.12s prompt_tokens=118 completion_tokens=1414
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[53/378] Mbpp/99: pass turns=1
+[54/378] evalplus:Mbpp/100 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1149 submit_tokens~=41 finish=stop latency=26.18s prompt_tokens=114 completion_tokens=1316
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[54/378] Mbpp/100: pass turns=1
+[55/378] evalplus:Mbpp/101 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=353 submit_tokens~=11 finish=stop latency=7.91s prompt_tokens=124 completion_tokens=399
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[55/378] Mbpp/101: pass turns=1
+[56/378] evalplus:Mbpp/102 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2094 submit_tokens~=26 finish=stop latency=37.59s prompt_tokens=108 completion_tokens=1886
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[56/378] Mbpp/102: pass turns=1
+[57/378] evalplus:Mbpp/103 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3781 submit_tokens~=88 finish=stop latency=113.52s prompt_tokens=109 completion_tokens=5612
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[57/378] Mbpp/103: pass turns=1
+[58/378] evalplus:Mbpp/104 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1381 submit_tokens~=22 finish=stop latency=26.71s prompt_tokens=145 completion_tokens=1340
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[58/378] Mbpp/104: pass turns=1
+[59/378] evalplus:Mbpp/105 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=362 submit_tokens~=9 finish=stop latency=7.34s prompt_tokens=106 completion_tokens=371
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[59/378] Mbpp/105: pass turns=1
+[60/378] evalplus:Mbpp/106 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=661 submit_tokens~=15 finish=stop latency=14.63s prompt_tokens=130 completion_tokens=737
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[60/378] Mbpp/106: pass turns=1
+[61/378] evalplus:Mbpp/108 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=752 submit_tokens~=26 finish=stop latency=18.41s prompt_tokens=242 completion_tokens=926
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[61/378] Mbpp/108: pass turns=1
+[62/378] evalplus:Mbpp/109 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3535 submit_tokens~=51 finish=stop latency=85.27s prompt_tokens=125 completion_tokens=4238
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[62/378] Mbpp/109: pass turns=1
+[63/378] evalplus:Mbpp/111 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1080 submit_tokens~=57 finish=stop latency=22.76s prompt_tokens=174 completion_tokens=1146
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_duk9vkk2/solution.py", line 22, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [18, 12], got {18, 12}
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4050 submit_tokens~=58 finish=stop latency=81.06s prompt_tokens=1431 completion_tokens=3978
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[63/378] Mbpp/111: pass turns=2
+[64/378] evalplus:Mbpp/113 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1287 submit_tokens~=28 finish=stop latency=24.44s prompt_tokens=103 completion_tokens=1230
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[64/378] Mbpp/113: pass turns=1
+[65/378] evalplus:Mbpp/116 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=742 submit_tokens~=15 finish=stop latency=15.04s prompt_tokens=112 completion_tokens=756
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[65/378] Mbpp/116: pass turns=1
+[66/378] evalplus:Mbpp/118 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=708 submit_tokens~=11 finish=stop latency=12.42s prompt_tokens=112 completion_tokens=627
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[66/378] Mbpp/118: pass turns=1
+[67/378] evalplus:Mbpp/119 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3297 submit_tokens~=45 finish=stop latency=74.47s prompt_tokens=115 completion_tokens=3709
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[67/378] Mbpp/119: pass turns=1
+[68/378] evalplus:Mbpp/120 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=979 submit_tokens~=62 finish=stop latency=20.62s prompt_tokens=134 completion_tokens=1038
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[68/378] Mbpp/120: pass turns=1
+[69/378] evalplus:Mbpp/123 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3914 submit_tokens~=140 finish=stop latency=102.93s prompt_tokens=112 completion_tokens=5096
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[69/378] Mbpp/123: pass turns=1
+[70/378] evalplus:Mbpp/124 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6419 submit_tokens~=18 finish=stop latency=132.19s prompt_tokens=134 completion_tokens=6491
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/cs639_agentic/react_bench/cli.py", line 264, in <module>
+    raise SystemExit(main(sys.argv[1:]))
+                     ^^^^^^^^^^^^^^^^^^
+  File "/workspace/cs639_agentic/react_bench/cli.py", line 28, in main
+    return _run(args)
+           ^^^^^^^^^^
+  File "/workspace/cs639_agentic/react_bench/cli.py", line 169, in _run
+    logger.log_run(trace)
+  File "/workspace/cs639_agentic/react_bench/logging/run_logger.py", line 21, in log_run
+    append_jsonl(self.runs_path, row)
+  File "/workspace/cs639_agentic/react_bench/logging/jsonl.py", line 12, in append_jsonl
+    handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type complex is not JSON serializable
+-bash: cd: too many arguments
+resume: skipping=69 existing_passed=68 remaining=309
+[70/378] evalplus:Mbpp/124 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4336 submit_tokens~=18 finish=stop latency=87.57s prompt_tokens=134 completion_tokens=4349
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[70/378] Mbpp/124: pass turns=1
+[71/378] evalplus:Mbpp/125 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2457 submit_tokens~=82 finish=stop latency=57.98s prompt_tokens=132 completion_tokens=2898
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[71/378] Mbpp/125: pass turns=1
+[72/378] evalplus:Mbpp/126 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4113 submit_tokens~=56 finish=stop latency=84.18s prompt_tokens=111 completion_tokens=4188
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_uqz80khx/solution.py", line 23, in <module> _actual = sum(*_args) ^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_uqz80khx/solution.py", line 9, in sum return sum(divisors) ^^^^^^^^^^^^^ TypeError: sum() missing 1 required positional argument: 'b'
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3160 submit_tokens~=60 finish=stop latency=63.09s prompt_tokens=3192 completion_tokens=3046
+  turn=2 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_o6bbjrsi/solution.py", line 23, in <module> _actual = sum(*_args) ^^^^^^^^^^^ TypeError: 'int' object is not iterable
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=4499 submit_tokens~=60 finish=stop latency=102.00s prompt_tokens=3023 completion_tokens=4919
+  turn=3 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_li5vksl6/solution.py", line 23, in <module> _actual = sum(*_args) ^^^^^^^^^^^ TypeError: 'int' object is not iterable
+[72/378] Mbpp/126: fail turns=3
+[73/378] evalplus:Mbpp/127 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=317 submit_tokens~=10 finish=stop latency=6.35s prompt_tokens=103 completion_tokens=319
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[73/378] Mbpp/127: pass turns=1
+[74/378] evalplus:Mbpp/128 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=609 submit_tokens~=22 finish=stop latency=11.98s prompt_tokens=119 completion_tokens=605
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[74/378] Mbpp/128: pass turns=1
+[75/378] evalplus:Mbpp/129 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3943 submit_tokens~=185 finish=stop latency=88.05s prompt_tokens=156 completion_tokens=4373
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[75/378] Mbpp/129: pass turns=1
+[76/378] evalplus:Mbpp/130 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1988 submit_tokens~=51 finish=stop latency=42.31s prompt_tokens=145 completion_tokens=2120
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[76/378] Mbpp/130: pass turns=1
+[77/378] evalplus:Mbpp/131 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2391 submit_tokens~=97 finish=stop latency=52.15s prompt_tokens=114 completion_tokens=2602
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[77/378] Mbpp/131: pass turns=1
+[78/378] evalplus:Mbpp/132 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=517 submit_tokens~=11 finish=stop latency=10.27s prompt_tokens=127 completion_tokens=517
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[78/378] Mbpp/132: pass turns=1
+[79/378] evalplus:Mbpp/133 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=451 submit_tokens~=19 finish=stop latency=10.81s prompt_tokens=140 completion_tokens=543
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[79/378] Mbpp/133: pass turns=1
+[80/378] evalplus:Mbpp/135 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=327 submit_tokens~=12 finish=stop latency=8.06s prompt_tokens=106 completion_tokens=406
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[80/378] Mbpp/135: pass turns=1
+[81/378] evalplus:Mbpp/137 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2056 submit_tokens~=31 finish=stop latency=42.05s prompt_tokens=165 completion_tokens=2106
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[81/378] Mbpp/137: pass turns=1
+[82/378] evalplus:Mbpp/138 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6389 submit_tokens~=16 finish=stop latency=145.90s prompt_tokens=122 completion_tokens=7160
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[82/378] Mbpp/138: pass turns=1
+[83/378] evalplus:Mbpp/139 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1105 submit_tokens~=20 finish=stop latency=26.94s prompt_tokens=134 completion_tokens=1353
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[83/378] Mbpp/139: pass turns=1
+[84/378] evalplus:Mbpp/140 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1193 submit_tokens~=32 finish=stop latency=24.14s prompt_tokens=145 completion_tokens=1213
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_mv6kz4w7/solution.py", line 20, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected {1, 3, 4, 5, 7}, got [3, 4, 5, 4, 5, 7, 1, 4]
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2869 submit_tokens~=28 finish=stop latency=59.05s prompt_tokens=1494 completion_tokens=2911
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[84/378] Mbpp/140: pass turns=2
+[85/378] evalplus:Mbpp/141 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5077 submit_tokens~=84 finish=stop latency=156.56s prompt_tokens=136 completion_tokens=7668
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[85/378] Mbpp/141: pass turns=1
+[86/378] evalplus:Mbpp/142 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=659 submit_tokens~=43 finish=stop latency=16.67s prompt_tokens=155 completion_tokens=841
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[86/378] Mbpp/142: pass turns=1
+[87/378] evalplus:Mbpp/145 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=747 submit_tokens~=14 finish=stop latency=15.21s prompt_tokens=118 completion_tokens=767
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[87/378] Mbpp/145: pass turns=1
+[88/378] evalplus:Mbpp/160 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10313 submit_tokens~=143 finish=stop latency=271.65s prompt_tokens=128 completion_tokens=12743
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[88/378] Mbpp/160: pass turns=1
+[89/378] evalplus:Mbpp/161 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2103 submit_tokens~=60 finish=stop latency=43.43s prompt_tokens=163 completion_tokens=2177
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[89/378] Mbpp/161: pass turns=1
+[90/378] evalplus:Mbpp/162 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1825 submit_tokens~=36 finish=stop latency=54.50s prompt_tokens=140 completion_tokens=2724
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[90/378] Mbpp/162: pass turns=1
+[91/378] evalplus:Mbpp/165 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1741 submit_tokens~=52 finish=stop latency=38.13s prompt_tokens=124 completion_tokens=1914
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[91/378] Mbpp/165: pass turns=1
+[92/378] evalplus:Mbpp/166 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=634 submit_tokens~=54 finish=stop latency=15.65s prompt_tokens=125 completion_tokens=789
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[92/378] Mbpp/166: pass turns=1
+[93/378] evalplus:Mbpp/167 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1888 submit_tokens~=36 finish=stop latency=51.82s prompt_tokens=113 completion_tokens=2586
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[93/378] Mbpp/167: pass turns=1
+[94/378] evalplus:Mbpp/168 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=435 submit_tokens~=13 finish=stop latency=8.93s prompt_tokens=114 completion_tokens=449
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[94/378] Mbpp/168: pass turns=1
+[95/378] evalplus:Mbpp/170 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=671 submit_tokens~=18 finish=stop latency=15.77s prompt_tokens=145 completion_tokens=793
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[95/378] Mbpp/170: pass turns=1
+[96/378] evalplus:Mbpp/171 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=316 submit_tokens~=16 finish=stop latency=6.46s prompt_tokens=113 completion_tokens=326
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[96/378] Mbpp/171: pass turns=1
+[97/378] evalplus:Mbpp/172 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1685 submit_tokens~=35 finish=stop latency=45.04s prompt_tokens=119 completion_tokens=2259
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[97/378] Mbpp/172: pass turns=1
+[98/378] evalplus:Mbpp/222 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1176 submit_tokens~=46 finish=stop latency=23.68s prompt_tokens=124 completion_tokens=1194
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[98/378] Mbpp/222: pass turns=1
+[99/378] evalplus:Mbpp/223 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1399 submit_tokens~=48 finish=stop latency=32.49s prompt_tokens=165 completion_tokens=1634
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[99/378] Mbpp/223: pass turns=1
+[100/378] evalplus:Mbpp/224 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=835 submit_tokens~=26 finish=stop latency=18.46s prompt_tokens=117 completion_tokens=931
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[100/378] Mbpp/224: pass turns=1
+[101/378] evalplus:Mbpp/226 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=529 submit_tokens~=11 finish=stop latency=11.13s prompt_tokens=110 completion_tokens=562
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[101/378] Mbpp/226: pass turns=1
+[102/378] evalplus:Mbpp/227 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=343 submit_tokens~=13 finish=stop latency=6.95s prompt_tokens=106 completion_tokens=351
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[102/378] Mbpp/227: pass turns=1
+[103/378] evalplus:Mbpp/230 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=680 submit_tokens~=21 finish=stop latency=12.46s prompt_tokens=121 completion_tokens=630
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[103/378] Mbpp/230: pass turns=1
+[104/378] evalplus:Mbpp/232 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1457 submit_tokens~=16 finish=stop latency=31.81s prompt_tokens=168 completion_tokens=1601
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[104/378] Mbpp/232: pass turns=1
+[105/378] evalplus:Mbpp/233 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1392 submit_tokens~=25 finish=stop latency=33.35s prompt_tokens=140 completion_tokens=1675
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[105/378] Mbpp/233: pass turns=1
+[106/378] evalplus:Mbpp/234 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=288 submit_tokens~=10 finish=stop latency=5.94s prompt_tokens=105 completion_tokens=299
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[106/378] Mbpp/234: pass turns=1
+[107/378] evalplus:Mbpp/235 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=9923 submit_tokens~=20 finish=stop latency=233.87s prompt_tokens=109 completion_tokens=11148
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench__5wn5gzz/solution.py", line 18, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 30, got 0
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3456 submit_tokens~=20 finish=stop latency=92.44s prompt_tokens=3697 completion_tokens=4435
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_pm469c8o/solution.py", line 18, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 10, got 12297829382473034410
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=0 submit_tokens~=14 finish=length latency=362.98s prompt_tokens=4075 completion_tokens=16000
+  turn=3 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=2163 completion_tokens=23
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_akwvri9s/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 10, got 2863311530
+[107/378] Mbpp/235: fail turns=3
+[108/378] evalplus:Mbpp/237 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1998 submit_tokens~=43 finish=stop latency=48.12s prompt_tokens=174 completion_tokens=2410
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_dmypehc_/solution.py", line 23, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected {(1, 3): 2, (2, 5): 2, (3, 6): 1}, got {(3, 1): 1, (1, 3): 1, (2, 5): 1, (5, 2): 1, (6, 3): 1}
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1508 submit_tokens~=43 finish=stop latency=37.27s prompt_tokens=2748 completion_tokens=1812
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_9p1a9h_0/solution.py", line 23, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected {(1, 3): 2, (2, 5): 2, (3, 6): 1}, got {(3, 1): 1, (1, 3): 1, (2, 5): 1, (5, 2): 1, (6, 3): 1}
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=582 submit_tokens~=43 finish=stop latency=13.32s prompt_tokens=2385 completion_tokens=642
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench__ot3e97g/solution.py", line 23, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected {(1, 3): 2, (2, 5): 2, (3, 6): 1}, got {(3, 1): 1, (1, 3): 1, (2, 5): 1, (5, 2): 1, (6, 3): 1}
+[108/378] Mbpp/237: fail turns=3
+[109/378] evalplus:Mbpp/238 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=545 submit_tokens~=18 finish=stop latency=12.92s prompt_tokens=111 completion_tokens=652
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[109/378] Mbpp/238: pass turns=1
+[110/378] evalplus:Mbpp/239 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5266 submit_tokens~=122 finish=stop latency=126.56s prompt_tokens=147 completion_tokens=6232
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[110/378] Mbpp/239: pass turns=1
+[111/378] evalplus:Mbpp/240 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3059 submit_tokens~=17 finish=stop latency=63.00s prompt_tokens=166 completion_tokens=3142
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[111/378] Mbpp/240: pass turns=1
+[112/378] evalplus:Mbpp/242 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=358 submit_tokens~=10 finish=stop latency=7.00s prompt_tokens=106 completion_tokens=353
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[112/378] Mbpp/242: pass turns=1
+[113/378] evalplus:Mbpp/244 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2117 submit_tokens~=43 finish=stop latency=51.32s prompt_tokens=112 completion_tokens=2566
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[113/378] Mbpp/244: pass turns=1
+[114/378] evalplus:Mbpp/245 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4023 submit_tokens~=152 finish=stop latency=126.13s prompt_tokens=163 completion_tokens=6213
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[114/378] Mbpp/245: pass turns=1
+[115/378] evalplus:Mbpp/247 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3009 submit_tokens~=90 finish=stop latency=76.36s prompt_tokens=116 completion_tokens=3806
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[115/378] Mbpp/247: pass turns=1
+[116/378] evalplus:Mbpp/250 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=361 submit_tokens~=11 finish=stop latency=7.86s prompt_tokens=156 completion_tokens=397
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[116/378] Mbpp/250: pass turns=1
+[117/378] evalplus:Mbpp/251 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=765 submit_tokens~=37 finish=stop latency=15.57s prompt_tokens=142 completion_tokens=786
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[117/378] Mbpp/251: pass turns=1
+[118/378] evalplus:Mbpp/252 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=14 finish=length latency=349.50s prompt_tokens=109 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=582 completion_tokens=21
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_19rvbqp4/solution.py", line 18, in <module> _actual = convert(*_args) ^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_19rvbqp4/solution.py", line 4, in convert return math.polar(z) ^^^^^^^^^^ AttributeError: module 'math' has no attribute 'polar'
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=482 submit_tokens~=14 finish=stop latency=9.73s prompt_tokens=261 completion_tokens=488
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[118/378] Mbpp/252: pass turns=2
+[119/378] evalplus:Mbpp/253 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=571 submit_tokens~=35 finish=stop latency=12.21s prompt_tokens=115 completion_tokens=616
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[119/378] Mbpp/253: pass turns=1
+[120/378] evalplus:Mbpp/255 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1377 submit_tokens~=29 finish=stop latency=24.54s prompt_tokens=144 completion_tokens=1234
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[120/378] Mbpp/255: pass turns=1
+[121/378] evalplus:Mbpp/256 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1589 submit_tokens~=66 finish=stop latency=39.65s prompt_tokens=119 completion_tokens=1988
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[121/378] Mbpp/256: pass turns=1
+[122/378] evalplus:Mbpp/257 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=350 submit_tokens~=11 finish=stop latency=6.96s prompt_tokens=120 completion_tokens=350
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[122/378] Mbpp/257: pass turns=1
+[123/378] evalplus:Mbpp/259 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2853 submit_tokens~=31 finish=stop latency=66.98s prompt_tokens=169 completion_tokens=3340
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[123/378] Mbpp/259: pass turns=1
+[124/378] evalplus:Mbpp/260 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7987 submit_tokens~=59 finish=stop latency=237.85s prompt_tokens=110 completion_tokens=11310
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_6db98y06/solution.py", line 25, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 17, got 20
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=124 finish=length latency=365.43s prompt_tokens=4302 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=2164 completion_tokens=150
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_4fd_n7st/solution.py", line 38, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 7, got 17
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=6493 submit_tokens~=59 finish=stop latency=175.72s prompt_tokens=575 completion_tokens=8498
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_frnblshi/solution.py", line 25, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 17, got 20
+[124/378] Mbpp/260: fail turns=3
+[125/378] evalplus:Mbpp/261 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2284 submit_tokens~=24 finish=stop latency=42.97s prompt_tokens=141 completion_tokens=2153
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[125/378] Mbpp/261: pass turns=1
+[126/378] evalplus:Mbpp/262 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=665 submit_tokens~=15 finish=stop latency=14.09s prompt_tokens=170 completion_tokens=709
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[126/378] Mbpp/262: pass turns=1
+[127/378] evalplus:Mbpp/264 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2778 submit_tokens~=14 finish=stop latency=79.37s prompt_tokens=105 completion_tokens=3953
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_tmnkc9_l/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 73, got 76
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2618 submit_tokens~=53 finish=stop latency=68.88s prompt_tokens=4160 completion_tokens=3299
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_hhxnpg02/solution.py", line 24, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 61, got 94
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1315 submit_tokens~=15 finish=stop latency=34.21s prompt_tokens=3646 completion_tokens=1642
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_eeyhx6pe/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 73, got 49
+[127/378] Mbpp/264: fail turns=3
+[128/378] evalplus:Mbpp/265 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1725 submit_tokens~=52 finish=stop latency=44.46s prompt_tokens=199 completion_tokens=2225
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[128/378] Mbpp/265: pass turns=1
+[129/378] evalplus:Mbpp/266 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=474 submit_tokens~=13 finish=stop latency=9.82s prompt_tokens=110 completion_tokens=495
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[129/378] Mbpp/266: pass turns=1
+[130/378] evalplus:Mbpp/267 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1080 submit_tokens~=14 finish=stop latency=32.47s prompt_tokens=118 completion_tokens=1634
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[130/378] Mbpp/267: pass turns=1
+[131/378] evalplus:Mbpp/268 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=313 submit_tokens~=13 finish=stop latency=8.34s prompt_tokens=105 completion_tokens=420
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[131/378] Mbpp/268: pass turns=1
+[132/378] evalplus:Mbpp/269 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=336 submit_tokens~=11 finish=stop latency=6.15s prompt_tokens=102 completion_tokens=311
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[132/378] Mbpp/269: pass turns=1
+[133/378] evalplus:Mbpp/270 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=939 submit_tokens~=27 finish=stop latency=23.51s prompt_tokens=130 completion_tokens=1184
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[133/378] Mbpp/270: pass turns=1
+[134/378] evalplus:Mbpp/271 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=675 submit_tokens~=28 finish=stop latency=18.63s prompt_tokens=126 completion_tokens=939
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[134/378] Mbpp/271: pass turns=1
+[135/378] evalplus:Mbpp/272 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=427 submit_tokens~=18 finish=stop latency=9.12s prompt_tokens=152 completion_tokens=457
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[135/378] Mbpp/272: pass turns=1
+[136/378] evalplus:Mbpp/273 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=632 submit_tokens~=22 finish=stop latency=12.55s prompt_tokens=145 completion_tokens=632
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[136/378] Mbpp/273: pass turns=1
+[137/378] evalplus:Mbpp/274 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=775 submit_tokens~=14 finish=stop latency=19.16s prompt_tokens=118 completion_tokens=965
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[137/378] Mbpp/274: pass turns=1
+[138/378] evalplus:Mbpp/276 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=573 submit_tokens~=23 finish=stop latency=14.81s prompt_tokens=142 completion_tokens=748
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[138/378] Mbpp/276: pass turns=1
+[139/378] evalplus:Mbpp/277 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=522 submit_tokens~=23 finish=stop latency=10.58s prompt_tokens=191 completion_tokens=534
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[139/378] Mbpp/277: pass turns=1
+[140/378] evalplus:Mbpp/278 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=984 submit_tokens~=33 finish=stop latency=20.13s prompt_tokens=129 completion_tokens=1015
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[140/378] Mbpp/278: pass turns=1
+[141/378] evalplus:Mbpp/279 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=633 submit_tokens~=14 finish=stop latency=13.97s prompt_tokens=105 completion_tokens=704
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[141/378] Mbpp/279: pass turns=1
+[142/378] evalplus:Mbpp/280 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=505 submit_tokens~=37 finish=stop latency=11.22s prompt_tokens=169 completion_tokens=566
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[142/378] Mbpp/280: pass turns=1
+[143/378] evalplus:Mbpp/281 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=405 submit_tokens~=15 finish=stop latency=8.32s prompt_tokens=112 completion_tokens=421
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[143/378] Mbpp/281: pass turns=1
+[144/378] evalplus:Mbpp/282 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=488 submit_tokens~=17 finish=stop latency=10.04s prompt_tokens=116 completion_tokens=506
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[144/378] Mbpp/282: pass turns=1
+[145/378] evalplus:Mbpp/283 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2231 submit_tokens~=57 finish=stop latency=49.49s prompt_tokens=121 completion_tokens=2478
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[145/378] Mbpp/283: pass turns=1
+[146/378] evalplus:Mbpp/284 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=951 submit_tokens~=20 finish=stop latency=17.29s prompt_tokens=126 completion_tokens=871
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[146/378] Mbpp/284: pass turns=1
+[147/378] evalplus:Mbpp/285 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3047 submit_tokens~=22 finish=stop latency=74.91s prompt_tokens=116 completion_tokens=3734
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[147/378] Mbpp/285: pass turns=1
+[148/378] evalplus:Mbpp/286 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6873 submit_tokens~=269 finish=stop latency=158.86s prompt_tokens=141 completion_tokens=7784
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_q4ztub5v/solution.py", line 52, in <module> _actual = max_sub_array_sum_repeated(*_args) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ TypeError: max_sub_array_sum_repeated() takes 2 positional arguments but 3 were given
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4499 submit_tokens~=269 finish=stop latency=83.20s prompt_tokens=3314 completion_tokens=4007
+  turn=2 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_w7adtrpm/solution.py", line 52, in <module> _actual = max_sub_array_sum_repeated(*_args) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ TypeError: max_sub_array_sum_repeated() takes 2 positional arguments but 3 were given
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2632 submit_tokens~=269 finish=stop latency=51.45s prompt_tokens=2792 completion_tokens=2497
+  turn=3 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_no8uuqx7/solution.py", line 52, in <module> _actual = max_sub_array_sum_repeated(*_args) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ TypeError: max_sub_array_sum_repeated() takes 2 positional arguments but 3 were given
+[148/378] Mbpp/286: fail turns=3
+[149/378] evalplus:Mbpp/287 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1166 submit_tokens~=17 finish=stop latency=31.59s prompt_tokens=115 completion_tokens=1584
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[149/378] Mbpp/287: pass turns=1
+[150/378] evalplus:Mbpp/290 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=990 submit_tokens~=59 finish=stop latency=22.49s prompt_tokens=149 completion_tokens=1126
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[150/378] Mbpp/290: pass turns=1
+[151/378] evalplus:Mbpp/292 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=582 submit_tokens~=9 finish=stop latency=12.38s prompt_tokens=111 completion_tokens=617
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[151/378] Mbpp/292: pass turns=1
+[152/378] evalplus:Mbpp/293 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3913 submit_tokens~=20 finish=stop latency=83.10s prompt_tokens=123 completion_tokens=4131
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[152/378] Mbpp/293: pass turns=1
+[153/378] evalplus:Mbpp/294 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1354 submit_tokens~=25 finish=stop latency=26.57s prompt_tokens=119 completion_tokens=1332
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[153/378] Mbpp/294: pass turns=1
+[154/378] evalplus:Mbpp/296 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=828 submit_tokens~=47 finish=stop latency=20.24s prompt_tokens=114 completion_tokens=1020
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[154/378] Mbpp/296: pass turns=1
+[155/378] evalplus:Mbpp/297 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=803 submit_tokens~=58 finish=stop latency=16.80s prompt_tokens=204 completion_tokens=846
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[155/378] Mbpp/297: pass turns=1
+[156/378] evalplus:Mbpp/299 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2918 submit_tokens~=67 finish=stop latency=61.15s prompt_tokens=151 completion_tokens=3057
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[156/378] Mbpp/299: pass turns=1
+[157/378] evalplus:Mbpp/300 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1550 submit_tokens~=19 finish=stop latency=35.05s prompt_tokens=137 completion_tokens=1760
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[157/378] Mbpp/300: pass turns=1
+[158/378] evalplus:Mbpp/301 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6786 submit_tokens~=81 finish=stop latency=155.93s prompt_tokens=115 completion_tokens=7650
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[158/378] Mbpp/301: pass turns=1
+[159/378] evalplus:Mbpp/305 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4399 submit_tokens~=82 finish=stop latency=83.60s prompt_tokens=123 completion_tokens=4156
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[159/378] Mbpp/305: pass turns=1
+[160/378] evalplus:Mbpp/306 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6860 submit_tokens~=109 finish=stop latency=171.09s prompt_tokens=164 completion_tokens=8326
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_ez_u9jvp/solution.py", line 29, in <module> _actual = max_sum_increasing_subseq(*_args) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ TypeError: max_sum_increasing_subseq() takes 3 positional arguments but 4 were given
+  turn=2 generate...
+  turn=2 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=83.24s prompt_tokens=3636 completion_tokens=3999
+  turn=2 obs=status: fail error_type: format_error reason: missing_submit
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=6278 submit_tokens~=105 finish=stop latency=127.27s prompt_tokens=456 completion_tokens=6247
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_0i4w4nzc/solution.py", line 29, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 11, got 0
+[160/378] Mbpp/306: fail turns=3
+[161/378] evalplus:Mbpp/308 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2823 submit_tokens~=47 finish=stop latency=64.33s prompt_tokens=157 completion_tokens=3212
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[161/378] Mbpp/308: pass turns=1
+[162/378] evalplus:Mbpp/309 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=962 submit_tokens~=19 finish=stop latency=17.08s prompt_tokens=106 completion_tokens=862
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[162/378] Mbpp/309: pass turns=1
+[163/378] evalplus:Mbpp/310 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=424 submit_tokens~=11 finish=stop latency=8.28s prompt_tokens=131 completion_tokens=419
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_10jaybzo/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0'), got ('p', 'y', 't', 'h', 'o', 'n', ' ', '3', '.', '0')
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3662 submit_tokens~=11 finish=stop latency=72.17s prompt_tokens=698 completion_tokens=3574
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_zzrefzcj/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0'), got ('p', 'y', 't', 'h', 'o', 'n', ' ', '3', '.', '0')
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=779 submit_tokens~=11 finish=stop latency=15.66s prompt_tokens=3117 completion_tokens=750
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_vuolo5fu/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0'), got ('p', 'y', 't', 'h', 'o', 'n', ' ', '3', '.', '0')
+[163/378] Mbpp/310: fail turns=3
+[164/378] evalplus:Mbpp/311 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4435 submit_tokens~=50 finish=stop latency=108.00s prompt_tokens=108 completion_tokens=5342
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[164/378] Mbpp/311: pass turns=1
+[165/378] evalplus:Mbpp/312 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=739 submit_tokens~=19 finish=stop latency=18.49s prompt_tokens=134 completion_tokens=931
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_0efa4_eq/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 6426.651371693521, got 6426.65137169352
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=7473 submit_tokens~=19 finish=stop latency=212.53s prompt_tokens=1197 completion_tokens=10042
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_5tdnevlk/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 6426.651371693521, got 6426.65137169352
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=832 submit_tokens~=19 finish=stop latency=21.17s prompt_tokens=4349 completion_tokens=998
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_og__cgz2/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 6426.651371693521, got 6426.65137169352
+[165/378] Mbpp/312: fail turns=3
+[166/378] evalplus:Mbpp/388 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2105 submit_tokens~=27 finish=stop latency=49.09s prompt_tokens=117 completion_tokens=2459
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[166/378] Mbpp/388: pass turns=1
+[167/378] evalplus:Mbpp/389 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=638 submit_tokens~=42 finish=stop latency=18.79s prompt_tokens=106 completion_tokens=948
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[167/378] Mbpp/389: pass turns=1
+[168/378] evalplus:Mbpp/390 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1313 submit_tokens~=20 finish=stop latency=25.00s prompt_tokens=132 completion_tokens=1255
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[168/378] Mbpp/390: pass turns=1
+[169/378] evalplus:Mbpp/391 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=8748 submit_tokens~=59 finish=stop latency=165.49s prompt_tokens=221 completion_tokens=8083
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[169/378] Mbpp/391: pass turns=1
+[170/378] evalplus:Mbpp/392 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3655 submit_tokens~=60 finish=stop latency=86.92s prompt_tokens=141 completion_tokens=4316
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[170/378] Mbpp/392: pass turns=1
+[171/378] evalplus:Mbpp/394 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=447 submit_tokens~=14 finish=stop latency=8.79s prompt_tokens=118 completion_tokens=444
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[171/378] Mbpp/394: pass turns=1
+[172/378] evalplus:Mbpp/395 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1321 submit_tokens~=46 finish=stop latency=26.25s prompt_tokens=111 completion_tokens=1320
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[172/378] Mbpp/395: pass turns=1
+[173/378] evalplus:Mbpp/397 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=998 submit_tokens~=25 finish=stop latency=22.40s prompt_tokens=110 completion_tokens=1129
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[173/378] Mbpp/397: pass turns=1
+[174/378] evalplus:Mbpp/398 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=870 submit_tokens~=35 finish=stop latency=18.31s prompt_tokens=114 completion_tokens=922
+  turn=1 obs=status: fail error_type: runtime_error passed_tests: 1 failed_tests: 2 stderr_tail: its(*_args) ^^^^^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_pb3elv7n/solution.py", line 4, in sum_of_digits total += sum(int(digit) for digit in str(num)) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_pb3elv7n/solution.py", line 4, in <genexpr> total += sum(int(digit) for digit in str(num)) ^^^^^^^^^^ ValueError: invalid literal for int() with base 10: '['
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=5778 submit_tokens~=48 finish=stop latency=112.76s prompt_tokens=1188 completion_tokens=5517
+  turn=2 obs=status: fail error_type: runtime_error passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_cxkwl5g0/solution.py", line 22, in <module> _actual = sum_of_digits(*_args) ^^^^^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_cxkwl5g0/solution.py", line 4, in sum_of_digits temp = abs(num) ^^^^^^^^ TypeError: bad operand type for abs(): 'list'
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2549 submit_tokens~=48 finish=stop latency=48.82s prompt_tokens=2979 completion_tokens=2367
+  turn=3 obs=status: fail error_type: runtime_error passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_isd6zmjn/solution.py", line 22, in <module> _actual = sum_of_digits(*_args) ^^^^^^^^^^^^^^^^^^^^^ File "/tmp/cs639_grpo/tmp/react_bench_isd6zmjn/solution.py", line 4, in sum_of_digits temp = abs(num) ^^^^^^^^ TypeError: bad operand type for abs(): 'list'
+[174/378] Mbpp/398: fail turns=3
+[175/378] evalplus:Mbpp/404 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=285 submit_tokens~=12 finish=stop latency=5.90s prompt_tokens=104 completion_tokens=297
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[175/378] Mbpp/404: pass turns=1
+[176/378] evalplus:Mbpp/405 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=433 submit_tokens~=16 finish=stop latency=8.76s prompt_tokens=134 completion_tokens=442
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[176/378] Mbpp/405: pass turns=1
+[177/378] evalplus:Mbpp/406 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=506 submit_tokens~=12 finish=stop latency=10.77s prompt_tokens=108 completion_tokens=544
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[177/378] Mbpp/406: pass turns=1
+[178/378] evalplus:Mbpp/409 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=620 submit_tokens~=16 finish=stop latency=13.81s prompt_tokens=131 completion_tokens=696
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[178/378] Mbpp/409: pass turns=1
+[179/378] evalplus:Mbpp/410 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1188 submit_tokens~=24 finish=stop latency=21.88s prompt_tokens=119 completion_tokens=1103
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[179/378] Mbpp/410: pass turns=1
+[180/378] evalplus:Mbpp/412 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=449 submit_tokens~=16 finish=stop latency=9.98s prompt_tokens=108 completion_tokens=504
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[180/378] Mbpp/412: pass turns=1
+[181/378] evalplus:Mbpp/413 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=498 submit_tokens~=23 finish=stop latency=10.06s prompt_tokens=177 completion_tokens=508
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[181/378] Mbpp/413: pass turns=1
+[182/378] evalplus:Mbpp/414 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1164 submit_tokens~=19 finish=stop latency=23.07s prompt_tokens=124 completion_tokens=1161
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[182/378] Mbpp/414: pass turns=1
+[183/378] evalplus:Mbpp/415 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3462 submit_tokens~=69 finish=stop latency=80.89s prompt_tokens=125 completion_tokens=4025
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_lt93t7pm/solution.py", line 23, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (-4, -6), got (-6, -4)
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=5751 submit_tokens~=69 finish=stop latency=120.88s prompt_tokens=3433 completion_tokens=5737
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[183/378] Mbpp/415: pass turns=2
+[184/378] evalplus:Mbpp/418 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=777 submit_tokens~=12 finish=stop latency=14.62s prompt_tokens=122 completion_tokens=737
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[184/378] Mbpp/418: pass turns=1
+[185/378] evalplus:Mbpp/419 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=946 submit_tokens~=40 finish=stop latency=28.23s prompt_tokens=173 completion_tokens=1421
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_t3wbkgjf/solution.py", line 20, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 243, got None
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1153 submit_tokens~=40 finish=stop latency=23.07s prompt_tokens=1695 completion_tokens=1136
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[185/378] Mbpp/419: pass turns=2
+[186/378] evalplus:Mbpp/420 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=760 submit_tokens~=14 finish=stop latency=20.51s prompt_tokens=109 completion_tokens=1034
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[186/378] Mbpp/420: pass turns=1
+[187/378] evalplus:Mbpp/421 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1141 submit_tokens~=23 finish=stop latency=21.35s prompt_tokens=121 completion_tokens=1075
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[187/378] Mbpp/421: pass turns=1
+[188/378] evalplus:Mbpp/422 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=813 submit_tokens~=15 finish=stop latency=22.20s prompt_tokens=113 completion_tokens=1118
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[188/378] Mbpp/422: pass turns=1
+[189/378] evalplus:Mbpp/424 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=517 submit_tokens~=18 finish=stop latency=10.56s prompt_tokens=124 completion_tokens=533
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[189/378] Mbpp/424: pass turns=1
+[190/378] evalplus:Mbpp/425 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=495 submit_tokens~=43 finish=stop latency=11.21s prompt_tokens=134 completion_tokens=566
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[190/378] Mbpp/425: pass turns=1
+[191/378] evalplus:Mbpp/426 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=659 submit_tokens~=18 finish=stop latency=14.56s prompt_tokens=135 completion_tokens=734
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[191/378] Mbpp/426: pass turns=1
+[192/378] evalplus:Mbpp/427 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=582 submit_tokens~=28 finish=stop latency=14.15s prompt_tokens=128 completion_tokens=714
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[192/378] Mbpp/427: pass turns=1
+[193/378] evalplus:Mbpp/428 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2836 submit_tokens~=86 finish=stop latency=95.37s prompt_tokens=170 completion_tokens=4731
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[193/378] Mbpp/428: pass turns=1
+[194/378] evalplus:Mbpp/429 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=627 submit_tokens~=18 finish=stop latency=14.67s prompt_tokens=138 completion_tokens=739
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[194/378] Mbpp/429: pass turns=1
+[195/378] evalplus:Mbpp/430 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=9172 submit_tokens~=18 finish=stop latency=276.50s prompt_tokens=113 completion_tokens=13004
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_utnl58t9/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected -2336, got -4633.2
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1211 submit_tokens~=18 finish=stop latency=34.22s prompt_tokens=4118 completion_tokens=1636
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_d3j6jet3/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected -2336, got -4633.2
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1726 submit_tokens~=18 finish=stop latency=44.21s prompt_tokens=2019 completion_tokens=2173
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_kvlmoq5o/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected -2336, got -4633.2
+[195/378] Mbpp/430: fail turns=3
+[196/378] evalplus:Mbpp/432 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=676 submit_tokens~=14 finish=stop latency=14.51s prompt_tokens=115 completion_tokens=733
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_zrbcrgd5/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 7.5, got 7
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2548 submit_tokens~=14 finish=stop latency=56.44s prompt_tokens=951 completion_tokens=2800
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[196/378] Mbpp/432: pass turns=2
+[197/378] evalplus:Mbpp/433 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=711 submit_tokens~=30 finish=stop latency=14.49s prompt_tokens=124 completion_tokens=732
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[197/378] Mbpp/433: pass turns=1
+[198/378] evalplus:Mbpp/435 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2798 submit_tokens~=12 finish=stop latency=57.15s prompt_tokens=108 completion_tokens=2863
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[198/378] Mbpp/435: pass turns=1
+[199/378] evalplus:Mbpp/436 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=450 submit_tokens~=15 finish=stop latency=9.23s prompt_tokens=113 completion_tokens=466
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[199/378] Mbpp/436: pass turns=1
+[200/378] evalplus:Mbpp/437 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=840 submit_tokens~=10 finish=stop latency=17.59s prompt_tokens=102 completion_tokens=887
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[200/378] Mbpp/437: pass turns=1
+[201/378] evalplus:Mbpp/439 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=773 submit_tokens~=20 finish=stop latency=16.25s prompt_tokens=119 completion_tokens=820
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[201/378] Mbpp/439: pass turns=1
+[202/378] evalplus:Mbpp/440 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6900 submit_tokens~=90 finish=stop latency=150.72s prompt_tokens=123 completion_tokens=7403
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_glgr0tha/solution.py", line 26, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (0, 7, 'clearly'), got None
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4244 submit_tokens~=93 finish=stop latency=94.50s prompt_tokens=3189 completion_tokens=4557
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[202/378] Mbpp/440: pass turns=2
+[203/378] evalplus:Mbpp/441 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=254 submit_tokens~=14 finish=stop latency=5.82s prompt_tokens=108 completion_tokens=293
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[203/378] Mbpp/441: pass turns=1
+[204/378] evalplus:Mbpp/445 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1123 submit_tokens~=34 finish=stop latency=26.01s prompt_tokens=181 completion_tokens=1309
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[204/378] Mbpp/445: pass turns=1
+[205/378] evalplus:Mbpp/446 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1219 submit_tokens~=31 finish=stop latency=25.63s prompt_tokens=130 completion_tokens=1291
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[205/378] Mbpp/446: pass turns=1
+[206/378] evalplus:Mbpp/447 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=394 submit_tokens~=13 finish=stop latency=8.25s prompt_tokens=173 completion_tokens=416
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[206/378] Mbpp/447: pass turns=1
+[207/378] evalplus:Mbpp/448 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1666 submit_tokens~=83 finish=stop latency=51.89s prompt_tokens=105 completion_tokens=2586
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[207/378] Mbpp/448: pass turns=1
+[208/378] evalplus:Mbpp/450 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=598 submit_tokens~=21 finish=stop latency=11.52s prompt_tokens=126 completion_tokens=581
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[208/378] Mbpp/450: pass turns=1
+[209/378] evalplus:Mbpp/451 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1906 submit_tokens~=20 finish=stop latency=32.79s prompt_tokens=109 completion_tokens=1649
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[209/378] Mbpp/451: pass turns=1
+[210/378] evalplus:Mbpp/453 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1527 submit_tokens~=50 finish=stop latency=37.89s prompt_tokens=109 completion_tokens=1904
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[210/378] Mbpp/453: pass turns=1
+[211/378] evalplus:Mbpp/454 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4673 submit_tokens~=22 finish=stop latency=104.98s prompt_tokens=104 completion_tokens=5199
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[211/378] Mbpp/454: pass turns=1
+[212/378] evalplus:Mbpp/455 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1941 submit_tokens~=18 finish=stop latency=37.42s prompt_tokens=110 completion_tokens=1880
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[212/378] Mbpp/455: pass turns=1
+[213/378] evalplus:Mbpp/456 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=547 submit_tokens~=20 finish=stop latency=11.61s prompt_tokens=140 completion_tokens=586
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[213/378] Mbpp/456: pass turns=1
+[214/378] evalplus:Mbpp/457 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=719 submit_tokens~=68 finish=stop latency=14.44s prompt_tokens=113 completion_tokens=729
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[214/378] Mbpp/457: pass turns=1
+[215/378] evalplus:Mbpp/458 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=209 submit_tokens~=11 finish=stop latency=4.27s prompt_tokens=106 completion_tokens=215
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[215/378] Mbpp/458: pass turns=1
+[216/378] evalplus:Mbpp/459 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1111 submit_tokens~=18 finish=stop latency=21.58s prompt_tokens=123 completion_tokens=1087
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[216/378] Mbpp/459: pass turns=1
+[217/378] evalplus:Mbpp/460 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=484 submit_tokens~=13 finish=stop latency=9.88s prompt_tokens=133 completion_tokens=499
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[217/378] Mbpp/460: pass turns=1
+[218/378] evalplus:Mbpp/462 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=11596 submit_tokens~=64 finish=stop latency=222.16s prompt_tokens=211 completion_tokens=10596
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: blue', 'green', 'orange'], ['blue', 'green', 'red'], ['blue', 'green', 'red', 'orange']], got [[], ['orange'], ['red'], ['orange', 'red'], ['green'], ['orange', 'green'], ['red', 'green'], ['orange', 'red', 'green'], ['blue'], ['orange', 'blue'], ['red', 'blue'], ['orange', 'red', 'blue'], ['green', 'blue'], ['orange', 'green', 'blue'], ['red', 'green', 'blue'], ['orange', 'red', 'green', 'blue']]
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3868 submit_tokens~=67 finish=stop latency=76.21s prompt_tokens=3068 completion_tokens=3685
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[218/378] Mbpp/462: pass turns=2
+[219/378] evalplus:Mbpp/463 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2827 submit_tokens~=102 finish=stop latency=78.45s prompt_tokens=128 completion_tokens=3907
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[219/378] Mbpp/463: pass turns=1
+[220/378] evalplus:Mbpp/465 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3433 submit_tokens~=16 finish=stop latency=65.10s prompt_tokens=131 completion_tokens=3250
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[220/378] Mbpp/465: pass turns=1
+[221/378] evalplus:Mbpp/468 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6843 submit_tokens~=87 finish=stop latency=174.06s prompt_tokens=134 completion_tokens=8481
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_wh4ni_a0/solution.py", line 29, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 3000, got 45000
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2184 submit_tokens~=80 finish=stop latency=58.97s prompt_tokens=4069 completion_tokens=2825
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[221/378] Mbpp/468: pass turns=2
+[222/378] evalplus:Mbpp/470 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=978 submit_tokens~=20 finish=stop latency=23.42s prompt_tokens=134 completion_tokens=1179
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[222/378] Mbpp/470: pass turns=1
+[223/378] evalplus:Mbpp/471 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1004 submit_tokens~=29 finish=stop latency=26.10s prompt_tokens=131 completion_tokens=1314
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[223/378] Mbpp/471: pass turns=1
+[224/378] evalplus:Mbpp/472 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1224 submit_tokens~=57 finish=stop latency=26.32s prompt_tokens=115 completion_tokens=1324
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[224/378] Mbpp/472: pass turns=1
+[225/378] evalplus:Mbpp/473 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4711 submit_tokens~=82 finish=stop latency=102.15s prompt_tokens=174 completion_tokens=5065
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_e5km5rpz/solution.py", line 24, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected {(4, 7), (1, 4)}, got {(7, 4), (4, 1)}
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=3696 submit_tokens~=44 finish=stop latency=80.79s prompt_tokens=3311 completion_tokens=3895
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[225/378] Mbpp/473: pass turns=2
+[226/378] evalplus:Mbpp/474 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=993 submit_tokens~=16 finish=stop latency=19.30s prompt_tokens=105 completion_tokens=973
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[226/378] Mbpp/474: pass turns=1
+[227/378] evalplus:Mbpp/475 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=706 submit_tokens~=21 finish=stop latency=14.42s prompt_tokens=137 completion_tokens=727
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[227/378] Mbpp/475: pass turns=1
+[228/378] evalplus:Mbpp/476 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=405 submit_tokens~=12 finish=stop latency=8.60s prompt_tokens=114 completion_tokens=435
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[228/378] Mbpp/476: pass turns=1
+[229/378] evalplus:Mbpp/477 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=576 submit_tokens~=10 finish=stop latency=10.08s prompt_tokens=105 completion_tokens=510
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[229/378] Mbpp/477: pass turns=1
+[230/378] evalplus:Mbpp/478 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1126 submit_tokens~=20 finish=stop latency=20.98s prompt_tokens=106 completion_tokens=1059
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_p9q1wrp7/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 'PYTH', got ('PYTH',)
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1975 submit_tokens~=18 finish=stop latency=36.91s prompt_tokens=1271 completion_tokens=1828
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[230/378] Mbpp/478: pass turns=2
+[231/378] evalplus:Mbpp/479 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2459 submit_tokens~=22 finish=stop latency=50.29s prompt_tokens=108 completion_tokens=2521
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[231/378] Mbpp/479: pass turns=1
+[232/378] evalplus:Mbpp/554 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=630 submit_tokens~=18 finish=stop latency=13.03s prompt_tokens=121 completion_tokens=658
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[232/378] Mbpp/554: pass turns=1
+[233/378] evalplus:Mbpp/555 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=938 submit_tokens~=17 finish=stop latency=22.47s prompt_tokens=120 completion_tokens=1132
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[233/378] Mbpp/555: pass turns=1
+[234/378] evalplus:Mbpp/556 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=4641 submit_tokens~=31 finish=stop latency=100.26s prompt_tokens=120 completion_tokens=4970
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[234/378] Mbpp/556: pass turns=1
+[235/378] evalplus:Mbpp/557 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=686 submit_tokens~=12 finish=stop latency=12.97s prompt_tokens=106 completion_tokens=655
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[235/378] Mbpp/557: pass turns=1
+[236/378] evalplus:Mbpp/558 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1435 submit_tokens~=71 finish=stop latency=35.87s prompt_tokens=111 completion_tokens=1802
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[236/378] Mbpp/558: pass turns=1
+[237/378] evalplus:Mbpp/559 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3692 submit_tokens~=72 finish=stop latency=75.06s prompt_tokens=134 completion_tokens=3741
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[237/378] Mbpp/559: pass turns=1
+[238/378] evalplus:Mbpp/560 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=786 submit_tokens~=28 finish=stop latency=16.79s prompt_tokens=150 completion_tokens=846
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[238/378] Mbpp/560: pass turns=1
+[239/378] evalplus:Mbpp/562 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=664 submit_tokens~=53 finish=stop latency=13.60s prompt_tokens=118 completion_tokens=686
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[239/378] Mbpp/562: pass turns=1
+[240/378] evalplus:Mbpp/563 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1388 submit_tokens~=44 finish=stop latency=26.21s prompt_tokens=116 completion_tokens=1319
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[240/378] Mbpp/563: pass turns=1
+[241/378] evalplus:Mbpp/564 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3417 submit_tokens~=46 finish=stop latency=65.93s prompt_tokens=122 completion_tokens=3284
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[241/378] Mbpp/564: pass turns=1
+[242/378] evalplus:Mbpp/565 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=782 submit_tokens~=8 finish=stop latency=14.06s prompt_tokens=111 completion_tokens=709
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[242/378] Mbpp/565: pass turns=1
+[243/378] evalplus:Mbpp/566 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=570 submit_tokens~=15 finish=stop latency=13.42s prompt_tokens=108 completion_tokens=677
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[243/378] Mbpp/566: pass turns=1
+[244/378] evalplus:Mbpp/567 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=494 submit_tokens~=42 finish=stop latency=11.20s prompt_tokens=127 completion_tokens=566
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[244/378] Mbpp/567: pass turns=1
+[245/378] evalplus:Mbpp/568 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=430 submit_tokens~=13 finish=stop latency=7.95s prompt_tokens=106 completion_tokens=401
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[245/378] Mbpp/568: pass turns=1
+[246/378] evalplus:Mbpp/569 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=872 submit_tokens~=16 finish=stop latency=16.66s prompt_tokens=145 completion_tokens=839
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[246/378] Mbpp/569: pass turns=1
+[247/378] evalplus:Mbpp/572 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1966 submit_tokens~=50 finish=stop latency=42.52s prompt_tokens=125 completion_tokens=2133
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[247/378] Mbpp/572: pass turns=1
+[248/378] evalplus:Mbpp/573 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1104 submit_tokens~=32 finish=stop latency=26.92s prompt_tokens=146 completion_tokens=1356
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[248/378] Mbpp/573: pass turns=1
+[249/378] evalplus:Mbpp/576 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1045 submit_tokens~=51 finish=stop latency=24.54s prompt_tokens=117 completion_tokens=1238
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[249/378] Mbpp/576: pass turns=1
+[250/378] evalplus:Mbpp/577 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=939 submit_tokens~=35 finish=stop latency=24.58s prompt_tokens=111 completion_tokens=1239
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[250/378] Mbpp/577: pass turns=1
+[251/378] evalplus:Mbpp/578 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=570 submit_tokens~=51 finish=stop latency=15.46s prompt_tokens=252 completion_tokens=779
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[251/378] Mbpp/578: pass turns=1
+[252/378] evalplus:Mbpp/579 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2854 submit_tokens~=43 finish=stop latency=61.08s prompt_tokens=140 completion_tokens=3055
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_oearyazn/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (34, 36, 11, 25), got (11, 25, 34, 36)
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2698 submit_tokens~=54 finish=stop latency=58.07s prompt_tokens=3292 completion_tokens=2809
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_hbsmrvtm/solution.py", line 21, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (34, 36, 11, 25), got (11, 25, 34, 36)
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=3382 submit_tokens~=43 finish=stop latency=74.99s prompt_tokens=3248 completion_tokens=3621
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_fzo_oad0/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected (3, 6, 7, 10), got (7, 10, 3, 6)
+[252/378] Mbpp/579: fail turns=3
+[253/378] evalplus:Mbpp/580 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3137 submit_tokens~=81 finish=stop latency=65.29s prompt_tokens=140 completion_tokens=3262
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[253/378] Mbpp/580: pass turns=1
+[254/378] evalplus:Mbpp/581 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3393 submit_tokens~=18 finish=stop latency=80.43s prompt_tokens=116 completion_tokens=4000
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[254/378] Mbpp/581: pass turns=1
+[255/378] evalplus:Mbpp/583 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=897 submit_tokens~=20 finish=stop latency=21.72s prompt_tokens=105 completion_tokens=1090
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[255/378] Mbpp/583: pass turns=1
+[256/378] evalplus:Mbpp/585 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=623 submit_tokens~=34 finish=stop latency=12.78s prompt_tokens=159 completion_tokens=645
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[256/378] Mbpp/585: pass turns=1
+[257/378] evalplus:Mbpp/586 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=879 submit_tokens~=13 finish=stop latency=21.15s prompt_tokens=145 completion_tokens=1064
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[257/378] Mbpp/586: pass turns=1
+[258/378] evalplus:Mbpp/587 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=348 submit_tokens~=14 finish=stop latency=7.80s prompt_tokens=135 completion_tokens=393
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[258/378] Mbpp/587: pass turns=1
+[259/378] evalplus:Mbpp/588 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=427 submit_tokens~=13 finish=stop latency=8.99s prompt_tokens=115 completion_tokens=454
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[259/378] Mbpp/588: pass turns=1
+[260/378] evalplus:Mbpp/589 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1742 submit_tokens~=54 finish=stop latency=44.00s prompt_tokens=120 completion_tokens=2202
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[260/378] Mbpp/589: pass turns=1
+[261/378] evalplus:Mbpp/590 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=10410 submit_tokens~=32 finish=stop latency=274.78s prompt_tokens=152 completion_tokens=12876
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_52o4i6s5/solution.py", line 21, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j)), got ((-1.960930862590836, -2.2704074859237844), (-1.960930862590836-2.2704074859237844j))
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2328 submit_tokens~=37 finish=stop latency=57.25s prompt_tokens=3925 completion_tokens=2748
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_1dexm_do/solution.py", line 21, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j)), got ((3.0, 4), (-1.960930862590836-2.2704074859237844j))
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1342 submit_tokens~=32 finish=stop latency=34.16s prompt_tokens=3383 completion_tokens=1644
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_fhojt51g/solution.py", line 21, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected ((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j)), got ((5.0, 0.9272952180016122), (3+4j))
+[261/378] Mbpp/590: fail turns=3
+[262/378] evalplus:Mbpp/591 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1697 submit_tokens~=40 finish=stop latency=36.61s prompt_tokens=138 completion_tokens=1835
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[262/378] Mbpp/591: pass turns=1
+[263/378] evalplus:Mbpp/592 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1520 submit_tokens~=18 finish=stop latency=38.95s prompt_tokens=112 completion_tokens=1948
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[263/378] Mbpp/592: pass turns=1
+[264/378] evalplus:Mbpp/593 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1241 submit_tokens~=51 finish=stop latency=30.24s prompt_tokens=127 completion_tokens=1518
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[264/378] Mbpp/593: pass turns=1
+[265/378] evalplus:Mbpp/594 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1083 submit_tokens~=93 finish=stop latency=24.59s prompt_tokens=124 completion_tokens=1238
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[265/378] Mbpp/594: pass turns=1
+[266/378] evalplus:Mbpp/596 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=662 submit_tokens~=15 finish=stop latency=12.40s prompt_tokens=139 completion_tokens=625
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[266/378] Mbpp/596: pass turns=1
+[267/378] evalplus:Mbpp/597 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5749 submit_tokens~=194 finish=stop latency=145.20s prompt_tokens=135 completion_tokens=7129
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[267/378] Mbpp/597: pass turns=1
+[268/378] evalplus:Mbpp/598 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1225 submit_tokens~=41 finish=stop latency=30.17s prompt_tokens=107 completion_tokens=1514
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[268/378] Mbpp/598: pass turns=1
+[269/378] evalplus:Mbpp/599 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=786 submit_tokens~=25 finish=stop latency=19.11s prompt_tokens=111 completion_tokens=961
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[269/378] Mbpp/599: pass turns=1
+[270/378] evalplus:Mbpp/600 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=817 submit_tokens~=10 finish=stop latency=16.96s prompt_tokens=106 completion_tokens=854
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[270/378] Mbpp/600: pass turns=1
+[271/378] evalplus:Mbpp/602 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1298 submit_tokens~=38 finish=stop latency=25.27s prompt_tokens=109 completion_tokens=1272
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[271/378] Mbpp/602: pass turns=1
+[272/378] evalplus:Mbpp/603 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5837 submit_tokens~=78 finish=stop latency=138.91s prompt_tokens=124 completion_tokens=6834
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_o2mcsf36/solution.py", line 28, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [1, 2, 3, 5, 7, 11, 13, 17, 23, 25], got [1, 2, 3, 5, 7, 11, 13, 17, 19, 23]
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=0 submit_tokens~=102 finish=length latency=360.77s prompt_tokens=3712 completion_tokens=16000
+  turn=2 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=2178 completion_tokens=130
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[272/378] Mbpp/603: pass turns=2
+[273/378] evalplus:Mbpp/604 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1103 submit_tokens~=15 finish=stop latency=19.27s prompt_tokens=107 completion_tokens=971
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[273/378] Mbpp/604: pass turns=1
+[274/378] evalplus:Mbpp/605 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1176 submit_tokens~=63 finish=stop latency=30.85s prompt_tokens=104 completion_tokens=1551
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[274/378] Mbpp/605: pass turns=1
+[275/378] evalplus:Mbpp/606 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=352 submit_tokens~=19 finish=stop latency=8.36s prompt_tokens=117 completion_tokens=420
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[275/378] Mbpp/606: pass turns=1
+[276/378] evalplus:Mbpp/607 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1921 submit_tokens~=45 finish=stop latency=36.60s prompt_tokens=139 completion_tokens=1840
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[276/378] Mbpp/607: pass turns=1
+[277/378] evalplus:Mbpp/608 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2833 submit_tokens~=83 finish=stop latency=71.04s prompt_tokens=101 completion_tokens=3544
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[277/378] Mbpp/608: pass turns=1
+[278/378] evalplus:Mbpp/610 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1091 submit_tokens~=16 finish=stop latency=25.87s prompt_tokens=151 completion_tokens=1301
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[278/378] Mbpp/610: pass turns=1
+[279/378] evalplus:Mbpp/611 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=593 submit_tokens~=17 finish=stop latency=12.43s prompt_tokens=144 completion_tokens=627
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[279/378] Mbpp/611: pass turns=1
+[280/378] evalplus:Mbpp/612 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1150 submit_tokens~=14 finish=stop latency=23.42s prompt_tokens=166 completion_tokens=1179
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[280/378] Mbpp/612: pass turns=1
+[281/378] evalplus:Mbpp/614 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1154 submit_tokens~=20 finish=stop latency=25.12s prompt_tokens=133 completion_tokens=1261
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[281/378] Mbpp/614: pass turns=1
+[282/378] evalplus:Mbpp/615 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3455 submit_tokens~=54 finish=stop latency=102.90s prompt_tokens=192 completion_tokens=5091
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[282/378] Mbpp/615: pass turns=1
+[283/378] evalplus:Mbpp/616 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=608 submit_tokens~=23 finish=stop latency=13.62s prompt_tokens=141 completion_tokens=687
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[283/378] Mbpp/616: pass turns=1
+[284/378] evalplus:Mbpp/618 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1088 submit_tokens~=19 finish=stop latency=21.76s prompt_tokens=122 completion_tokens=1096
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[284/378] Mbpp/618: pass turns=1
+[285/378] evalplus:Mbpp/619 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1996 submit_tokens~=56 finish=stop latency=47.36s prompt_tokens=138 completion_tokens=2370
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[285/378] Mbpp/619: pass turns=1
+[286/378] evalplus:Mbpp/620 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3145 submit_tokens~=58 finish=stop latency=88.86s prompt_tokens=133 completion_tokens=4411
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[286/378] Mbpp/620: pass turns=1
+[287/378] evalplus:Mbpp/622 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1558 submit_tokens~=95 finish=stop latency=37.06s prompt_tokens=147 completion_tokens=1860
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[287/378] Mbpp/622: pass turns=1
+[288/378] evalplus:Mbpp/623 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=530 submit_tokens~=14 finish=stop latency=10.42s prompt_tokens=171 completion_tokens=524
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[288/378] Mbpp/623: pass turns=1
+[289/378] evalplus:Mbpp/624 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=903 submit_tokens~=10 finish=stop latency=16.02s prompt_tokens=102 completion_tokens=806
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[289/378] Mbpp/624: pass turns=1
+[290/378] evalplus:Mbpp/626 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2011 submit_tokens~=23 finish=stop latency=41.10s prompt_tokens=117 completion_tokens=2061
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_xa48gzj5/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 0, got None
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=1595 submit_tokens~=22 finish=stop latency=30.12s prompt_tokens=2280 completion_tokens=1472
+  turn=2 obs=status: pass passed_tests: 3 failed_tests: 0
+[290/378] Mbpp/626: pass turns=2
+[291/378] evalplus:Mbpp/628 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=526 submit_tokens~=14 finish=stop latency=10.58s prompt_tokens=125 completion_tokens=534
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[291/378] Mbpp/628: pass turns=1
+[292/378] evalplus:Mbpp/629 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=422 submit_tokens~=18 finish=stop latency=8.83s prompt_tokens=114 completion_tokens=446
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[292/378] Mbpp/629: pass turns=1
+[293/378] evalplus:Mbpp/630 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1352 submit_tokens~=44 finish=stop latency=32.51s prompt_tokens=160 completion_tokens=1632
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[293/378] Mbpp/630: pass turns=1
+[294/378] evalplus:Mbpp/631 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6083 submit_tokens~=14 finish=stop latency=97.83s prompt_tokens=119 completion_tokens=4848
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_j9e6zs7d/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 'The Avengers', got 'The_Avengers'
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=5607 submit_tokens~=14 finish=stop latency=92.22s prompt_tokens=2533 completion_tokens=4471
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_zja29nef/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 'The Avengers', got 'The_Avengers'
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=3429 submit_tokens~=14 finish=stop latency=57.74s prompt_tokens=2563 completion_tokens=2811
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_rn7ebif9/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 'The Avengers', got 'The_Avengers'
+[294/378] Mbpp/631: fail turns=3
+[295/378] evalplus:Mbpp/632 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=873 submit_tokens~=31 finish=stop latency=19.39s prompt_tokens=127 completion_tokens=977
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[295/378] Mbpp/632: pass turns=1
+[296/378] evalplus:Mbpp/633 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3971 submit_tokens~=38 finish=stop latency=84.97s prompt_tokens=122 completion_tokens=4225
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[296/378] Mbpp/633: pass turns=1
+[297/378] evalplus:Mbpp/635 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3073 submit_tokens~=143 finish=stop latency=69.66s prompt_tokens=153 completion_tokens=3470
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_bh97te1e/solution.py", line 36, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], got []
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=6513 submit_tokens~=143 finish=stop latency=184.62s prompt_tokens=3353 completion_tokens=8554
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_1yb51o3_/solution.py", line 36, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], got []
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=99.06s prompt_tokens=3856 completion_tokens=4725
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[297/378] Mbpp/635: fail turns=3
+[298/378] evalplus:Mbpp/637 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=885 submit_tokens~=12 finish=stop latency=18.33s prompt_tokens=117 completion_tokens=924
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[298/378] Mbpp/637: pass turns=1
+[299/378] evalplus:Mbpp/638 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3136 submit_tokens~=49 finish=stop latency=79.25s prompt_tokens=124 completion_tokens=3949
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[299/378] Mbpp/638: pass turns=1
+[300/378] evalplus:Mbpp/639 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1131 submit_tokens~=35 finish=stop latency=26.45s prompt_tokens=140 completion_tokens=1330
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[300/378] Mbpp/639: pass turns=1
+[301/378] evalplus:Mbpp/641 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=515 submit_tokens~=14 finish=stop latency=14.35s prompt_tokens=106 completion_tokens=722
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[301/378] Mbpp/641: pass turns=1
+[302/378] evalplus:Mbpp/643 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=7755 submit_tokens~=67 finish=stop latency=171.30s prompt_tokens=117 completion_tokens=8351
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[302/378] Mbpp/643: pass turns=1
+[303/378] evalplus:Mbpp/644 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=19 finish=length latency=345.86s prompt_tokens=139 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=650 completion_tokens=34
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[303/378] Mbpp/644: pass turns=1
+[304/378] evalplus:Mbpp/720 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1155 submit_tokens~=12 finish=stop latency=23.34s prompt_tokens=165 completion_tokens=1175
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[304/378] Mbpp/720: pass turns=1
+[305/378] evalplus:Mbpp/721 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2372 submit_tokens~=134 finish=stop latency=63.82s prompt_tokens=205 completion_tokens=3187
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[305/378] Mbpp/721: pass turns=1
+[306/378] evalplus:Mbpp/722 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1419 submit_tokens~=61 finish=stop latency=28.87s prompt_tokens=218 completion_tokens=1450
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[306/378] Mbpp/722: pass turns=1
+[307/378] evalplus:Mbpp/723 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=800 submit_tokens~=23 finish=stop latency=18.74s prompt_tokens=160 completion_tokens=943
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[307/378] Mbpp/723: pass turns=1
+[308/378] evalplus:Mbpp/724 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=732 submit_tokens~=28 finish=stop latency=16.94s prompt_tokens=121 completion_tokens=854
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[308/378] Mbpp/724: pass turns=1
+[309/378] evalplus:Mbpp/725 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1207 submit_tokens~=19 finish=stop latency=23.87s prompt_tokens=131 completion_tokens=1202
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[309/378] Mbpp/725: pass turns=1
+[310/378] evalplus:Mbpp/726 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=889 submit_tokens~=21 finish=stop latency=20.77s prompt_tokens=166 completion_tokens=1046
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[310/378] Mbpp/726: pass turns=1
+[311/378] evalplus:Mbpp/728 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=377 submit_tokens~=19 finish=stop latency=8.78s prompt_tokens=155 completion_tokens=443
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[311/378] Mbpp/728: pass turns=1
+[312/378] evalplus:Mbpp/730 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=849 submit_tokens~=41 finish=stop latency=21.08s prompt_tokens=178 completion_tokens=1063
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[312/378] Mbpp/730: pass turns=1
+[313/378] evalplus:Mbpp/731 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=476 submit_tokens~=31 finish=stop latency=13.49s prompt_tokens=132 completion_tokens=680
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[313/378] Mbpp/731: pass turns=1
+[314/378] evalplus:Mbpp/732 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1196 submit_tokens~=19 finish=stop latency=21.25s prompt_tokens=120 completion_tokens=1071
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[314/378] Mbpp/732: pass turns=1
+[315/378] evalplus:Mbpp/733 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=911 submit_tokens~=87 finish=stop latency=22.27s prompt_tokens=143 completion_tokens=1121
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[315/378] Mbpp/733: pass turns=1
+[316/378] evalplus:Mbpp/734 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1133 submit_tokens~=60 finish=stop latency=28.12s prompt_tokens=120 completion_tokens=1416
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_h5kls3sz/solution.py", line 24, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 20, got 0
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2381 submit_tokens~=60 finish=stop latency=51.46s prompt_tokens=1638 completion_tokens=2536
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_nzi_g32u/solution.py", line 24, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 20, got 0
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1098 submit_tokens~=60 finish=stop latency=25.42s prompt_tokens=2940 completion_tokens=1230
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_witb4ils/solution.py", line 24, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 20, got 0
+[316/378] Mbpp/734: fail turns=3
+[317/378] evalplus:Mbpp/735 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3230 submit_tokens~=52 finish=stop latency=85.99s prompt_tokens=112 completion_tokens=4271
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[317/378] Mbpp/735: pass turns=1
+[318/378] evalplus:Mbpp/736 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=915 submit_tokens~=62 finish=stop latency=21.74s prompt_tokens=116 completion_tokens=1092
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[318/378] Mbpp/736: pass turns=1
+[319/378] evalplus:Mbpp/737 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1294 submit_tokens~=22 finish=stop latency=24.20s prompt_tokens=106 completion_tokens=1219
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_bz9sm12r/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 5), match='annie'>, got True
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2215 submit_tokens~=20 finish=stop latency=38.96s prompt_tokens=1441 completion_tokens=1924
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 2 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_gtm8fhjh/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 5), match='annie'>, got <re.Match object; span=(0, 1), match='a'>
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2917 submit_tokens~=22 finish=stop latency=52.64s prompt_tokens=2317 completion_tokens=2571
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_0i3k2byh/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 5), match='annie'>, got True
+[319/378] Mbpp/737: fail turns=3
+[320/378] evalplus:Mbpp/739 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=5518 submit_tokens~=28 finish=stop latency=163.07s prompt_tokens=108 completion_tokens=7979
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[320/378] Mbpp/739: pass turns=1
+[321/378] evalplus:Mbpp/740 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=985 submit_tokens~=26 finish=stop latency=22.43s prompt_tokens=144 completion_tokens=1128
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[321/378] Mbpp/740: pass turns=1
+[322/378] evalplus:Mbpp/741 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=809 submit_tokens~=14 finish=stop latency=15.25s prompt_tokens=108 completion_tokens=769
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[322/378] Mbpp/741: pass turns=1
+[323/378] evalplus:Mbpp/742 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=480 submit_tokens~=18 finish=stop latency=11.31s prompt_tokens=127 completion_tokens=571
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[323/378] Mbpp/742: pass turns=1
+[324/378] evalplus:Mbpp/743 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1774 submit_tokens~=31 finish=stop latency=45.70s prompt_tokens=167 completion_tokens=2289
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[324/378] Mbpp/743: pass turns=1
+[325/378] evalplus:Mbpp/744 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=430 submit_tokens~=15 finish=stop latency=8.63s prompt_tokens=118 completion_tokens=433
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[325/378] Mbpp/744: pass turns=1
+[326/378] evalplus:Mbpp/745 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1554 submit_tokens~=102 finish=stop latency=40.02s prompt_tokens=162 completion_tokens=2008
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[326/378] Mbpp/745: pass turns=1
+[327/378] evalplus:Mbpp/748 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1985 submit_tokens~=68 finish=stop latency=42.56s prompt_tokens=109 completion_tokens=2135
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[327/378] Mbpp/748: pass turns=1
+[328/378] evalplus:Mbpp/749 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=808 submit_tokens~=18 finish=stop latency=16.78s prompt_tokens=167 completion_tokens=845
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[328/378] Mbpp/749: pass turns=1
+[329/378] evalplus:Mbpp/750 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1602 submit_tokens~=23 finish=stop latency=30.79s prompt_tokens=130 completion_tokens=1547
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[329/378] Mbpp/750: pass turns=1
+[330/378] evalplus:Mbpp/751 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1213 submit_tokens~=69 finish=stop latency=29.17s prompt_tokens=122 completion_tokens=1466
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[330/378] Mbpp/751: pass turns=1
+[331/378] evalplus:Mbpp/752 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1445 submit_tokens~=48 finish=stop latency=47.09s prompt_tokens=168 completion_tokens=2358
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[331/378] Mbpp/752: pass turns=1
+[332/378] evalplus:Mbpp/753 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=667 submit_tokens~=19 finish=stop latency=13.83s prompt_tokens=160 completion_tokens=697
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[332/378] Mbpp/753: pass turns=1
+[333/378] evalplus:Mbpp/754 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1639 submit_tokens~=53 finish=stop latency=42.25s prompt_tokens=199 completion_tokens=2118
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[333/378] Mbpp/754: pass turns=1
+[334/378] evalplus:Mbpp/755 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2073 submit_tokens~=13 finish=stop latency=46.09s prompt_tokens=119 completion_tokens=2309
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 1 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_sa63odtq/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected -0.5, got -2
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2317 submit_tokens~=32 finish=stop latency=46.84s prompt_tokens=2532 completion_tokens=2282
+  turn=2 obs=status: pass passed_tests: 4 failed_tests: 0
+[334/378] Mbpp/755: pass turns=2
+[335/378] evalplus:Mbpp/757 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1798 submit_tokens~=54 finish=stop latency=44.84s prompt_tokens=125 completion_tokens=2246
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[335/378] Mbpp/757: pass turns=1
+[336/378] evalplus:Mbpp/758 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=646 submit_tokens~=48 finish=stop latency=14.52s prompt_tokens=217 completion_tokens=731
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[336/378] Mbpp/758: pass turns=1
+[337/378] evalplus:Mbpp/759 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3364 submit_tokens~=21 finish=stop latency=71.92s prompt_tokens=114 completion_tokens=3583
+  turn=1 obs=status: pass passed_tests: 5 failed_tests: 0
+[337/378] Mbpp/759: pass turns=1
+[338/378] evalplus:Mbpp/760 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1984 submit_tokens~=14 finish=stop latency=36.75s prompt_tokens=113 completion_tokens=1849
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[338/378] Mbpp/760: pass turns=1
+[339/378] evalplus:Mbpp/762 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=392 submit_tokens~=17 finish=stop latency=9.51s prompt_tokens=122 completion_tokens=481
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[339/378] Mbpp/762: pass turns=1
+[340/378] evalplus:Mbpp/763 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1880 submit_tokens~=63 finish=stop latency=36.98s prompt_tokens=126 completion_tokens=1859
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[340/378] Mbpp/763: pass turns=1
+[341/378] evalplus:Mbpp/764 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=488 submit_tokens~=30 finish=stop latency=10.26s prompt_tokens=108 completion_tokens=517
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[341/378] Mbpp/764: pass turns=1
+[342/378] evalplus:Mbpp/765 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1840 submit_tokens~=47 finish=stop latency=45.01s prompt_tokens=113 completion_tokens=2257
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[342/378] Mbpp/765: pass turns=1
+[343/378] evalplus:Mbpp/766 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=766 submit_tokens~=20 finish=stop latency=18.34s prompt_tokens=162 completion_tokens=927
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[343/378] Mbpp/766: pass turns=1
+[344/378] evalplus:Mbpp/767 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1754 submit_tokens~=57 finish=stop latency=41.46s prompt_tokens=132 completion_tokens=2085
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[344/378] Mbpp/767: pass turns=1
+[345/378] evalplus:Mbpp/769 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=0 submit_tokens~=18 finish=length latency=347.28s prompt_tokens=153 completion_tokens=16000
+  turn=1 recovery=parse=ok finish=stop disable_thinking=True prompt_tokens=665 completion_tokens=31
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_cngl6ta3/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [10, 20, 30, 15], got [10, 15, 20, 30]
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=6277 submit_tokens~=18 finish=stop latency=133.37s prompt_tokens=312 completion_tokens=6557
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_nyl0crx0/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [10, 20, 30, 15], got [10, 15, 20, 30]
+  turn=3 generate...
+  turn=3 parse=format_error submit=no think_tokens~=0 submit_tokens~=0 finish=stop latency=18.28s prompt_tokens=3507 completion_tokens=873
+  turn=3 obs=status: fail error_type: format_error reason: missing_submit
+[345/378] Mbpp/769: fail turns=3
+[346/378] evalplus:Mbpp/770 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=636 submit_tokens~=27 finish=stop latency=17.25s prompt_tokens=111 completion_tokens=869
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[346/378] Mbpp/770: pass turns=1
+[347/378] evalplus:Mbpp/771 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2216 submit_tokens~=108 finish=stop latency=43.45s prompt_tokens=107 completion_tokens=2175
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[347/378] Mbpp/771: pass turns=1
+[348/378] evalplus:Mbpp/772 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=818 submit_tokens~=34 finish=stop latency=17.01s prompt_tokens=118 completion_tokens=856
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[348/378] Mbpp/772: pass turns=1
+[349/378] evalplus:Mbpp/773 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2092 submit_tokens~=48 finish=stop latency=39.35s prompt_tokens=129 completion_tokens=1977
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[349/378] Mbpp/773: pass turns=1
+[350/378] evalplus:Mbpp/775 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=902 submit_tokens~=38 finish=stop latency=20.86s prompt_tokens=122 completion_tokens=1051
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[350/378] Mbpp/775: pass turns=1
+[351/378] evalplus:Mbpp/777 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=6383 submit_tokens~=34 finish=stop latency=140.89s prompt_tokens=124 completion_tokens=6932
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_psbm7z4g/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 21, got 20
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2984 submit_tokens~=35 finish=stop latency=65.19s prompt_tokens=3355 completion_tokens=3145
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_y1v7bygd/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 21, got 20
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1726 submit_tokens~=35 finish=stop latency=36.71s prompt_tokens=3263 completion_tokens=1773
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_qxcb8eah/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected 21, got 20
+[351/378] Mbpp/777: fail turns=3
+[352/378] evalplus:Mbpp/778 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1000 submit_tokens~=93 finish=stop latency=23.12s prompt_tokens=198 completion_tokens=1162
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[352/378] Mbpp/778: pass turns=1
+[353/378] evalplus:Mbpp/780 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=2130 submit_tokens~=36 finish=stop latency=52.85s prompt_tokens=172 completion_tokens=2646
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 3 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_1sux8fk2/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [(4, 6, 8)], got [(4, 6)]
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=4893 submit_tokens~=36 finish=stop latency=93.78s prompt_tokens=2931 completion_tokens=4528
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 3 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_1t0076m1/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [(4, 6, 8)], got [(4, 6)]
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1681 submit_tokens~=36 finish=stop latency=33.97s prompt_tokens=2912 completion_tokens=1648
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 3 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_ztkj3vk8/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected [(4, 6, 8)], got [(4, 6)]
+[353/378] Mbpp/780: fail turns=3
+[354/378] evalplus:Mbpp/781 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1025 submit_tokens~=24 finish=stop latency=22.21s prompt_tokens=105 completion_tokens=1119
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[354/378] Mbpp/781: pass turns=1
+[355/378] evalplus:Mbpp/782 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1005 submit_tokens~=44 finish=stop latency=26.24s prompt_tokens=113 completion_tokens=1322
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[355/378] Mbpp/782: pass turns=1
+[356/378] evalplus:Mbpp/784 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1118 submit_tokens~=88 finish=stop latency=25.27s prompt_tokens=122 completion_tokens=1274
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[356/378] Mbpp/784: pass turns=1
+[357/378] evalplus:Mbpp/785 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=609 submit_tokens~=34 finish=stop latency=13.87s prompt_tokens=115 completion_tokens=701
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[357/378] Mbpp/785: pass turns=1
+[358/378] evalplus:Mbpp/786 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1286 submit_tokens~=57 finish=stop latency=29.69s prompt_tokens=115 completion_tokens=1493
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[358/378] Mbpp/786: pass turns=1
+[359/378] evalplus:Mbpp/787 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3124 submit_tokens~=20 finish=stop latency=60.19s prompt_tokens=106 completion_tokens=3007
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 4 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_7usc4dfc/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected None, got False
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=2635 submit_tokens~=21 finish=stop latency=47.62s prompt_tokens=2960 completion_tokens=2312
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 4 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_qpqcft0y/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected None, got False
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=1721 submit_tokens~=21 finish=stop latency=32.11s prompt_tokens=2658 completion_tokens=1564
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 4 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_ob73y1ju/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected None, got False
+[359/378] Mbpp/787: fail turns=3
+[360/378] evalplus:Mbpp/788 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=933 submit_tokens~=13 finish=stop latency=18.59s prompt_tokens=118 completion_tokens=937
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[360/378] Mbpp/788: pass turns=1
+[361/378] evalplus:Mbpp/790 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=608 submit_tokens~=39 finish=stop latency=13.77s prompt_tokens=112 completion_tokens=695
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[361/378] Mbpp/790: pass turns=1
+[362/378] evalplus:Mbpp/791 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3559 submit_tokens~=41 finish=stop latency=74.48s prompt_tokens=128 completion_tokens=3712
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[362/378] Mbpp/791: pass turns=1
+[363/378] evalplus:Mbpp/792 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1974 submit_tokens~=25 finish=stop latency=37.26s prompt_tokens=136 completion_tokens=1870
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[363/378] Mbpp/792: pass turns=1
+[364/378] evalplus:Mbpp/793 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=901 submit_tokens~=82 finish=stop latency=22.60s prompt_tokens=113 completion_tokens=1138
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[364/378] Mbpp/793: pass turns=1
+[365/378] evalplus:Mbpp/794 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1145 submit_tokens~=18 finish=stop latency=26.02s prompt_tokens=113 completion_tokens=1308
+  turn=1 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_5neorjhm/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 6), match='aabbbb'>, got True
+  turn=2 generate...
+  turn=2 parse=ok submit=yes think_tokens~=755 submit_tokens~=18 finish=stop latency=15.13s prompt_tokens=1536 completion_tokens=743
+  turn=2 obs=status: fail error_type: wrong_answer passed_tests: 2 failed_tests: 1 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_0c6wh37s/solution.py", line 19, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 6), match='aabbbb'>, got <re.Match object; span=(0, 6), match='aabbbb'>
+  turn=3 generate...
+  turn=3 parse=ok submit=yes think_tokens~=2250 submit_tokens~=18 finish=stop latency=41.97s prompt_tokens=2411 completion_tokens=2051
+  turn=3 obs=status: fail error_type: wrong_answer passed_tests: 0 failed_tests: 3 stderr_tail: Traceback (most recent call last): File "/tmp/cs639_grpo/tmp/react_bench_qg0hckv0/solution.py", line 17, in <module> assert _actual == _expected, f'expected {_expected!r}, got {_actual!r}' ^^^^^^^^^^^^^^^^^^^^ AssertionError: expected <re.Match object; span=(0, 6), match='aabbbb'>, got True
+[365/378] Mbpp/794: fail turns=3
+[366/378] evalplus:Mbpp/796 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=387 submit_tokens~=12 finish=stop latency=8.43s prompt_tokens=126 completion_tokens=426
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[366/378] Mbpp/796: pass turns=1
+[367/378] evalplus:Mbpp/797 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1253 submit_tokens~=46 finish=stop latency=28.96s prompt_tokens=114 completion_tokens=1457
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[367/378] Mbpp/797: pass turns=1
+[368/378] evalplus:Mbpp/798 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=568 submit_tokens~=9 finish=stop latency=11.15s prompt_tokens=109 completion_tokens=563
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[368/378] Mbpp/798: pass turns=1
+[369/378] evalplus:Mbpp/799 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=3512 submit_tokens~=44 finish=stop latency=93.78s prompt_tokens=121 completion_tokens=4657
+  turn=1 obs=status: pass passed_tests: 7 failed_tests: 0
+[369/378] Mbpp/799: pass turns=1
+[370/378] evalplus:Mbpp/800 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1964 submit_tokens~=14 finish=stop latency=33.25s prompt_tokens=106 completion_tokens=1671
+  turn=1 obs=status: pass passed_tests: 4 failed_tests: 0
+[370/378] Mbpp/800: pass turns=1
+[371/378] evalplus:Mbpp/801 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=776 submit_tokens~=39 finish=stop latency=18.41s prompt_tokens=112 completion_tokens=928
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[371/378] Mbpp/801: pass turns=1
+[372/378] evalplus:Mbpp/803 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1045 submit_tokens~=32 finish=stop latency=22.28s prompt_tokens=108 completion_tokens=1122
+  turn=1 obs=status: pass passed_tests: 6 failed_tests: 0
+[372/378] Mbpp/803: pass turns=1
+[373/378] evalplus:Mbpp/804 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=683 submit_tokens~=28 finish=stop latency=13.89s prompt_tokens=110 completion_tokens=701
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[373/378] Mbpp/804: pass turns=1
+[374/378] evalplus:Mbpp/805 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=598 submit_tokens~=71 finish=stop latency=13.77s prompt_tokens=149 completion_tokens=695
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[374/378] Mbpp/805: pass turns=1
+[375/378] evalplus:Mbpp/806 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1256 submit_tokens~=73 finish=stop latency=29.55s prompt_tokens=116 completion_tokens=1488
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[375/378] Mbpp/806: pass turns=1
+[376/378] evalplus:Mbpp/807 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1150 submit_tokens~=28 finish=stop latency=22.24s prompt_tokens=112 completion_tokens=1121
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[376/378] Mbpp/807: pass turns=1
+[377/378] evalplus:Mbpp/808 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=299 submit_tokens~=10 finish=stop latency=6.54s prompt_tokens=121 completion_tokens=330
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[377/378] Mbpp/808: pass turns=1
+[378/378] evalplus:Mbpp/809 start
+  turn=1 generate...
+  turn=1 parse=ok submit=yes think_tokens~=1089 submit_tokens~=33 finish=stop latency=20.87s prompt_tokens=128 completion_tokens=1052
+  turn=1 obs=status: pass passed_tests: 3 failed_tests: 0
+[378/378] Mbpp/809: pass turns=1
+completed=378 passed=355 repair@3=0.939

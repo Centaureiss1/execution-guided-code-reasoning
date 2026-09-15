@@ -1,0 +1,11 @@
+
+[evalplus]
+evalplus
+
+[livecodebench]
+
+[openai]
+openai>=1.0.0
+
+[prepare]
+datasets>=2.18.0

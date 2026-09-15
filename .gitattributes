@@ -1,0 +1,14 @@
+* text=auto
+
+# Preserve document and archive files as binary.
+*.pdf binary
+
+# Large experiment records are useful evidence but poor line-oriented diffs.
+*.jsonl -diff
+*.log -diff
+
+# Keep generated artifacts from dominating GitHub language statistics.
+workstreams/model-post-training/data/** linguist-generated=true
+workstreams/model-post-training/evals/** linguist-generated=true
+workstreams/model-post-training/results/** linguist-generated=true
+workstreams/agent-benchmark/react_bench.egg-info/** linguist-generated=true

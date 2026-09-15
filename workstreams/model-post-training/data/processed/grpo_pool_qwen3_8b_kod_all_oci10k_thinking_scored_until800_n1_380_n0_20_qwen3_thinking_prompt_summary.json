@@ -1,0 +1,251 @@
+{
+  "output_path": "/workspace/cs639_final/data/processed/grpo_pool_qwen3_8b_kod_all_oci10k_thinking_scored_until800_n1_380_n0_20_qwen3_thinking_prompt.jsonl",
+  "total_rows": 400,
+  "pass_count_distribution": {
+    "1": 380,
+    "0": 20
+  },
+  "source_distribution": {
+    "kodcode": 206,
+    "opencode": 194
+  },
+  "test_count_distribution": {
+    "3": 3,
+    "4": 15,
+    "5": 58,
+    "6": 51,
+    "7": 39,
+    "8": 26,
+    "9": 11,
+    "10": 196,
+    "11": 1
+  },
+  "order": "20 blocks; each block has 19 pass_count=1 rows followed by 1 manually selected pass_count=0 row",
+  "n1_selection": "all pass_count=1 rows from thinking-prompt subset with at least 3 tests",
+  "excluded_n1_rows": [
+    {
+      "uid": "kodcode:Docs: Python310_45549_I",
+      "source": "kodcode",
+      "tests": 2,
+      "required_symbols": [
+        "transform_print_statements"
+      ]
+    },
+    {
+      "uid": "kodcode:Prefill_38873_I",
+      "source": "kodcode",
+      "tests": 2,
+      "required_symbols": [
+        "power_set"
+      ]
+    },
+    {
+      "uid": "kodcode:Filter_11819_I",
+      "source": "kodcode",
+      "tests": 2,
+      "required_symbols": [
+        "move_every_5th_to_end"
+      ]
+    },
+    {
+      "uid": "kodcode:Algorithm_13573_I",
+      "source": "kodcode",
+      "tests": 2,
+      "required_symbols": [
+        "min_window_substring"
+      ]
+    },
+    {
+      "uid": "kodcode:Docs: Python310_20623_I",
+      "source": "kodcode",
+      "tests": 2,
+      "required_symbols": [
+        "analyze_logs"
+      ]
+    }
+  ],
+  "n0_selection": [
+    {
+      "uid": "opencode:e80ed96f2f18910080cb464606579a11",
+      "source": "opencode",
+      "full_file_line": 6,
+      "tests": 10,
+      "required_symbols": [
+        "max_manhattan_distance"
+      ]
+    },
+    {
+      "uid": "opencode:e80790985c639c2a37ea47f7c34be955",
+      "source": "opencode",
+      "full_file_line": 14,
+      "tests": 10,
+      "required_symbols": [
+        "calculate_similarity"
+      ]
+    },
+    {
+      "uid": "opencode:951556c7e1a7a701e5cc2a792dac1845",
+      "source": "opencode",
+      "full_file_line": 16,
+      "tests": 10,
+      "required_symbols": [
+        "is_valid_entry"
+      ]
+    },
+    {
+      "uid": "opencode:50a1b7fc15a10a9f346d5feeff83a296",
+      "source": "opencode",
+      "full_file_line": 20,
+      "tests": 10,
+      "required_symbols": [
+        "find_unique_words"
+      ]
+    },
+    {
+      "uid": "kodcode:Prefill_28191_I",
+      "source": "kodcode",
+      "full_file_line": 40,
+      "tests": 8,
+      "required_symbols": [
+        "max_subarray_sum"
+      ]
+    },
+    {
+      "uid": "opencode:35a7d523062a99aaecd092720c47ae6c",
+      "source": "opencode",
+      "full_file_line": 42,
+      "tests": 10,
+      "required_symbols": [
+        "encode_message"
+      ]
+    },
+    {
+      "uid": "opencode:8fbe73b773e5505fc5bc77c438266a14",
+      "source": "opencode",
+      "full_file_line": 44,
+      "tests": 10,
+      "required_symbols": [
+        "generate_tetranacci"
+      ]
+    },
+    {
+      "uid": "opencode:0e835ed9214876991fb13a5ac82bdc98",
+      "source": "opencode",
+      "full_file_line": 46,
+      "tests": 10,
+      "required_symbols": [
+        "check_inventory_match"
+      ]
+    },
+    {
+      "uid": "opencode:47f7bb0073f84a8bed005ad93fab9129",
+      "source": "opencode",
+      "full_file_line": 53,
+      "tests": 10,
+      "required_symbols": [
+        "validate_phone_number"
+      ]
+    },
+    {
+      "uid": "opencode:ae7979c4504b020917b08a9d38759c3b",
+      "source": "opencode",
+      "full_file_line": 55,
+      "tests": 10,
+      "required_symbols": [
+        "count_unique_chars"
+      ]
+    },
+    {
+      "uid": "opencode:ce26d31b380ed9ce71a62ee0ef42b024",
+      "source": "opencode",
+      "full_file_line": 70,
+      "tests": 10,
+      "required_symbols": [
+        "extract_emails_from_json"
+      ]
+    },
+    {
+      "uid": "opencode:cee1132521bde6c130f4b03d796800dd",
+      "source": "opencode",
+      "full_file_line": 71,
+      "tests": 10,
+      "required_symbols": [
+        "find_centroid"
+      ]
+    },
+    {
+      "uid": "opencode:26abe486f920ac7f85402497e2ac3b7b",
+      "source": "opencode",
+      "full_file_line": 74,
+      "tests": 8,
+      "required_symbols": [
+        "encode_decode"
+      ]
+    },
+    {
+      "uid": "opencode:13518a8d06ba0d1e2e5816dc7540f4f2",
+      "source": "opencode",
+      "full_file_line": 75,
+      "tests": 10,
+      "required_symbols": [
+        "find_closest_pair"
+      ]
+    },
+    {
+      "uid": "opencode:e12595586e13cb154d6658315f6a3eec",
+      "source": "opencode",
+      "full_file_line": 82,
+      "tests": 10,
+      "required_symbols": [
+        "sum_of_unique_elements"
+      ]
+    },
+    {
+      "uid": "kodcode:Algorithm_29743_I",
+      "source": "kodcode",
+      "full_file_line": 83,
+      "tests": 10,
+      "required_symbols": [
+        "shortest_subarray_with_sum"
+      ]
+    },
+    {
+      "uid": "kodcode:Filter_12038_I",
+      "source": "kodcode",
+      "full_file_line": 85,
+      "tests": 8,
+      "required_symbols": [
+        "rotate_2d_array"
+      ]
+    },
+    {
+      "uid": "opencode:b545ac8230e42497635c12a48a3df0ff",
+      "source": "opencode",
+      "full_file_line": 93,
+      "tests": 10,
+      "required_symbols": [
+        "TreeNode",
+        "inorder_traversal"
+      ]
+    },
+    {
+      "uid": "opencode:2fd19bf01c1c0d4a52b0114c191fa0ec",
+      "source": "opencode",
+      "full_file_line": 97,
+      "tests": 10,
+      "required_symbols": [
+        "reverse_words"
+      ]
+    },
+    {
+      "uid": "kodcode:Leetcode_9704_I",
+      "source": "kodcode",
+      "full_file_line": 536,
+      "tests": 7,
+      "required_symbols": [
+        "longest_mountain"
+      ]
+    }
+  ],
+  "system_prompt": "You are an expert Python programmer. Solve the task using exactly this final-answer format:\n<think>\nUse reasoning to plan the solution.\n</think>\n\n```python\ncomplete executable Python code\n```\nAfter </think>, output only the Python code block. Define all functions, classes, and helper code needed to solve the task. Do not include tests or explanations outside the required format."
+}

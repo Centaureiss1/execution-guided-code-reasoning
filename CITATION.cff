@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research code or its experiment artifacts, please cite this portfolio."
+title: "Execution-Guided Code Reasoning: Post-Training and Agentic Evaluation"
+type: software
+authors:
+  - family-names: Rui
+    given-names: Botao
+version: 1.0.0
+date-released: 2026-05-04
+keywords:
+  - code generation
+  - large language models
+  - post-training
+  - GRPO
+  - ReAct
+  - execution feedback

@@ -1,0 +1,64 @@
+# Debug GRPO config for Qwen3-8B with larger thinking budget.
+# Trains only on scored pool examples with pass_count in {1, 2}
+# and a Qwen3 thinking-mode system prompt.
+# Keeps the production config untouched.
+
+model: /tmp/cs639_grpo/models/Qwen3-8B
+
+# Training type
+rlhf_type: grpo
+tuner_type: lora
+lora_rank: 64
+lora_alpha: 128
+target_modules: all-linear
+
+# Data
+dataset: /workspace/cs639_final/data/processed/grpo_pool_qwen3_8b_kod_all_oci10k_thinking_scored_until800_n1_380_n0_20_qwen3_thinking_prompt.jsonl
+dataset_shuffle: false
+
+# Precision and attention
+torch_dtype: bfloat16
+attn_impl: flash_attn
+enable_thinking: true
+
+# vLLM rollout
+use_vllm: true
+vllm_mode: colocate
+vllm_gpu_memory_utilization: 0.55
+vllm_max_model_len: 8192
+vllm_max_num_seqs: 8
+vllm_enable_lora: true
+vllm_max_lora_rank: 64
+sleep_level: 1
+
+# GRPO
+beta: 0.0
+num_generations: 8
+generation_batch_size: 8
+reward_funcs: [code_exec_format_gated]
+reward_weights: [1.0]
+temperature: 0.6
+top_p: 0.95
+top_k: 20
+max_completion_length: 6144
+max_length: 8192
+truncation_strategy: left
+dynamic_sample: true
+
+# Memory
+gradient_checkpointing: true
+
+# Optimization
+max_steps: 400
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 5e-6
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+
+# Output and logging
+output_dir: /workspace/cs639_final/models/Qwen3-8B/phase_grpo_direct_hard
+save_steps: 50
+save_total_limit: 8
+logging_steps: 2
+log_completions: true

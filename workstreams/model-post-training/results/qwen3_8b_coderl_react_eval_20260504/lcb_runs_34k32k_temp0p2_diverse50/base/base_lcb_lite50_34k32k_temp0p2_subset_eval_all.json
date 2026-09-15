@@ -1,0 +1,1152 @@
+[
+  {
+    "question_title": "B. Chemistry",
+    "question_content": "You are given a string $s$ of length $n$, consisting of lowercase Latin letters, and an integer $k$.\n\nYou need to check if it is possible to remove exactly $k$ characters from the string $s$ in such a way that the remaining characters can be rearranged to form a palindrome. Note that you can reorder the remaining characters in any way.\n\nA palindrome is a string that reads the same forwards and backwards. For example, the strings \"z\", \"aaa\", \"aba\", \"abccba\" are palindromes, while the strings \"codeforces\", \"reality\", \"ab\" are not.\n\nInput\n\nEach test consists of multiple test cases. The first line contains a single integer $t$ ($1 \\leq t \\leq 10^4$) \u2014 the number of the test cases. This is followed by their description.\n\nThe first line of each test case contains two integers $n$ and $k$ ($0 \\leq k < n \\leq 10^5$) \u2014 the length of the string $s$ and the number of characters to be deleted.\n\nThe second line of each test case contains a string $s$ of length $n$, consisting of lowercase Latin letters.\n\nIt is guaranteed that the sum of $n$ over all test cases does not exceed $2 \\cdot 10^5$.\n\nOutput\n\nFor each test case, output \"YES\" if it is possible to remove exactly $k$ characters from the string $s$ in such a way that the remaining characters can be rearranged to form a palindrome, and \"NO\" otherwise.\n\nYou can output the answer in any case (uppercase or lowercase). For example, the strings \"yEs\", \"yes\", \"Yes\", and \"YES\" will be recognized as positive answers.Sample Input 1:\n14\n\n1 0\n\na\n\n2 0\n\nab\n\n2 1\n\nba\n\n3 1\n\nabb\n\n3 2\n\nabc\n\n6 2\n\nbacacd\n\n6 2\n\nfagbza\n\n6 2\n\nzwaafa\n\n7 2\n\ntaagaak\n\n14 3\n\nttrraakkttoorr\n\n5 3\n\ndebdb\n\n5 4\n\necadc\n\n5 3\n\ndebca\n\n5 3\n\nabaac\n\n\n\nSample Output 1:\n\nYES\nNO\nYES\nYES\nYES\nYES\nNO\nNO\nYES\nYES\nYES\nYES\nNO\nYES\n\n\nNote\n\nIn the first test case, nothing can be removed, and the string \"a\" is a palindrome.\n\nIn the second test case, nothing can be removed, but the strings \"ab\" and \"ba\" are not palindromes.\n\nIn the third test case, any character can be removed, and the resulting string will be a palindrome.\n\nIn the fourth test case, one occurrence of the character \"a\" can be removed, resulting in the string \"bb\", which is a palindrome.\n\nIn the sixth test case, one occurrence of the characters \"b\" and \"d\" can be removed, resulting in the string \"acac\", which can be rearranged to the string \"acca\".\n\nIn the ninth test case, one occurrence of the characters \"t\" and \"k\" can be removed, resulting in the string \"aagaa\", which is a palindrome.",
+    "platform": "codeforces",
+    "question_id": "1883_B",
+    "contest_id": "1883",
+    "contest_date": "2023-09-22T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine if it is possible to remove exactly `k` characters from a given string `s` such that the remaining characters can be rearranged to form a palindrome."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine if it is possible to remove exactly `k` characters from a given string `s` such that the remaining characters can be rearranged to form a palindrome."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected 'else' after 'if' expression (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "A. Game with Integers",
+    "question_content": "Vanya and Vova are playing a game. Players are given an integer $n$. On their turn, the player can add $1$ to the current integer or subtract $1$. The players take turns; Vanya starts. If after Vanya's move the integer is divisible by $3$, then he wins. If $10$ moves have passed and Vanya has not won, then Vova wins.\n\nWrite a program that, based on the integer $n$, determines who will win if both players play optimally.\n\nInput\n\nThe first line contains the integer $t$ ($1 \\leq t \\leq 100$)\u00a0\u2014 the number of test cases.\n\nThe single line of each test case contains the integer $n$ ($1 \\leq n \\leq 1000$).\n\nOutput\n\nFor each test case, print \"First\" without quotes if Vanya wins, and \"Second\" without quotes if Vova wins.Sample Input 1:\n6\n\n1\n\n3\n\n5\n\n100\n\n999\n\n1000\n\n\n\nSample Output 1:\n\nFirst\nSecond\nFirst\nFirst\nSecond\nFirst\n",
+    "platform": "codeforces",
+    "question_id": "1899_A",
+    "contest_id": "1899",
+    "contest_date": "2023-10-17T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "t = int(input())\nfor _ in range(t):\n    n = int(input())\n    if n % 3 == 0:\n        print(\"Second\")\n    else:\n        print(\"First\")"
+    ],
+    "code_list": [
+      "t = int(input())\nfor _ in range(t):\n    n = int(input())\n    if n % 3 == 0:\n        print(\"Second\")\n    else:\n        print(\"First\")"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.03148150444030762}"
+    ]
+  },
+  {
+    "question_title": "C. Yarik and Array",
+    "question_content": "A subarray is a continuous part of array.\n\nYarik recently found an array $a$ of $n$ elements and became very interested in finding the maximum sum of a non empty subarray. However, Yarik doesn't like consecutive integers with the same parity, so the subarray he chooses must have alternating parities for adjacent elements.\n\nFor example, $[1, 2, 3]$ is acceptable, but $[1, 2, 4]$ is not, as $2$ and $4$ are both even and adjacent.\n\nYou need to help Yarik by finding the maximum sum of such a subarray.\n\nInput\n\nThe first line contains an integer $t$ $(1 \\le t \\le 10^4)$\u00a0\u2014 number of test cases. Each test case is described as follows.\n\nThe first line of each test case contains an integer $n$ $(1 \\le n \\le 2 \\cdot 10^5)$\u00a0\u2014 length of the array.\n\nThe second line of each test case contains $n$ integers $a_1, a_2, \\dots, a_n$ $(-10^3 \\le a_i \\le 10^3)$\u00a0\u2014 elements of the array.\n\nIt is guaranteed that the sum of $n$ for all test cases does not exceed $2 \\cdot 10^5$.\n\nOutput\n\nFor each test case, output a single integer\u00a0\u2014 the answer to the problem.Sample Input 1:\n7\n\n5\n\n1 2 3 4 5\n\n4\n\n9 9 8 8\n\n6\n\n-1 4 -1 0 5 -4\n\n4\n\n-1 2 4 -3\n\n1\n\n-1000\n\n3\n\n101 -99 101\n\n20\n\n-10 5 -8 10 6 -10 7 9 -2 -6 7 2 -4 6 -1 7 -6 -7 4 1\n\n\n\nSample Output 1:\n\n15\n17\n8\n4\n-1000\n101\n10\n",
+    "platform": "codeforces",
+    "question_id": "1899_C",
+    "contest_id": "1899",
+    "contest_date": "2023-10-17T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to find the maximum sum of a non-empty subarray where adjacent elements have alternating parities (odd and even). This problem can be efficiently solved using a dynamic programming approach similar to Kadane's algorithm, with modifications to account for the parity constraints."
+    ],
+    "code_list": [
+      "To solve this problem, we need to find the maximum sum of a non-empty subarray where adjacent elements have alternating parities (odd and even). This problem can be efficiently solved using a dynamic programming approach similar to Kadane's algorithm, with modifications to account for the parity constraints."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: unterminated string literal (detected at line 1) (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-cost-to-make-all-characters-equal",
+    "question_content": "You are given a 0-indexed binary string s of length n on which you can apply two types of operations:\n\nChoose an index i and invert all characters from index 0 to index i (both inclusive), with a cost of i + 1\nChoose an index i and invert all characters from index i to index n - 1 (both inclusive), with a cost of n - i\n\nReturn the minimum cost to make all characters of the string equal.\nInvert a character means if its value is '0' it becomes '1' and vice-versa.\n \nExample 1:\n\nInput: s = \"0011\"\nOutput: 2\nExplanation: Apply the second operation with i = 2 to obtain s = \"0000\" for a cost of 2. It can be shown that 2 is the minimum cost to make all characters equal.\n\nExample 2:\n\nInput: s = \"010101\"\nOutput: 9\nExplanation: Apply the first operation with i = 2 to obtain s = \"101101\" for a cost of 3.\nApply the first operation with i = 1 to obtain s = \"011101\" for a cost of 2. \nApply the first operation with i = 0 to obtain s = \"111101\" for a cost of 1. \nApply the second operation with i = 4 to obtain s = \"111110\" for a cost of 2.\nApply the second operation with i = 5 to obtain s = \"111111\" for a cost of 1. \nThe total cost to make all characters equal is 9. It can be shown that 9 is the minimum cost to make all characters equal.\n\n \nConstraints:\n\n1 <= s.length == n <= 10^5\ns[i] is either '0' or '1'",
+    "platform": "leetcode",
+    "question_id": "2817",
+    "contest_id": "weekly-contest-347",
+    "contest_date": "2023-05-28T00:00:00",
+    "starter_code": "class Solution:\n    def minimumCost(self, s: str) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum cost to make all characters in a binary string equal using two types of operations: inverting all characters from index 0 to i (inclusive) with a cost of i+1, or inverting all characters from index i to the end of the string with a cost of n-i."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum cost to make all characters in a binary string equal using two types of operations: inverting all characters from index 0 to i (inclusive) with a cost of i+1, or inverting all characters from index i to the end of the string with a cost of n-i."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "total-distance-traveled",
+    "question_content": "A truck has two fuel tanks. You are given two integers, mainTank representing the fuel present in the main tank in liters and additionalTank representing the fuel present in the additional tank in liters.\nThe truck has a mileage of 10 km per liter. Whenever 5 liters of fuel get used up in the main tank, if the additional tank has at least 1 liters of fuel, 1 liters of fuel will be transferred from the additional tank to the main tank.\nReturn the maximum distance which can be traveled.\nNote: Injection from the additional tank is not continuous. It happens suddenly and immediately for every 5 liters consumed.\n \nExample 1:\n\nInput: mainTank = 5, additionalTank = 10\nOutput: 60\nExplanation: \nAfter spending 5 litre of fuel, fuel remaining is (5 - 5 + 1) = 1 litre and distance traveled is 50km.\nAfter spending another 1 litre of fuel, no fuel gets injected in the main tank and the main tank becomes empty.\nTotal distance traveled is 60km.\n\nExample 2:\n\nInput: mainTank = 1, additionalTank = 2\nOutput: 10\nExplanation: \nAfter spending 1 litre of fuel, the main tank becomes empty.\nTotal distance traveled is 10km.\n\n\n \nConstraints:\n\n1 <= mainTank, additionalTank <= 100",
+    "platform": "leetcode",
+    "question_id": "2857",
+    "contest_id": "weekly-contest-350",
+    "contest_date": "2023-06-18T00:00:00",
+    "starter_code": "class Solution:\n    def distanceTraveled(self, mainTank: int, additionalTank: int) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to determine the maximum distance a truck can travel given two fuel tanks: a main tank and an additional tank. The truck consumes fuel from the main tank, and whenever 5 liters of fuel are consumed from the main tank, 1 liter of fuel is transferred from the additional tank to the main tank if available. The truck's mileage is 10 km per liter."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the maximum distance a truck can travel given two fuel tanks: a main tank and an additional tank. The truck consumes fuel from the main tank, and whenever 5 liters of fuel are consumed from the main tank, 1 liter of fuel is transferred from the additional tank to the main tank if available. The truck's mileage is 10 km per liter."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: unterminated string literal (detected at line 38) (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "longest-non-decreasing-subarray-from-two-arrays",
+    "question_content": "You are given two 0-indexed integer arrays nums1 and nums2 of length n.\nLet's define another 0-indexed integer array, nums3, of length n. For each index i in the range [0, n - 1], you can assign either nums1[i] or nums2[i] to nums3[i].\nYour task is to maximize the length of the longest non-decreasing subarray in nums3 by choosing its values optimally.\nReturn an integer representing the length of the longest non-decreasing subarray in nums3.\nNote: A subarray is a contiguous non-empty sequence of elements within an array.\n \nExample 1:\n\nInput: nums1 = [2,3,1], nums2 = [1,2,1]\nOutput: 2\nExplanation: One way to construct nums3 is: \nnums3 = [nums1[0], nums2[1], nums2[2]] => [2,2,1]. \nThe subarray starting from index 0 and ending at index 1, [2,2], forms a non-decreasing subarray of length 2. \nWe can show that 2 is the maximum achievable length.\nExample 2:\n\nInput: nums1 = [1,3,2,1], nums2 = [2,2,3,4]\nOutput: 4\nExplanation: One way to construct nums3 is: \nnums3 = [nums1[0], nums2[1], nums2[2], nums2[3]] => [1,2,3,4]. \nThe entire array forms a non-decreasing subarray of length 4, making it the maximum achievable length.\n\nExample 3:\n\nInput: nums1 = [1,1], nums2 = [2,2]\nOutput: 2\nExplanation: One way to construct nums3 is: \nnums3 = [nums1[0], nums1[1]] => [1,1]. \nThe entire array forms a non-decreasing subarray of length 2, making it the maximum achievable length.\n\n \nConstraints:\n\n1 <= nums1.length == nums2.length == n <= 10^5\n1 <= nums1[i], nums2[i] <= 10^9",
+    "platform": "leetcode",
+    "question_id": "2869",
+    "contest_id": "weekly-contest-353",
+    "contest_date": "2023-07-09T00:00:00",
+    "starter_code": "class Solution:\n    def maxNonDecreasingLength(self, nums1: List[int], nums2: List[int]) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to construct an array `nums3` by choosing elements from either `nums1` or `nums2` such that the length of the longest non-decreasing subarray in `nums3` is maximized."
+    ],
+    "code_list": [
+      "To solve this problem, we need to construct an array `nums3` by choosing elements from either `nums1` or `nums2` such that the length of the longest non-decreasing subarray in `nums3` is maximized."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-number-of-changes-to-make-binary-string-beautiful",
+    "question_content": "You are given a 0-indexed binary string s having an even length.\nA string is beautiful if it's possible to partition it into one or more substrings such that:\n\nEach substring has an even length.\nEach substring contains only 1's or only 0's.\n\nYou can change any character in s to 0 or 1.\nReturn the minimum number of changes required to make the string s beautiful.\n \nExample 1:\n\nInput: s = \"1001\"\nOutput: 2\nExplanation: We change s[1] to 1 and s[3] to 0 to get string \"1100\".\nIt can be seen that the string \"1100\" is beautiful because we can partition it into \"11|00\".\nIt can be proven that 2 is the minimum number of changes needed to make the string beautiful.\n\nExample 2:\n\nInput: s = \"10\"\nOutput: 1\nExplanation: We change s[1] to 1 to get string \"11\".\nIt can be seen that the string \"11\" is beautiful because we can partition it into \"11\".\nIt can be proven that 1 is the minimum number of changes needed to make the string beautiful.\n\nExample 3:\n\nInput: s = \"0000\"\nOutput: 0\nExplanation: We don't need to make any changes as the string \"0000\" is beautiful already.\n\n \nConstraints:\n\n2 <= s.length <= 10^5\ns has an even length.\ns[i] is either '0' or '1'.",
+    "platform": "leetcode",
+    "question_id": "3174",
+    "contest_id": "biweekly-contest-116",
+    "contest_date": "2023-10-28T00:00:00",
+    "starter_code": "class Solution:\n    def minChanges(self, s: str) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum number of changes required to make a binary string \"beautiful.\" A string is considered beautiful if it can be partitioned into substrings of even length, where each substring consists entirely of '0's or '1's."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum number of changes required to make a binary string \"beautiful.\" A string is considered beautiful if it can be partitioned into substrings of even length, where each substring consists entirely of '0's or '1's."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-sum-of-mountain-triplets-i",
+    "question_content": "You are given a 0-indexed array nums of integers.\nA triplet of indices (i, j, k) is a mountain if:\n\ni < j < k\nnums[i] < nums[j] and nums[k] < nums[j]\n\nReturn the minimum possible sum of a mountain triplet of nums. If no such triplet exists, return -1.\n \nExample 1:\n\nInput: nums = [8,6,1,5,3]\nOutput: 9\nExplanation: Triplet (2, 3, 4) is a mountain triplet of sum 9 since: \n- 2 < 3 < 4\n- nums[2] < nums[3] and nums[4] < nums[3]\nAnd the sum of this triplet is nums[2] + nums[3] + nums[4] = 9. It can be shown that there are no mountain triplets with a sum of less than 9.\n\nExample 2:\n\nInput: nums = [5,4,8,7,10,2]\nOutput: 13\nExplanation: Triplet (1, 3, 5) is a mountain triplet of sum 13 since: \n- 1 < 3 < 5\n- nums[1] < nums[3] and nums[5] < nums[3]\nAnd the sum of this triplet is nums[1] + nums[3] + nums[5] = 13. It can be shown that there are no mountain triplets with a sum of less than 13.\n\nExample 3:\n\nInput: nums = [6,5,4,3,4,5]\nOutput: -1\nExplanation: It can be shown that there are no mountain triplets in nums.\n\n \nConstraints:\n\n3 <= nums.length <= 50\n1 <= nums[i] <= 50",
+    "platform": "leetcode",
+    "question_id": "3176",
+    "contest_id": "weekly-contest-368",
+    "contest_date": "2023-10-22T00:00:00",
+    "starter_code": "class Solution:\n    def minimumSum(self, nums: List[int]) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to identify the minimum possible sum of a mountain triplet in a given array. A mountain triplet is defined as a set of indices (i, j, k) such that i < j < k, nums[i] < nums[j], and nums[k] < nums[j]. If no such triplet exists, we return -1."
+    ],
+    "code_list": [
+      "To solve this problem, we need to identify the minimum possible sum of a mountain triplet in a given array. A mountain triplet is defined as a set of indices (i, j, k) such that i < j < k, nums[i] < nums[j], and nums[k] < nums[j]. If no such triplet exists, we return -1."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "count-complete-substrings",
+    "question_content": "You are given a string word and an integer k.\nA substring s of word is complete if:\n\nEach character in s occurs exactly k times.\nThe difference between two adjacent characters is at most 2. That is, for any two adjacent characters c1 and c2 in s, the absolute difference in their positions in the alphabet is at most 2.\n\nReturn the number of complete substrings of word.\nA substring is a non-empty contiguous sequence of characters in a string.\n \nExample 1:\n\nInput: word = \"igigee\", k = 2\nOutput: 3\nExplanation: The complete substrings where each character appears exactly twice and the difference between adjacent characters is at most 2 are: igigee, igigee, igigee.\n\nExample 2:\n\nInput: word = \"aaabbbccc\", k = 3\nOutput: 6\nExplanation: The complete substrings where each character appears exactly three times and the difference between adjacent characters is at most 2 are: aaabbbccc, aaabbbccc, aaabbbccc, aaabbbccc, aaabbbccc, aaabbbccc.\n\n \nConstraints:\n\n1 <= word.length <= 10^5\nword consists only of lowercase English letters.\n1 <= k <= word.length",
+    "platform": "leetcode",
+    "question_id": "3223",
+    "contest_id": "weekly-contest-374",
+    "contest_date": "2023-12-02T00:00:00",
+    "starter_code": "class Solution:\n    def countCompleteSubstrings(self, word: str, k: int) -> int:\n        ",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to count the number of complete substrings in a given string `word` where each character in the substring occurs exactly `k` times and the absolute difference between the positions of adjacent characters in the alphabet is at most 2."
+    ],
+    "code_list": [
+      "To solve this problem, we need to count the number of complete substrings in a given string `word` where each character in the substring occurs exactly `k` times and the absolute difference between the positions of adjacent characters in the alphabet is at most 2."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "alice-and-bob-playing-flower-game",
+    "question_content": "Alice and Bob are playing a turn-based game on a circular field surrounded by flowers. The circle represents the field, and there are x flowers in the clockwise direction between Alice and Bob, and y flowers in the anti-clockwise direction between them.\nThe game proceeds as follows:\n\nAlice takes the first turn.\nIn each turn, a player must choose either the clockwise or anti-clockwise direction and pick one flower from that side.\nAt the end of the turn, if there are no flowers left at all, the current player captures their opponent and wins the game.\n\nGiven two integers, n and m, the task is to compute the number of possible pairs (x, y) that satisfy the conditions:\n\nAlice must win the game according to the described rules.\nThe number of flowers x in the clockwise direction must be in the range [1,n].\nThe number of flowers y in the anti-clockwise direction must be in the range [1,m].\n\nReturn the number of possible pairs (x, y) that satisfy the conditions mentioned in the statement.\n \nExample 1:\n\nInput: n = 3, m = 2\nOutput: 3\nExplanation: The following pairs satisfy conditions described in the statement: (1,2), (3,2), (2,1).\n\nExample 2:\n\nInput: n = 1, m = 1\nOutput: 0\nExplanation: No pairs satisfy the conditions described in the statement.\n\n \nConstraints:\n\n1 <= n, m <= 10^5",
+    "platform": "leetcode",
+    "question_id": "3279",
+    "contest_id": "weekly-contest-382",
+    "contest_date": "2024-01-27T00:00:00",
+    "starter_code": "class Solution:\n    def flowerGame(self, n: int, m: int) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the number of valid pairs (x, y) such that Alice can win the game according to the given rules. The key insight is that Alice wins if the total number of flowers (x + y) is odd, as she starts first and takes the last flower in such cases."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the number of valid pairs (x, y) such that Alice can win the game according to the given rules. The key insight is that Alice wins if the total number of flowers (x + y) is odd, as she starts first and takes the last flower in such cases."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "find-occurrences-of-an-element-in-an-array",
+    "question_content": "You are given an integer array nums, an integer array queries, and an integer x.\nFor each queries[i], you need to find the index of the queries[i]^th occurrence of x in the nums array. If there are fewer than queries[i] occurrences of x, the answer should be -1 for that query.\nReturn an integer array answer containing the answers to all queries.\n \nExample 1:\n\nInput: nums = [1,3,1,7], queries = [1,3,2,4], x = 1\nOutput: [0,-1,2,-1]\nExplanation:\n\nFor the 1^st query, the first occurrence of 1 is at index 0.\nFor the 2^nd query, there are only two occurrences of 1 in nums, so the answer is -1.\nFor the 3^rd query, the second occurrence of 1 is at index 2.\nFor the 4^th query, there are only two occurrences of 1 in nums, so the answer is -1.\n\n\nExample 2:\n\nInput: nums = [1,2,3], queries = [10], x = 5\nOutput: [-1]\nExplanation:\n\nFor the 1^st query, 5 doesn't exist in nums, so the answer is -1.\n\n\n \nConstraints:\n\n1 <= nums.length, queries.length <= 10^5\n1 <= queries[i] <= 10^5\n1 <= nums[i], x <= 10^4",
+    "platform": "leetcode",
+    "question_id": "3420",
+    "contest_id": "biweekly-contest-131",
+    "contest_date": "2024-05-25T00:00:00",
+    "starter_code": "class Solution:\n    def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "from typing import List\n\nclass Solution:\n    def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:\n        positions = []\n        for i, num in enumerate(nums):\n            if num == x:\n                positions.append(i)\n        result = []\n        for q in queries:\n            if q <= len(positions):\n                result.append(positions[q-1])\n            else:\n                result.append(-1)\n        return result"
+    ],
+    "code_list": [
+      "from typing import List\n\nclass Solution:\n    def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:\n        positions = []\n        for i, num in enumerate(nums):\n            if num == x:\n                positions.append(i)\n        result = []\n        for q in queries:\n            if q <= len(positions):\n                result.append(positions[q-1])\n            else:\n                result.append(-1)\n        return result"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.03721117973327637}"
+    ]
+  },
+  {
+    "question_title": "count-the-number-of-inversions",
+    "question_content": "You are given an integer n and a 2D array requirements, where requirements[i] = [end_i, cnt_i] represents the end index and the inversion count of each requirement.\nA pair of indices (i, j) from an integer array nums is called an inversion if:\n\ni < j and nums[i] > nums[j]\n\nReturn the number of permutations perm of [0, 1, 2, ..., n - 1] such that for all requirements[i], perm[0..end_i] has exactly cnt_i inversions.\nSince the answer may be very large, return it modulo 10^9 + 7.\n \nExample 1:\n\nInput: n = 3, requirements = [[2,2],[0,0]]\nOutput: 2\nExplanation:\nThe two permutations are:\n\n[2, 0, 1]\n\nPrefix [2, 0, 1] has inversions (0, 1) and (0, 2).\nPrefix [2] has 0 inversions.\n\n\n[1, 2, 0]\n\nPrefix [1, 2, 0] has inversions (0, 2) and (1, 2).\nPrefix [1] has 0 inversions.\n\n\n\n\nExample 2:\n\nInput: n = 3, requirements = [[2,2],[1,1],[0,0]]\nOutput: 1\nExplanation:\nThe only satisfying permutation is [2, 0, 1]:\n\nPrefix [2, 0, 1] has inversions (0, 1) and (0, 2).\nPrefix [2, 0] has an inversion (0, 1).\nPrefix [2] has 0 inversions.\n\n\nExample 3:\n\nInput: n = 2, requirements = [[0,0],[1,0]]\nOutput: 1\nExplanation:\nThe only satisfying permutation is [0, 1]:\n\nPrefix [0] has 0 inversions.\nPrefix [0, 1] has an inversion (0, 1).\n\n\n \nConstraints:\n\n2 <= n <= 300\n1 <= requirements.length <= n\nrequirements[i] = [end_i, cnt_i]\n0 <= end_i <= n - 1\n0 <= cnt_i <= 400\nThe input is generated such that there is at least one i such that end_i == n - 1.\nThe input is generated such that all end_i are unique.",
+    "platform": "leetcode",
+    "question_id": "3460",
+    "contest_id": "biweekly-contest-133",
+    "contest_date": "2024-06-22T00:00:00",
+    "starter_code": "class Solution:\n    def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:\n        ",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to determine the number of permutations of the integers from 0 to n-1 that satisfy specific inversion count requirements for certain prefixes. The solution involves dynamic programming (DP) to efficiently track the number of valid permutations while considering the constraints."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the number of permutations of the integers from 0 to n-1 that satisfy specific inversion count requirements for certain prefixes. The solution involves dynamic programming (DP) to efficiently track the number of valid permutations while considering the constraints."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "find-maximum-removals-from-source-string",
+    "question_content": "You are given a string source of size n, a string pattern that is a subsequence of source, and a sorted integer array targetIndices that contains distinct numbers in the range [0, n - 1].\nWe define an operation as removing a character at an index idx from source such that:\n\nidx is an element of targetIndices.\npattern remains a subsequence of source after removing the character.\n\nPerforming an operation does not change the indices of the other characters in source. For example, if you remove 'c' from \"acb\", the character at index 2 would still be 'b'.\nReturn the maximum number of operations that can be performed.\n \nExample 1:\n\nInput: source = \"abbaa\", pattern = \"aba\", targetIndices = [0,1,2]\nOutput: 1\nExplanation:\nWe can't remove source[0] but we can do either of these two operations:\n\nRemove source[1], so that source becomes \"a_baa\".\nRemove source[2], so that source becomes \"ab_aa\".\n\n\nExample 2:\n\nInput: source = \"bcda\", pattern = \"d\", targetIndices = [0,3]\nOutput: 2\nExplanation:\nWe can remove source[0] and source[3] in two operations.\n\nExample 3:\n\nInput: source = \"dda\", pattern = \"dda\", targetIndices = [0,1,2]\nOutput: 0\nExplanation:\nWe can't remove any character from source.\n\nExample 4:\n\nInput: source = \"yeyeykyded\", pattern = \"yeyyd\", targetIndices = [0,2,3,4]\nOutput: 2\nExplanation:\nWe can remove source[2] and source[3] in two operations.\n\n \nConstraints:\n\n1 <= n == source.length <= 3 * 10^3\n1 <= pattern.length <= n\n1 <= targetIndices.length <= n\ntargetIndices is sorted in ascending order.\nThe input is generated such that targetIndices contains distinct elements in the range [0, n - 1].\nsource and pattern consist only of lowercase English letters.\nThe input is generated such that pattern appears as a subsequence in source.",
+    "platform": "leetcode",
+    "question_id": "3487",
+    "contest_id": "biweekly-contest-141",
+    "contest_date": "2024-10-12T07:30:00",
+    "starter_code": "class Solution:\n    def maxRemovals(self, source: str, pattern: str, targetIndices: List[int]) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the maximum number of operations that can be performed by removing characters from a string such that a given pattern remains a subsequence of the modified string. The indices to be removed are provided in a sorted list, and each removal must be checked to ensure the pattern remains a subsequence."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the maximum number of operations that can be performed by removing characters from a string such that a given pattern remains a subsequence of the modified string. The indices to be removed are provided in a sorted list, and each removal must be checked to ensure the pattern remains a subsequence."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-cost-for-cutting-cake-i",
+    "question_content": "There is an m x n cake that needs to be cut into 1 x 1 pieces.\nYou are given integers m, n, and two arrays:\n\nhorizontalCut of size m - 1, where horizontalCut[i] represents the cost to cut along the horizontal line i.\nverticalCut of size n - 1, where verticalCut[j] represents the cost to cut along the vertical line j.\n\nIn one operation, you can choose any piece of cake that is not yet a 1 x 1 square and perform one of the following cuts:\n\nCut along a horizontal line i at a cost of horizontalCut[i].\nCut along a vertical line j at a cost of verticalCut[j].\n\nAfter the cut, the piece of cake is divided into two distinct pieces.\nThe cost of a cut depends only on the initial cost of the line and does not change.\nReturn the minimum total cost to cut the entire cake into 1 x 1 pieces.\n \nExample 1:\n\nInput: m = 3, n = 2, horizontalCut = [1,3], verticalCut = [5]\nOutput: 13\nExplanation:\n\n\nPerform a cut on the vertical line 0 with cost 5, current total cost is 5.\nPerform a cut on the horizontal line 0 on 3 x 1 subgrid with cost 1.\nPerform a cut on the horizontal line 0 on 3 x 1 subgrid with cost 1.\nPerform a cut on the horizontal line 1 on 2 x 1 subgrid with cost 3.\nPerform a cut on the horizontal line 1 on 2 x 1 subgrid with cost 3.\n\nThe total cost is 5 + 1 + 1 + 3 + 3 = 13.\n\nExample 2:\n\nInput: m = 2, n = 2, horizontalCut = [7], verticalCut = [4]\nOutput: 15\nExplanation:\n\nPerform a cut on the horizontal line 0 with cost 7.\nPerform a cut on the vertical line 0 on 1 x 2 subgrid with cost 4.\nPerform a cut on the vertical line 0 on 1 x 2 subgrid with cost 4.\n\nThe total cost is 7 + 4 + 4 = 15.\n\n \nConstraints:\n\n1 <= m, n <= 20\nhorizontalCut.length == m - 1\nverticalCut.length == n - 1\n1 <= horizontalCut[i], verticalCut[i] <= 10^3",
+    "platform": "leetcode",
+    "question_id": "3494",
+    "contest_id": "weekly-contest-406",
+    "contest_date": "2024-07-13T00:00:00",
+    "starter_code": "class Solution:\n    def minimumCost(self, m: int, n: int, horizontalCut: List[int], verticalCut: List[int]) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+    ]
+  },
+  {
+    "question_title": "find-the-number-of-winning-players",
+    "question_content": "You are given an integer n representing the number of players in a game and a 2D array pick where pick[i] = [x_i, y_i] represents that the player x_i picked a ball of color y_i.\nPlayer i wins the game if they pick strictly more than i balls of the same color. In other words,\n\nPlayer 0 wins if they pick any ball.\nPlayer 1 wins if they pick at least two balls of the same color.\n...\nPlayer i wins if they pick at leasti + 1 balls of the same color.\n\nReturn the number of players who win the game.\nNote that multiple players can win the game.\n \nExample 1:\n\nInput: n = 4, pick = [[0,0],[1,0],[1,0],[2,1],[2,1],[2,0]]\nOutput: 2\nExplanation:\nPlayer 0 and player 1 win the game, while players 2 and 3 do not win.\n\nExample 2:\n\nInput: n = 5, pick = [[1,1],[1,2],[1,3],[1,4]]\nOutput: 0\nExplanation:\nNo player wins the game.\n\nExample 3:\n\nInput: n = 5, pick = [[1,1],[2,4],[2,4],[2,4]]\nOutput: 1\nExplanation:\nPlayer 2 wins the game by picking 3 balls with color 4.\n\n \nConstraints:\n\n2 <= n <= 10\n1 <= pick.length <= 100\npick[i].length == 2\n0 <= x_i <= n - 1 \n0 <= y_i <= 10",
+    "platform": "leetcode",
+    "question_id": "3519",
+    "contest_id": "biweekly-contest-136",
+    "contest_date": "2024-08-03T00:00:00",
+    "starter_code": "class Solution:\n    def winningPlayerCount(self, n: int, pick: List[List[int]]) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to determine the number of players who win a game based on their picks. Each player wins if they pick more than a certain number of balls of the same color, which depends on their player index."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the number of players who win a game based on their picks. Each player wins if they pick more than a certain number of balls of the same color, which depends on their player index."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "find-the-largest-palindrome-divisible-by-k",
+    "question_content": "You are given two positive integers n and k.\nAn integer x is called k-palindromic if:\n\nx is a palindrome.\nx is divisible by k.\n\nReturn the largest integer having n digits (as a string) that is k-palindromic.\nNote that the integer must not have leading zeros.\n \nExample 1:\n\nInput: n = 3, k = 5\nOutput: \"595\"\nExplanation:\n595 is the largest k-palindromic integer with 3 digits.\n\nExample 2:\n\nInput: n = 1, k = 4\nOutput: \"8\"\nExplanation:\n4 and 8 are the only k-palindromic integers with 1 digit.\n\nExample 3:\n\nInput: n = 5, k = 6\nOutput: \"89898\"\n\n \nConstraints:\n\n1 <= n <= 10^5\n1 <= k <= 9",
+    "platform": "leetcode",
+    "question_id": "3552",
+    "contest_id": "weekly-contest-411",
+    "contest_date": "2024-08-17T19:30:00",
+    "starter_code": "class Solution:\n    def largestPalindrome(self, n: int, k: int) -> str:\n        ",
+    "difficulty": "hard",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+    ]
+  },
+  {
+    "question_title": "maximum-possible-number-by-binary-concatenation",
+    "question_content": "You are given an array of integers nums of size 3.\nReturn the maximum possible number whose binary representation can be formed by concatenating the binary representation of all elements in nums in some order.\nNote that the binary representation of any number does not contain leading zeros.\n \nExample 1:\n\nInput: nums = [1,2,3]\nOutput: 30\nExplanation:\nConcatenate the numbers in the order [3, 1, 2] to get the result \"11110\", which is the binary representation of 30.\n\nExample 2:\n\nInput: nums = [2,8,16]\nOutput: 1296\nExplanation:\nConcatenate the numbers in the order [2, 8, 16] to get the result \"10100010000\", which is the binary representation of 1296.\n\n \nConstraints:\n\nnums.length == 3\n1 <= nums[i] <= 127",
+    "platform": "leetcode",
+    "question_id": "3579",
+    "contest_id": "weekly-contest-418",
+    "contest_date": "2024-10-05T19:30:00",
+    "starter_code": "class Solution:\n    def maxGoodNumber(self, nums: List[int]) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the maximum possible number whose binary representation can be formed by concatenating the binary representations of all elements in a given array of three integers in some order."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the maximum possible number whose binary representation can be formed by concatenating the binary representations of all elements in a given array of three integers in some order."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-operations-to-make-array-values-equal-to-k",
+    "question_content": "You are given an integer array nums and an integer k.\nAn integer h is called valid if all values in the array that are strictly greater than h are identical.\nFor example, if nums = [10, 8, 10, 8], a valid integer is h = 9 because all nums[i] > 9 are equal to 10, but 5 is not a valid integer.\nYou are allowed to perform the following operation on nums:\n\nSelect an integer h that is valid for the current values in nums.\nFor each index i where nums[i] > h, set nums[i] to h.\n\nReturn the minimum number of operations required to make every element in nums equal to k. If it is impossible to make all elements equal to k, return -1.\n \nExample 1:\n\nInput: nums = [5,2,5,4,5], k = 2\nOutput: 2\nExplanation:\nThe operations can be performed in order using valid integers 4 and then 2.\n\nExample 2:\n\nInput: nums = [2,1,2], k = 2\nOutput: -1\nExplanation:\nIt is impossible to make all the values equal to 2.\n\nExample 3:\n\nInput: nums = [9,7,5,3], k = 1\nOutput: 4\nExplanation:\nThe operations can be performed using valid integers in the order 7, 5, 3, and 1.\n\n \nConstraints:\n\n1 <= nums.length <= 100 \n1 <= nums[i] <= 100\n1 <= k <= 100",
+    "platform": "leetcode",
+    "question_id": "3621",
+    "contest_id": "biweekly-contest-145",
+    "contest_date": "2024-12-07T06:30:00",
+    "starter_code": "class Solution:\n    def minOperations(self, nums: List[int], k: int) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum number of operations required to make all elements in an array equal to a given integer `k`. Each operation allows us to select a valid integer `h` such that all elements strictly greater than `h` are set to `h`. A valid `h` is one where all elements strictly greater than `h` are identical."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum number of operations required to make all elements in an array equal to a given integer `k`. Each operation allows us to select a valid integer `h` such that all elements strictly greater than `h` are set to `h`. A valid `h` is one where all elements strictly greater than `h` are identical."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "subsequences-with-a-unique-middle-mode-i",
+    "question_content": "Given an integer array nums, find the number of subsequences of size 5 of nums with a unique middle mode.\nSince the answer may be very large, return it modulo 10^9 + 7.\nA mode of a sequence of numbers is defined as the element that appears the maximum number of times in the sequence.\nA sequence of numbers contains a unique mode if it has only one mode.\nA sequence of numbers seq of size 5 contains a unique middle mode if the middle element (seq[2]) is a unique mode.\n \nExample 1:\n\nInput: nums = [1,1,1,1,1,1]\nOutput: 6\nExplanation:\n[1, 1, 1, 1, 1] is the only subsequence of size 5 that can be formed, and it has a unique middle mode of 1. This subsequence can be formed in 6 different ways, so the output is 6. \n\nExample 2:\n\nInput: nums = [1,2,2,3,3,4]\nOutput: 4\nExplanation:\n[1, 2, 2, 3, 4] and [1, 2, 3, 3, 4] each have a unique middle mode because the number at index 2 has the greatest frequency in the subsequence. [1, 2, 2, 3, 3] does not have a unique middle mode because 2 and 3 appear twice.\n\nExample 3:\n\nInput: nums = [0,1,2,3,4,5,6,7,8]\nOutput: 0\nExplanation:\nThere is no subsequence of length 5 with a unique middle mode.\n\n \nConstraints:\n\n5 <= nums.length <= 1000\n-10^9 <= nums[i] <= 10^9",
+    "platform": "leetcode",
+    "question_id": "3700",
+    "contest_id": "biweekly-contest-146",
+    "contest_date": "2024-12-21T06:30:00",
+    "starter_code": "class Solution:\n    def subsequencesWithMiddleMode(self, nums: List[int]) -> int:\n        ",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to find the number of subsequences of size 5 from a given array that have a unique middle mode. The middle mode is defined as the element at the third position (index 2) of the subsequence, which must appear more frequently than any other element in the subsequence."
+    ],
+    "code_list": [
+      "To solve this problem, we need to find the number of subsequences of size 5 from a given array that have a unique middle mode. The middle mode is defined as the element at the third position (index 2) of the subsequence, which must appear more frequently than any other element in the subsequence."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "sum-of-k-subarrays-with-length-at-least-m",
+    "question_content": "You are given an integer array nums and two integers, k and m.\nReturn the maximum sum of k non-overlapping subarrays of nums, where each subarray has a length of at least m.\n \nExample 1:\n\nInput: nums = [1,2,-1,3,3,4], k = 2, m = 2\nOutput: 13\nExplanation:\nThe optimal choice is:\n\nSubarray nums[3..5] with sum 3 + 3 + 4 = 10 (length is 3 >= m).\nSubarray nums[0..1] with sum 1 + 2 = 3 (length is 2 >= m).\n\nThe total sum is 10 + 3 = 13.\n\nExample 2:\n\nInput: nums = [-10,3,-1,-2], k = 4, m = 1\nOutput: -10\nExplanation:\nThe optimal choice is choosing each element as a subarray. The output is (-10) + 3 + (-1) + (-2) = -10.\n\n \nConstraints:\n\n1 <= nums.length <= 2000\n-10^4 <= nums[i] <= 10^4\n1 <= k <= floor(nums.length / m)\n1 <= m <= 3",
+    "platform": "leetcode",
+    "question_id": "3722",
+    "contest_id": "weekly-contest-439",
+    "contest_date": "2025-03-01T18:30:00",
+    "starter_code": "class Solution:\n    def maxSum(self, nums: List[int], k: int, m: int) -> int:\n        ",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to find the maximum sum of `k` non-overlapping subarrays, each of length at least `m`, from a given integer array `nums`. The solution involves dynamic programming to efficiently track the maximum sums while ensuring the constraints are met."
+    ],
+    "code_list": [
+      "To solve this problem, we need to find the maximum sum of `k` non-overlapping subarrays, each of length at least `m`, from a given integer array `nums`. The solution involves dynamic programming to efficiently track the maximum sums while ensuring the constraints are met."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "minimum-pair-removal-to-sort-array-i",
+    "question_content": "Given an array nums, you can perform the following operation any number of times:\n\nSelect the adjacent pair with the minimum sum in nums. If multiple such pairs exist, choose the leftmost one.\nReplace the pair with their sum.\n\nReturn the minimum number of operations needed to make the array non-decreasing.\nAn array is said to be non-decreasing if each element is greater than or equal to its previous element (if it exists).\n \nExample 1:\n\nInput: nums = [5,2,3,1]\nOutput: 2\nExplanation:\n\nThe pair (3,1) has the minimum sum of 4. After replacement, nums = [5,2,4].\nThe pair (2,4) has the minimum sum of 6. After replacement, nums = [5,6].\n\nThe array nums became non-decreasing in two operations.\n\nExample 2:\n\nInput: nums = [1,2,2]\nOutput: 0\nExplanation:\nThe array nums is already sorted.\n\n \nConstraints:\n\n1 <= nums.length <= 50\n-1000 <= nums[i] <= 1000",
+    "platform": "leetcode",
+    "question_id": "3773",
+    "contest_id": "weekly-contest-444",
+    "contest_date": "2025-04-05T19:30:00",
+    "starter_code": "class Solution:\n    def minimumPairRemoval(self, nums: List[int]) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum number of operations required to make an array non-decreasing. The allowed operation is to select the leftmost adjacent pair with the minimum sum, replace them with their sum, and repeat this process until the array becomes non-decreasing."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum number of operations required to make an array non-decreasing. The allowed operation is to select the leftmost adjacent pair with the minimum sum, replace them with their sum, and repeat this process until the array becomes non-decreasing."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k",
+    "question_content": "You are given an integer array nums and two integers, k and limit. Your task is to find a non-empty subsequence of nums that:\n\nHas an alternating sum equal to k.\nMaximizes the product of all its numbers without the product exceeding limit.\n\nReturn the product of the numbers in such a subsequence. If no subsequence satisfies the requirements, return -1.\nThe alternating sum of a 0-indexed array is defined as the sum of the elements at even indices minus the sum of the elements at odd indices.\n \nExample 1:\n\nInput: nums = [1,2,3], k = 2, limit = 10\nOutput: 6\nExplanation:\nThe subsequences with an alternating sum of 2 are:\n\n[1, 2, 3]\n\nAlternating Sum: 1 - 2 + 3 = 2\nProduct: 1 * 2 * 3 = 6\n\n\n[2]\n\nAlternating Sum: 2\nProduct: 2\n\n\n\nThe maximum product within the limit is 6.\n\nExample 2:\n\nInput: nums = [0,2,3], k = -5, limit = 12\nOutput: -1\nExplanation:\nA subsequence with an alternating sum of exactly -5 does not exist.\n\nExample 3:\n\nInput: nums = [2,2,3,3], k = 0, limit = 9\nOutput: 9\nExplanation:\nThe subsequences with an alternating sum of 0 are:\n\n[2, 2]\n\nAlternating Sum: 2 - 2 = 0\nProduct: 2 * 2 = 4\n\n\n[3, 3]\n\nAlternating Sum: 3 - 3 = 0\nProduct: 3 * 3 = 9\n\n\n[2, 2, 3, 3]\n\nAlternating Sum: 2 - 2 + 3 - 3 = 0\nProduct: 2 * 2 * 3 * 3 = 36\n\n\n\nThe subsequence [2, 2, 3, 3] has the greatest product with an alternating sum equal to k, but 36 > 9. The next greatest product is 9, which is within the limit.\n\n \nConstraints:\n\n1 <= nums.length <= 150\n0 <= nums[i] <= 12\n-10^5 <= k <= 10^5\n1 <= limit <= 5000",
+    "platform": "leetcode",
+    "question_id": "3777",
+    "contest_id": "weekly-contest-444",
+    "contest_date": "2025-04-05T19:30:00",
+    "starter_code": "class Solution:\n    def maxProduct(self, nums: List[int], k: int, limit: int) -> int:\n        ",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to find a non-empty subsequence of an array that has an alternating sum equal to a given value `k` and maximizes the product of its elements without exceeding a given limit. The alternating sum of a subsequence is defined as the sum of elements at even indices minus the sum of elements at odd indices."
+    ],
+    "code_list": [
+      "To solve this problem, we need to find a non-empty subsequence of an array that has an alternating sum equal to a given value `k` and maximizes the product of its elements without exceeding a given limit. The alternating sum of a subsequence is defined as the sum of elements at even indices minus the sum of elements at odd indices."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "unique-3-digit-even-numbers",
+    "question_content": "You are given an array of digits called digits. Your task is to determine the number of distinct three-digit even numbers that can be formed using these digits.\nNote: Each copy of a digit can only be used once per number, and there may not be leading zeros.\n \nExample 1:\n\nInput: digits = [1,2,3,4]\nOutput: 12\nExplanation: The 12 distinct 3-digit even numbers that can be formed are 124, 132, 134, 142, 214, 234, 312, 314, 324, 342, 412, and 432. Note that 222 cannot be formed because there is only 1 copy of the digit 2.\n\nExample 2:\n\nInput: digits = [0,2,2]\nOutput: 2\nExplanation: The only 3-digit even numbers that can be formed are 202 and 220. Note that the digit 2 can be used twice because it appears twice in the array.\n\nExample 3:\n\nInput: digits = [6,6,6]\nOutput: 1\nExplanation: Only 666 can be formed.\n\nExample 4:\n\nInput: digits = [1,3,5]\nOutput: 0\nExplanation: No even 3-digit numbers can be formed.\n\n \nConstraints:\n\n3 <= digits.length <= 10\n0 <= digits[i] <= 9",
+    "platform": "leetcode",
+    "question_id": "3799",
+    "contest_id": "biweekly-contest-152",
+    "contest_date": "2025-03-15T07:30:00",
+    "starter_code": "class Solution:\n    def totalNumbers(self, digits: List[int]) -> int:\n        ",
+    "difficulty": "easy",
+    "output_list": [
+      "To solve this problem, we need to determine the number of distinct three-digit even numbers that can be formed using the given array of digits. Each digit can be used only once per number, and there may not be leading zeros."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the number of distinct three-digit even numbers that can be formed using the given array of digits. Each digit can be used only once per number, and there may not be leading zeros."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "Shift vs. CapsLock",
+    "question_content": "Your computer has a keyboard with three keys: 'a' key, Shift key, and Caps Lock key.  The Caps Lock key has a light on it.\nInitially, the light on the Caps Lock key is off, and the screen shows an empty string.\nYou can do the following three actions any number of times in any order:\n\n- Spend X milliseconds to press only the 'a' key.  If the light on the Caps Lock key is off, a is appended to the string on the screen; if it is on, A is.\n- Spend Y milliseconds to press the 'a' key and Shift key simultaneously.  If the light on the Caps Lock key is off, A is appended to the string on the screen; if it is on, a is.\n- Spend Z milliseconds to press the Caps Lock key.  If the light on the Caps Lock key is off, it turns on; if it is on, it turns off.\n\nGiven a string S consisting of A and a, determine at least how many milliseconds you need to spend to make the string shown on the screen equal to S.\n\nInput\n\nThe input is given from Standard Input in the following format:\nX Y Z\nS\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 1 \\leq X,Y,Z \\leq 10^9\n- X, Y, and Z are integers.\n- 1 \\leq |S| \\leq 3 \\times 10^5\n- S is a string consisting of A and a.\n\nSample Input 1\n\n1 3 3\nAAaA\n\nSample Output 1\n\n9\n\nThe following sequence of actions makes the string on the screen equal to AAaA in 9 milliseconds, which is the shortest possible.\n\n- Spend Z(=3) milliseconds to press the CapsLock key.  The light on the Caps Lock key turns on.\n- Spend X(=1) milliseconds to press the 'a' key.  A is appended to the string on the screen.\n- Spend X(=1) milliseconds to press the 'a' key.  A is appended to the string on the screen.\n- Spend Y(=3) milliseconds to press the Shift key and 'a' key simultaneously.  a is appended to the string on the screen.\n- Spend X(=1) milliseconds to press the 'a' key.  A is appended to the string on the screen.\n\nSample Input 2\n\n1 1 100\naAaAaA\n\nSample Output 2\n\n6\n\nSample Input 3\n\n1 2 4\naaAaAaaAAAAaAaaAaAAaaaAAAAA\n\nSample Output 3\n\n40",
+    "platform": "atcoder",
+    "question_id": "abc303_d",
+    "contest_id": "abc303",
+    "contest_date": "2023-05-27T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum time required to type a given string using a keyboard with three keys: 'a', Shift, and Caps Lock. The Caps Lock key toggles the case of the 'a' key, and we need to consider the optimal sequence of actions to minimize the total time spent."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum time required to type a given string using a keyboard with three keys: 'a', Shift, and Caps Lock. The Caps Lock key toggles the case of the 'a' key, and we need to consider the optimal sequence of actions to minimize the total time spent."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "A Gift From the Stars",
+    "question_content": "A graph with (k+1) vertices and k edges is called a level-k\\ (k\\geq 2) star if and only if:\n\n- it has a vertex that is connected to each of the other k vertices with an edge, and there are no other edges.\n\nAt first, Takahashi had a graph consisting of stars.  He repeated the following operation until every pair of vertices in the graph was connected:\n\n- choose two vertices in the graph.  Here, the vertices must be disconnected, and their degrees must be both 1.  Add an edge that connects the chosen two vertices.\n\nHe then arbitrarily assigned an integer from 1 through N to each of the vertices in the graph after the procedure.  The resulting graph is a tree; we call it T.  T has (N-1) edges, the i-th of which connects u_i and v_i.\nTakahashi has now forgotten the number and levels of the stars that he initially had.  Find them, given T.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nu_1 v_1\r\n\\vdots\r\nu_{N-1} v_{N-1}\n\nOutput\n\nSuppose that Takahashi initially had M stars, whose levels were L=(L_1,L_2,\\ldots,L_M).\r\nSort L in ascending order, and print them with spaces in between.\nWe can prove that the solution is unique in this problem.\n\nConstraints\n\n\n- 3\\leq N\\leq 2\\times 10^5\n- 1\\leq u_i, v_i\\leq N\n- The given graph is an N-vertex tree obtained by the procedure in the problem statement.\n- All values in the input are integers.\n\nSample Input 1\n\n6\r\n1 2\r\n2 3\r\n3 4\r\n4 5\r\n5 6\n\nSample Output 1\n\n2 2\r\n\nTwo level-2 stars yield T, as the following figure shows:\n\nSample Input 2\n\n9\r\n3 9\r\n7 8\r\n8 6\r\n4 6\r\n4 1\r\n5 9\r\n7 3\r\n5 2\n\nSample Output 2\n\n2 2 2\n\nSample Input 3\n\n20\r\n8 3\r\n8 18\r\n2 19\r\n8 20\r\n9 17\r\n19 7\r\n8 7\r\n14 12\r\n2 15\r\n14 10\r\n2 13\r\n2 16\r\n2 1\r\n9 5\r\n10 15\r\n14 6\r\n2 4\r\n2 11\r\n5 12\n\nSample Output 3\n\n2 3 4 7",
+    "platform": "atcoder",
+    "question_id": "abc303_e",
+    "contest_id": "abc303",
+    "contest_date": "2023-05-27T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "Base 2",
+    "question_content": "You are given a sequence A=(A_0,A_1,\\dots,A_{63}) of length 64 consisting of 0 and 1.\nFind A_0 2^0 + A_1 2^1 + \\dots + A_{63} 2^{63}.\n\nInput\n\nThe input is given from Standard Input in the following format:\nA_0 A_1 \\dots A_{63}\n\nOutput\n\nPrint the answer as an integer.\n\nConstraints\n\n\n- A_i is 0 or 1.\n\nSample Input 1\n\n1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n\nSample Output 1\n\n13\n\nA_0 2^0 + A_1 2^1 + \\dots + A_{63} 2^{63} = 2^0 + 2^2 + 2^3 = 13.\n\nSample Input 2\n\n1 0 1 0 1 0 0 0 0 1 0 0 1 1 0 1 1 1 1 0 0 0 1 0 0 1 1 1 1 1 1 0 0 0 0 1 0 1 0 1 0 1 1 1 1 0 0 1 1 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0\n\nSample Output 2\n\n766067858140017173",
+    "platform": "atcoder",
+    "question_id": "abc306_b",
+    "contest_id": "abc306",
+    "contest_date": "2023-06-17T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "# Read the input as a list of integers\nbits = list(map(int, input().split()))\n\n# Initialize the total sum\ntotal = 0\n\n# Iterate over each bit and calculate its contribution\nfor i in range(64):\n    total += bits[i] * (2 ** i)\n\n# Print the result\nprint(total)"
+    ],
+    "code_list": [
+      "# Read the input as a list of integers\nbits = list(map(int, input().split()))\n\n# Initialize the total sum\ntotal = 0\n\n# Iterate over each bit and calculate its contribution\nfor i in range(64):\n    total += bits[i] * (2 ** i)\n\n# Print the result\nprint(total)"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.021520614624023438}"
+    ]
+  },
+  {
+    "question_title": "Default Price",
+    "question_content": "Takahashi ate N plates of sushi at a sushi restaurant.  The color of the i-th plate is represented by a string C_i.\nThe price of a sushi corresponds to the color of the plate.  For each i=1,\\ldots,M, the sushi on a plate whose color is represented by a string D_i is worth P_i yen a plate (yen is the currency of Japan).  If the color does not coincide with any of D_1,\\ldots, and D_M, it is worth P_0 yen a plate.\nFind the total amount of the prices of sushi that Takahashi ate.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN M\r\nC_1 \\ldots C_N\r\nD_1 \\ldots D_M\r\nP_0 P_1 \\ldots P_M\n\nOutput\n\nPrint the answer as an integer.\n\nConstraints\n\n\n- 1\\leq N,M\\leq 100\n- C_i and D_i are strings of length between 1 and 20, inclusive, consisting of lowercase English letters.\n- D_1,\\ldots, and D_M are distinct.\n- 1\\leq P_i\\leq 10000\n- N, M, and P_i are integers.\n\nSample Input 1\n\n3 2\r\nred green blue\r\nblue red\r\n800 1600 2800\n\nSample Output 1\n\n5200\r\n\nA blue plate, red plate, and green plate are worth P_1 = 1600, P_2 = 2800, and P_0 = 800 yen, respectively.\nThe total amount of the prices of the sushi that he ate is 2800+800+1600=5200 yen.\n\nSample Input 2\n\n3 2\r\ncode queen atcoder\r\nking queen\r\n10 1 1\n\nSample Output 2\n\n21",
+    "platform": "atcoder",
+    "question_id": "abc308_b",
+    "contest_id": "abc308",
+    "contest_date": "2023-07-01T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "n, m = map(int, input().split())\nc_list = input().split()\nd_list = input().split()\np_list = list(map(int, input().split()))\n\ncolor_price = {}\nfor j in range(m):\n    color = d_list[j]\n    price = p_list[j + 1]\n    color_price[color] = price\n\ntotal = 0\nfor color in c_list:\n    if color in color_price:\n        total += color_price[color]\n    else:\n        total += p_list[0]\n\nprint(total)"
+    ],
+    "code_list": [
+      "n, m = map(int, input().split())\nc_list = input().split()\nd_list = input().split()\np_list = list(map(int, input().split()))\n\ncolor_price = {}\nfor j in range(m):\n    color = d_list[j]\n    price = p_list[j + 1]\n    color_price[color] = price\n\ntotal = 0\nfor color in c_list:\n    if color in color_price:\n        total += color_price[color]\n    else:\n        total += p_list[0]\n\nprint(total)"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.01894092559814453}"
+    ]
+  },
+  {
+    "question_title": "Family and Insurance",
+    "question_content": "There is a family consisting of person 1, person 2, \\ldots, and person N.  For i\\geq 2, person i's parent is person p_i.\nThey bought insurance M times.  For i=1,2,\\ldots,M, person x_i bought the i-th insurance, which covers that person and their descendants in the next y_i generations.  \nHow many people are covered by at least one insurance?\n\nInput\n\nThe input is given from Standard Input in the following format:\nN M\r\np_2 \\ldots p_N\r\nx_1 y_1\r\n\\vdots\r\nx_M y_M\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 2 \\leq N \\leq 3 \\times 10^5\n- 1 \\leq M \\leq 3 \\times 10^5\n- 1 \\leq p_i \\leq i-1\n- 1 \\leq x_i \\leq N\n- 1 \\leq y_i \\leq 3 \\times 10^5\n- All input values are integers.\n\nSample Input 1\n\n7 3\r\n1 2 1 3 3 3\r\n1 1\r\n1 2\r\n4 3\n\nSample Output 1\n\n4\r\n\nThe 1-st insurance covers people 1, 2, and 4, because person 1's 1-st generation descendants are people 2 and 4.\r\nThe 2-nd insurance covers people 1, 2, 3, and 4, because person 1's 1-st generation descendants are people 2 and 4, and person 1's 2-nd generation descendant is person 3.\r\nThe 3-rd insurance covers person 4, because person 4 has no 1-st, 2-nd, or 3-rd descendants.  \nTherefore, four people, people 1, 2, 3, and 4, are covered by at least one insurance.\n\nSample Input 2\n\n10 10\r\n1 1 3 1 2 3 3 5 7\r\n2 1\r\n5 1\r\n4 3\r\n6 3\r\n2 1\r\n7 3\r\n9 2\r\n1 2\r\n6 2\r\n8 1\n\nSample Output 2\n\n10",
+    "platform": "atcoder",
+    "question_id": "abc309_e",
+    "contest_id": "abc309",
+    "contest_date": "2023-07-08T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to determine how many people in a family tree are covered by at least one insurance policy. Each insurance policy covers a person and their descendants up to a certain number of generations. The challenge is to efficiently compute the coverage for each person given the constraints."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine how many people in a family tree are covered by at least one insurance policy. Each insurance policy covers a person and their descendants up to a certain number of generations. The challenge is to efficiently compute the coverage for each person given the constraints."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Rotate Colored Subsequence",
+    "question_content": "You are given a string S of length N consisting of lowercase English letters.\nEach character of S is painted in one of the M colors: color 1, color 2, ..., color M; for each i = 1, 2, \\ldots, N, the i-th character of S is painted in color C_i.\nFor each i = 1, 2, \\ldots, M in this order, let us perform the following operation.\n\n- Perform a right circular shift by 1 on the part of S painted in color i.\n  That is, if the p_1-th, p_2-th, p_3-th, \\ldots, p_k-th characters are painted in color i from left to right, then simultaneously replace the p_1-th, p_2-th, p_3-th, \\ldots, p_k-th characters of S with the p_k-th, p_1-th, p_2-th, \\ldots, p_{k-1}-th characters of S, respectively.\n\nPrint the final S after the above operations.\nThe constraints guarantee that at least one character of S is painted in each of the M colors.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN M\nS\nC_1 C_2 \\ldots C_N\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 1 \\leq M \\leq N \\leq 2 \\times 10^5\n- 1 \\leq C_i \\leq M\n- N, M, and C_i are all integers.\n- S is a string of length N consisting of lowercase English letters.\n- For each integer 1 \\leq i \\leq M, there is an integer 1 \\leq j \\leq N such that C_j = i.\n\nSample Input 1\n\n8 3\napzbqrcs\n1 2 3 1 2 2 1 2\n\nSample Output 1\n\ncszapqbr\n\nInitially, S =  apzbqrcs.\n\n- For i = 1, perform a right circular shift by 1 on the part of S formed by the 1-st, 4-th, 7-th characters, resulting in S =  cpzaqrbs.\n- For i = 2, perform a right circular shift by 1 on the part of S formed by the 2-nd, 5-th, 6-th, 8-th characters, resulting in S =  cszapqbr.\n- For i = 3, perform a right circular shift by 1 on the part of S formed by the 3-rd character, resulting in S =  cszapqbr (here, S is not changed).\n\nThus, you should print cszapqbr, the final S.\n\nSample Input 2\n\n2 1\naa\n1 1\n\nSample Output 2\n\naa",
+    "platform": "atcoder",
+    "question_id": "abc314_c",
+    "contest_id": "abc314",
+    "contest_date": "2023-08-12T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "n, m = map(int, input().split())\ns = input().strip()\nc = list(map(int, input().split()))\n\npositions = [[] for _ in range(m + 1)]\nfor idx in range(n):\n    color = c[idx]\n    positions[color].append(idx)\n\nchars = list(s)\nfor i in range(1, m + 1):\n    pos_list = positions[i]\n    if not pos_list:\n        continue\n    chars_in_pos = [chars[p] for p in pos_list]\n    rotated = [chars_in_pos[-1]] + chars_in_pos[:-1]\n    for j in range(len(pos_list)):\n        chars[pos_list[j]] = rotated[j]\n\nprint(''.join(chars))"
+    ],
+    "code_list": [
+      "n, m = map(int, input().split())\ns = input().strip()\nc = list(map(int, input().split()))\n\npositions = [[] for _ in range(m + 1)]\nfor idx in range(n):\n    color = c[idx]\n    positions[color].append(idx)\n\nchars = list(s)\nfor i in range(1, m + 1):\n    pos_list = positions[i]\n    if not pos_list:\n        continue\n    chars_in_pos = [chars[p] for p in pos_list]\n    rotated = [chars_in_pos[-1]] + chars_in_pos[:-1]\n    for j in range(len(pos_list)):\n        chars[pos_list[j]] = rotated[j]\n\nprint(''.join(chars))"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 1.1894841194152832}"
+    ]
+  },
+  {
+    "question_title": "Maximize Rating",
+    "question_content": "Takahashi participated in N contests and earned a performance P_i in the i-th contest.\nHe wants to choose some (at least one) contests from these and maximize his rating calculated from the results of those contests.\nFind the maximum possible rating he can achieve by optimally choosing the contests.\nHere, Takahashi's rating R is calculated as the following, where k is the number of chosen contests and (Q_1, Q_2, \\ldots, Q_k) are the performances in the chosen contests in the order he participated:\n\n\\displaystyle R=\\frac{\\sum_{i=1}^k (0.9)^{k-i}Q_i}{\\sum_{i=1}^k (0.9)^{k-i}}-\\frac{1200}{\\sqrt{k}}.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\nP_1 P_2 \\ldots P_N\n\nOutput\n\nPrint the maximum possible rating that Takahashi can achieve.\nYour output will be considered correct if the absolute or relative error from the true value is at most 10^{-6}.\n\nConstraints\n\n\n- 1\\leq N\\leq 5000\n- 1\\leq P_i\\leq 5000\n- All input values are integers.\n\nSample Input 1\n\n3\n1000 600 1200\n\nSample Output 1\n\n256.735020470879931\n\nIf Takahashi chooses the first and third contests, his rating will be:\n\\displaystyle R=\\frac{0.9\\times 1000+ 1.0\\times 1200}{0.9+1.0}-\\frac{1200}{\\sqrt{2}}=256.73502....\nThis is the maximum possible rating.\n\nSample Input 2\n\n3\n600 1000 1200\n\nSample Output 2\n\n261.423219407873376\n\nThe rating is maximized when all the first, second, and third contests are selected.\n\nSample Input 3\n\n1\n100\n\nSample Output 3\n\n-1100.000000000000000\n\nThe rating can also be negative.",
+    "platform": "atcoder",
+    "question_id": "abc327_e",
+    "contest_id": "abc327",
+    "contest_date": "2023-11-04T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to determine the maximum possible rating Takahashi can achieve by optimally selecting contests from a list of contests. The rating is calculated using a specific formula that involves a weighted average of selected contest performances and a penalty term based on the number of contests selected."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the maximum possible rating Takahashi can achieve by optimally selecting contests from a list of contests. The rating is calculated using a specific formula that involves a weighted average of selected contest performances and a penalty term based on the number of contests selected."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Next",
+    "question_content": "You are given N integers A_1, A_2, \\ldots, A_N. Find the largest among those integers that are not the largest.\nThe constraints of this problem guarantee that the answer exists.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nA_1 A_2 \\ldots A_N\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 2 \\leq N \\leq 100\n- 1 \\leq A_i \\leq 100\n- It is not the case that all A_1, A_2, \\ldots, A_N are equal.\n- All input values are integers.\n\nSample Input 1\n\n5\r\n2 1 3 3 2\n\nSample Output 1\n\n2\r\n\nThe largest integer among 2,1,3,3,2 is 3.\nThe integers that are not 3 among 2,1,3,3,2 are 2,1,2, among which the largest is 2.\n\nSample Input 2\n\n4\r\n4 3 2 1\n\nSample Output 2\n\n3\n\nSample Input 3\n\n8\r\n22 22 18 16 22 18 18 22\n\nSample Output 3\n\n18",
+    "platform": "atcoder",
+    "question_id": "abc329_b",
+    "contest_id": "abc329",
+    "contest_date": "2023-11-18T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "# YOUR CODE HERE\nn = int(input())\na = list(map(int, input().split()))\nmax_val = max(a)\nfiltered = [x for x in a if x < max_val]\nprint(max(filtered))"
+    ],
+    "code_list": [
+      "# YOUR CODE HERE\nn = int(input())\na = list(map(int, input().split()))\nmax_val = max(a)\nfiltered = [x for x in a if x < max_val]\nprint(max(filtered))"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.022366762161254883}"
+    ]
+  },
+  {
+    "question_title": "Frequency",
+    "question_content": "You are given a string S consisting of lowercase English letters. Find the character that appears most frequently in S. If multiple such characters exist, report the one that comes earliest in alphabetical order.\n\nInput\n\nThe input is given from Standard Input in the following format:\nS\n\nOutput\n\nAmong the characters that appear most frequently in S, print the one that comes earliest in alphabetical order.\n\nConstraints\n\n\n- 1 \\leq |S| \\leq 1000 (|S| is the length of the string S.)\n- Each character in S is a lowercase English letter.\n\nSample Input 1\n\nfrequency\n\nSample Output 1\n\ne\r\n\nIn frequency, the letter e appears twice, which is more than any other character, so you should print e.\n\nSample Input 2\n\natcoder\n\nSample Output 2\n\na\r\n\nIn atcoder, each of the letters a, t, c, o, d, e, and r appears once, so you should print the earliest in alphabetical order, which is a.\n\nSample Input 3\n\npseudopseudohypoparathyroidism\n\nSample Output 3\n\no",
+    "platform": "atcoder",
+    "question_id": "abc338_b",
+    "contest_id": "abc338",
+    "contest_date": "2024-01-27T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "from collections import Counter\n\ns = input().strip()\ncounts = Counter(s)\nmax_count = max(counts.values())\ncandidates = [char for char, count in counts.items() if count == max_count]\ncandidates_sorted = sorted(candidates)\nprint(candidates_sorted[0])"
+    ],
+    "code_list": [
+      "from collections import Counter\n\ns = input().strip()\ncounts = Counter(s)\nmax_count = max(counts.values())\ncandidates = [char for char, count in counts.items() if count == max_count]\ncandidates_sorted = sorted(candidates)\nprint(candidates_sorted[0])"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.018633365631103516}"
+    ]
+  },
+  {
+    "question_title": "Synchronized Players",
+    "question_content": "There is an N \\times N grid, where each cell is either empty or contains an obstacle. Let (i, j) denote the cell at the i-th row from the top and the j-th column from the left.\nThere are also two players on distinct empty cells of the grid. The information about each cell is given as N strings S_1, S_2, \\ldots, S_N of length N, in the following format:\n\n- \r\nIf the j-th character of S_i is P, then (i, j) is an empty cell with a player on it.\n\n- \r\nIf the j-th character of S_i is ., then (i, j) is an empty cell without a player.\n\n- \r\nIf the j-th character of S_i is #, then (i, j) contains an obstacle.\n\n\nFind the minimum number of moves required to bring the two players to the same cell by repeating the following operation. If it is impossible to bring the two players to the same cell by repeating the operation, print -1.\n\n- Choose one of the four directions: up, down, left, or right. Then, each player attempts to move to the adjacent cell in that direction. Each player moves if the destination cell exists and is empty, and does not move otherwise.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nS_1\r\nS_2\r\n\\vdots\r\nS_N\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- N is an integer between 2 and 60, inclusive.\n- S_i is a string of length N consisting of P, ., and #.\n- There are exactly two pairs (i, j) where the j-th character of S_i is P.\n\nSample Input 1\n\n5\r\n....#\r\n#..#.\r\n.P...\r\n..P..\r\n....#\n\nSample Output 1\n\n3\r\n\nLet us call the player starting at (3, 2) Player 1 and the player starting at (4, 3) Player 2.\nFor example, doing the following brings the two players to the same cell in three moves:\n\n- \r\nChoose left. Player 1 moves to (3, 1), and Player 2 moves to (4, 2).\n\n- \r\nChoose up. Player 1 does not move, and Player 2 moves to (3, 2).\n\n- \r\nChoose left. Player 1 does not move, and Player 2 moves to (3, 1).\n\nSample Input 2\n\n2\r\nP#\r\n#P\n\nSample Output 2\n\n-1\n\nSample Input 3\n\n10\r\n..........\r\n..........\r\n..........\r\n..........\r\n....P.....\r\n.....P....\r\n..........\r\n..........\r\n..........\r\n..........\n\nSample Output 3\n\n10",
+    "platform": "atcoder",
+    "question_id": "abc339_d",
+    "contest_id": "abc339",
+    "contest_date": "2024-02-03T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "from collections import deque\nimport sys\n\ndef main():\n    N = int(sys.stdin.readline())\n    grid = [sys.stdin.readline().strip() for _ in range(N)]\n    \n    # Find the positions of the two players\n    players = []\n    for i in range(N):\n        for j in range(N):\n            if grid[i][j] == 'P':\n                players.append((i, j))\n    \n    # Initialize BFS\n    start = (players[0][0], players[0][1], players[1][0], players[1][1])\n    visited = set()\n    queue = deque()\n    queue.append(start)\n    visited.add(start)\n    \n    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # up, down, left, right\n    steps = 0\n    \n    while queue:\n        level_size = len(queue)\n        for _ in range(level_size):\n            x1, y1, x2, y2 = queue.popleft()\n            \n            # Check if players meet\n            if x1 == x2 and y1 == y2:\n                print(steps)\n                return\n            \n            # Generate next states for each direction\n            for dx, dy in directions:\n                # Compute new positions for player 1\n                nx1, ny1 = x1, y1\n                new_x1 = x1 + dx\n                new_y1 = y1 + dy\n                if 0 <= new_x1 < N and 0 <= new_y1 < N and grid[new_x1][new_y1] != '#':\n                    nx1, ny1 = new_x1, new_y1\n                else:\n                    nx1, ny1 = x1, y1\n                \n                # Compute new positions for player 2\n                nx2, ny2 = x2, y2\n                new_x2 = x2 + dx\n                new_y2 = y2 + dy\n                if 0 <= new_x2 < N and 0 <= new_y2 < N and grid[new_x2][new_y2] != '#':\n                    nx2, ny2 = new_x2, new_y2\n                else:\n                    nx2, ny2 = x2, y2\n                \n                new_state = (nx1, ny1, nx2, ny2)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append(new_state)\n        steps += 1\n    \n    # If no solution found\n    print(-1)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "code_list": [
+      "from collections import deque\nimport sys\n\ndef main():\n    N = int(sys.stdin.readline())\n    grid = [sys.stdin.readline().strip() for _ in range(N)]\n    \n    # Find the positions of the two players\n    players = []\n    for i in range(N):\n        for j in range(N):\n            if grid[i][j] == 'P':\n                players.append((i, j))\n    \n    # Initialize BFS\n    start = (players[0][0], players[0][1], players[1][0], players[1][1])\n    visited = set()\n    queue = deque()\n    queue.append(start)\n    visited.add(start)\n    \n    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # up, down, left, right\n    steps = 0\n    \n    while queue:\n        level_size = len(queue)\n        for _ in range(level_size):\n            x1, y1, x2, y2 = queue.popleft()\n            \n            # Check if players meet\n            if x1 == x2 and y1 == y2:\n                print(steps)\n                return\n            \n            # Generate next states for each direction\n            for dx, dy in directions:\n                # Compute new positions for player 1\n                nx1, ny1 = x1, y1\n                new_x1 = x1 + dx\n                new_y1 = y1 + dy\n                if 0 <= new_x1 < N and 0 <= new_y1 < N and grid[new_x1][new_y1] != '#':\n                    nx1, ny1 = new_x1, new_y1\n                else:\n                    nx1, ny1 = x1, y1\n                \n                # Compute new positions for player 2\n                nx2, ny2 = x2, y2\n                new_x2 = x2 + dx\n                new_y2 = y2 + dy\n                if 0 <= new_x2 < N and 0 <= new_y2 < N and grid[new_x2][new_y2] != '#':\n                    nx2, ny2 = new_x2, new_y2\n                else:\n                    nx2, ny2 = x2, y2\n                \n                new_state = (nx1, ny1, nx2, ny2)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append(new_state)\n        steps += 1\n    \n    # If no solution found\n    print(-1)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 16.57400393486023}"
+    ]
+  },
+  {
+    "question_title": "String Bags",
+    "question_content": "You initially have an empty string S.\r\nAdditionally, there are bags 1, 2, \\dots, N, each containing some strings.\r\nBag i contains A_i strings S_{i,1}, S_{i,2}, \\dots, S_{i,A_i}.\nYou will repeat the following steps for i = 1, 2, \\dots, N:\n\n- Choose and perform one of the following two actions:\n- Pay 1 yen, select exactly one string from bag i, and concatenate it to the end of S.\n- Do nothing.\n\n\n\nGiven a string T, find the minimum amount of money required to make the final S equal T.\r\nIf there is no way to make the final S equal T, print -1.\n\nInput\n\nThe input is given from Standard Input in the following format:\nT\r\nN\r\nA_1 S_{1,1} S_{1,2} \\dots S_{1,A_1}\r\nA_2 S_{2,1} S_{2,2} \\dots S_{2,A_2}\r\n\\vdots\r\nA_N S_{N,1} S_{N,2} \\dots S_{N,A_N}\n\nOutput\n\nPrint the answer as an integer.\n\nConstraints\n\n\n- T is a string consisting of lowercase English letters with length between 1 and 100, inclusive.\n- N is an integer between 1 and 100, inclusive.\n- A_i is an integer between 1 and 10, inclusive.\n- S_{i,j} is a string consisting of lowercase English letters with length between 1 and 10, inclusive.\n\nSample Input 1\n\nabcde\r\n3\r\n3 ab abc abcd\r\n4 f c cd bcde\r\n2 e de\n\nSample Output 1\n\n2\r\n\nFor example, doing the following makes the final S equal T with two yen, which can be shown to be the minimum amount required.\n\n- For i=1, select abc from bag 1 and concatenate it to the end of S, making S= abc.\n- For i=2, do nothing.\n- For i=3, select de from bag 3 and concatenate it to the end of S, making S= abcde.\n\nSample Input 2\n\nabcde\r\n3\r\n2 ab abc\r\n3 f c bcde\r\n1 e\n\nSample Output 2\n\n-1\r\n\nThere is no way to make the final S equal T, so print -1.\n\nSample Input 3\n\naaabbbbcccc\r\n6\r\n2 aa aaa\r\n2 dd ddd\r\n2 ab aabb\r\n4 bbaa bbbc bbb bbcc\r\n2 cc bcc\r\n3 ccc cccc ccccc\n\nSample Output 3\n\n4",
+    "platform": "atcoder",
+    "question_id": "abc344_d",
+    "contest_id": "abc344",
+    "contest_date": "2024-03-09T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to determine the minimum amount of money required to construct a target string T by selecting strings from a series of bags. Each bag can contribute at most one string, and we can choose to either take a string from a bag or skip it. The goal is to find the optimal selection of strings that results in the target string T with the minimum cost."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the minimum amount of money required to construct a target string T by selecting strings from a series of bags. Each bag can contribute at most one string, and we can choose to either take a string from a bag or skip it. The goal is to find the optimal selection of strings that results in the target string T with the minimum cost."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Jump Distance Sum",
+    "question_content": "On a coordinate plane, there are N points P_1, P_2, \\ldots, P_N, where point P_i has coordinates (X_i, Y_i).\nThe distance \\text{dist}(A, B) between two points A and B is defined as follows:\n\nA rabbit is initially at point A.\nA rabbit at position (x, y) can jump to (x+1, y+1), (x+1, y-1), (x-1, y+1), or (x-1, y-1) in one jump.\n\\text{dist}(A, B) is defined as the minimum number of jumps required to get from point A to point B.\nIf it is impossible to get from point A to point B after any number of jumps, let \\text{dist}(A, B) = 0.\n\nCalculate the sum \\displaystyle\\sum_{i=1}^{N-1}\\displaystyle\\sum_{j=i+1}^N \\text{dist}(P_i, P_j).\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\nX_1 Y_1\nX_2 Y_2\n\\vdots\nX_N Y_N\n\nOutput\n\nPrint the value of \\displaystyle\\sum_{i=1}^{N-1}\\displaystyle\\sum_{j=i+1}^N \\text{dist}(P_i, P_j) as an integer.\n\nConstraints\n\n\n- 2 \\leq N \\leq 2 \\times 10^5\n- 0 \\leq X_i, Y_i \\leq 10^8\n- For i \\neq j, (X_i, Y_i) \\neq (X_j, Y_j)\n- All input values are integers.\n\nSample Input 1\n\n3\n0 0\n1 3\n5 6\n\nSample Output 1\n\n3\n\nP_1, P_2, and P_3 have coordinates (0,0), (1,3), and (5,6), respectively.\nThe rabbit can get from P_1 to P_2 in three jumps via (0,0) \\to (1,1) \\to (0,2) \\to (1,3), but not in two or fewer jumps,\nso \\text{dist}(P_1, P_2) = 3.\nThe rabbit cannot get from P_1 to P_3 or from P_2 to P_3, so \\text{dist}(P_1, P_3) = \\text{dist}(P_2, P_3) = 0.\nTherefore, the answer is \\displaystyle\\sum_{i=1}^{2}\\displaystyle\\sum_{j=i+1}^3\\text{dist}(P_i, P_j)=\\text{dist}(P_1, P_2)+\\text{dist}(P_1, P_3)+\\text{dist}(P_2, P_3)=3+0+0=3.\n\nSample Input 2\n\n5\n0 5\n1 7\n2 9\n3 8\n4 6\n\nSample Output 2\n\n11",
+    "platform": "atcoder",
+    "question_id": "abc351_e",
+    "contest_id": "abc351",
+    "contest_date": "2024-04-27T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "import sys\n\ndef sum_abs_diff(arr):\n    arr.sort()\n    total = 0\n    prefix_sum = 0\n    for i, num in enumerate(arr):\n        total += num * i - prefix_sum\n        prefix_sum += num\n    return total\n\ndef main():\n    input = sys.stdin.read().split()\n    idx = 0\n    N = int(input[idx])\n    idx += 1\n    \n    even_u = []\n    even_v = []\n    odd_u = []\n    odd_v = []\n    \n    for _ in range(N):\n        x = int(input[idx])\n        y = int(input[idx + 1])\n        idx += 2\n        s = x + y\n        if s % 2 == 0:\n            even_u.append(s)\n            even_v.append(x - y)\n        else:\n            odd_u.append(s)\n            odd_v.append(x - y)\n    \n    def compute_contribution(u_list, v_list):\n        sum_u = sum_abs_diff(u_list)\n        sum_v = sum_abs_diff(v_list)\n        return (sum_u + sum_v) // 2\n    \n    total = 0\n    if len(even_u) >= 2:\n        total += compute_contribution(even_u, even_v)\n    if len(odd_u) >= 2:\n        total += compute_contribution(odd_u, odd_v)\n    \n    print(total)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "code_list": [
+      "import sys\n\ndef sum_abs_diff(arr):\n    arr.sort()\n    total = 0\n    prefix_sum = 0\n    for i, num in enumerate(arr):\n        total += num * i - prefix_sum\n        prefix_sum += num\n    return total\n\ndef main():\n    input = sys.stdin.read().split()\n    idx = 0\n    N = int(input[idx])\n    idx += 1\n    \n    even_u = []\n    even_v = []\n    odd_u = []\n    odd_v = []\n    \n    for _ in range(N):\n        x = int(input[idx])\n        y = int(input[idx + 1])\n        idx += 2\n        s = x + y\n        if s % 2 == 0:\n            even_u.append(s)\n            even_v.append(x - y)\n        else:\n            odd_u.append(s)\n            odd_v.append(x - y)\n    \n    def compute_contribution(u_list, v_list):\n        sum_u = sum_abs_diff(u_list)\n        sum_v = sum_abs_diff(v_list)\n        return (sum_u + sum_v) // 2\n    \n    total = 0\n    if len(even_u) >= 2:\n        total += compute_contribution(even_u, even_v)\n    if len(odd_u) >= 2:\n        total += compute_contribution(odd_u, odd_v)\n    \n    print(total)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 3.6225390434265137}"
+    ]
+  },
+  {
+    "question_title": "Bingo 2",
+    "question_content": "There is an N \\times N grid, where the cell at the i-th row from the top and the j-th column from the left contains the integer N \\times (i-1) + j.\nOver T turns, integers will be announced. On Turn i, the integer A_i is announced, and the cell containing A_i is marked. Determine the turn on which Bingo is achieved for the first time. If Bingo is not achieved within T turns, print -1.\nHere, achieving Bingo means satisfying at least one of the following conditions:\n\n- There exists a row in which all N cells are marked.\n- There exists a column in which all N cells are marked.\n- There exists a diagonal line (from top-left to bottom-right or from top-right to bottom-left) in which all N cells are marked.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN T\r\nA_1 A_2 \\ldots A_T\n\nOutput\n\nIf Bingo is achieved within T turns, print the turn number on which Bingo is achieved for the first time; otherwise, print -1.\n\nConstraints\n\n\n- 2 \\leq N \\leq 2 \\times 10^3\n- 1 \\leq T \\leq \\min(N^2, 2 \\times 10^5)\n- 1 \\leq A_i \\leq N^2\n- A_i \\neq A_j if i \\neq j.\n- All input values are integers.\n\nSample Input 1\n\n3 5\r\n5 1 8 9 7\n\nSample Output 1\n\n4\r\n\nThe state of the grid changes as follows. Bingo is achieved for the first time on Turn 4.\n\nSample Input 2\n\n3 5\r\n4 2 9 7 5\n\nSample Output 2\n\n-1\r\n\nBingo is not achieved within five turns, so print -1.\n\nSample Input 3\n\n4 12\r\n13 9 6 5 2 7 16 14 8 3 10 11\n\nSample Output 3\n\n9",
+    "platform": "atcoder",
+    "question_id": "abc355_c",
+    "contest_id": "abc355",
+    "contest_date": "2024-05-25T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "To solve this problem, we need to determine the earliest turn at which a Bingo is achieved in an N x N grid. Bingo is achieved if any row, column, or either of the two diagonals is completely marked. The solution involves efficiently tracking the marks in rows, columns, and diagonals as numbers are called out over T turns."
+    ],
+    "code_list": [
+      "To solve this problem, we need to determine the earliest turn at which a Bingo is achieved in an N x N grid. Bingo is achieved if any row, column, or either of the two diagonals is completely marked. The solution involves efficiently tracking the marks in rows, columns, and diagonals as numbers are called out over T turns."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Ticket Counter",
+    "question_content": "At the entrance of AtCoder Land, there is a single ticket booth where visitors line up to purchase tickets one by one. The purchasing process takes A seconds per person. Once the person at the front of the line finishes purchasing their ticket, the next person (if any) immediately starts their purchasing process.\nCurrently, there is no one in line at the ticket booth, and N people will come to buy tickets one after another. Specifically, the i-th person will arrive at the ticket booth T_i seconds from now. If there is already a line, they will join the end of it; if not, they will start the purchasing process immediately. Here, T_1 < T_2 < \\dots < T_N.\nFor each i\\ (1 \\leq i \\leq N), determine how many seconds from now the i-th person will finish purchasing their ticket.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN A\r\nT_1 T_2 \\dots T_N\n\nOutput\n\nPrint N lines. The i-th line should contain the number of seconds from now that the i-th person will finish purchasing their ticket.\n\nConstraints\n\n\n- 1 \\leq N \\leq 100\n- 0 \\leq T_1 < T_2 < \\dots < T_N \\leq 10^6\n- 1 \\leq A \\leq 10^6\n- All input values are integers.\n\nSample Input 1\n\n3 4\r\n0 2 10\n\nSample Output 1\n\n4\r\n8\r\n14\r\n\nThe events proceed in the following order:\n\n- At 0 seconds: The 1st person arrives at the ticket booth and starts the purchasing process.\n- At 2 seconds: The 2nd person arrives at the ticket booth and joins the line behind the 1st person.\n- At 4 seconds: The 1st person finishes purchasing their ticket, and the 2nd person starts the purchasing process.\n- At 8 seconds: The 2nd person finishes purchasing their ticket.\n- At 10 seconds: The 3rd person arrives at the ticket booth and starts the purchasing process.\n- At 14 seconds: The 3rd person finishes purchasing their ticket.\n\nSample Input 2\n\n3 3\r\n1 4 7\n\nSample Output 2\n\n4\r\n7\r\n10\r\n\nThe events proceed in the following order:\n\n- At 1 second: The 1st person arrives at the ticket booth and starts the purchasing process.\n- At 4 seconds: The 1st person finishes purchasing their ticket, and the 2nd person arrives at the ticket booth and starts the purchasing process.\n- At 7 seconds: The 2nd person finishes purchasing their ticket, and the 3rd person arrives at the ticket booth and starts the purchasing process.\n- At 10 seconds: The 3rd person finishes purchasing their ticket.\n\nSample Input 3\n\n10 50000\r\n120190 165111 196897 456895 540000 552614 561627 743796 757613 991216\n\nSample Output 3\n\n170190\r\n220190\r\n270190\r\n506895\r\n590000\r\n640000\r\n690000\r\n793796\r\n843796\r\n1041216",
+    "platform": "atcoder",
+    "question_id": "abc358_b",
+    "contest_id": "abc358",
+    "contest_date": "2024-06-15T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "n, a = map(int, input().split())\nt_list = list(map(int, input().split()))\nprev_finish = 0\nfor t in t_list:\n    start = max(t, prev_finish)\n    finish = start + a\n    print(finish)\n    prev_finish = finish"
+    ],
+    "code_list": [
+      "n, a = map(int, input().split())\nt_list = list(map(int, input().split()))\nprev_finish = 0\nfor t in t_list:\n    start = max(t, prev_finish)\n    finish = start + a\n    print(finish)\n    prev_finish = finish"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.03169822692871094}"
+    ]
+  },
+  {
+    "question_title": "Avoid K Palindrome",
+    "question_content": "You are given a string S of length N consisting of characters A, B, and ?.\nYou are also given a positive integer K.\r\nA string T consisting of A and B is considered a good string if it satisfies the following condition:\n\n- No contiguous substring of length K in T is a palindrome.\n\nLet q be the number of ? characters in S.\r\nThere are 2^q strings that can be obtained by replacing each ? in S with either A or B. Find how many of these strings are good strings.\nThe count can be very large, so find it modulo 998244353.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN K\r\nS\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 2 \\leq K \\leq N \\leq 1000\n- K \\leq 10\n- S is a string consisting of A, B, and ?.\n- The length of S is N.\n- N and K are integers.\n\nSample Input 1\n\n7 4\r\nAB?A?BA\n\nSample Output 1\n\n1\r\n\nThe given string has two ?s.\r\nThere are four strings obtained by replacing each ? with A or B:\n\n- ABAAABA\n- ABAABBA\n- ABBAABA\n- ABBABBA\n\nAmong these, the last three contain the contiguous substring ABBA of length 4, which is a palindrome, and thus are not good strings.\nTherefore, you should print 1.\n\nSample Input 2\n\n40 7\r\n????????????????????????????????????????\n\nSample Output 2\n\n116295436\r\n\nEnsure to find the number of good strings modulo 998244353.\n\nSample Input 3\n\n15 5\r\nABABA??????????\n\nSample Output 3\n\n0\r\n\nIt is possible that there is no way to replace the ?s to obtain a good string.\n\nSample Input 4\n\n40 8\r\n?A?B??B?B?AA?A?B??B?A???B?BB?B???BA??BAA\n\nSample Output 4\n\n259240",
+    "platform": "atcoder",
+    "question_id": "abc359_d",
+    "contest_id": "abc359",
+    "contest_date": "2024-06-22T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to count the number of valid strings that can be formed by replacing the '?' characters in the given string such that no substring of length K is a palindrome. The result should be computed modulo 998244353."
+    ],
+    "code_list": [
+      "To solve this problem, we need to count the number of valid strings that can be formed by replacing the '?' characters in the given string such that no substring of length K is a palindrome. The result should be computed modulo 998244353."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Xor Sigma Problem",
+    "question_content": "You are given an integer sequence A=(A_1,\\ldots,A_N) of length N. Find the value of the following expression:\n\\displaystyle \\sum_{i=1}^{N-1}\\sum_{j=i+1}^N (A_i \\oplus A_{i+1}\\oplus \\ldots \\oplus A_j).\n\nNotes on bitwise XOR\r\nThe bitwise XOR of non-negative integers A and B, denoted as A \\oplus B, is defined as follows:\r\n- In the binary representation of A \\oplus B, the digit at the 2^k (k \\geq 0) position is 1 if and only if exactly one of the digits at the 2^k position in the binary representations of A and B is 1; otherwise, it is 0.\r\nFor example, 3 \\oplus 5 = 6 (in binary: 011 \\oplus 101 = 110).\r\nIn general, the bitwise XOR of k integers p_1, \\dots, p_k is defined as (\\cdots ((p_1 \\oplus p_2) \\oplus p_3) \\oplus \\cdots \\oplus p_k).  It can be proved that this is independent of the order of p_1, \\dots, p_k.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN \r\nA_1 A_2 \\ldots A_{N}\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- 2 \\leq N \\leq 2 \\times 10^5\n- 1 \\leq A_i \\leq 10^8\n- All input values are integers.\n\nSample Input 1\n\n3\r\n1 3 2\n\nSample Output 1\n\n3\r\n\nA_1 \\oplus A_2 = 2, A_1 \\oplus A_2 \\oplus A_3 = 0, and A_2 \\oplus A_3 = 1, so the answer is 2 + 0 + 1 = 3.\n\nSample Input 2\n\n7\r\n2 5 6 5 2 1 7\n\nSample Output 2\n\n83",
+    "platform": "atcoder",
+    "question_id": "abc365_e",
+    "contest_id": "abc365",
+    "contest_date": "2024-08-03T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "def main():\n    import sys\n    input = sys.stdin.read().split()\n    N = int(input[0])\n    A = list(map(int, input[1:N+1]))\n    \n    prefix_xor = [0] * (N + 1)\n    for i in range(1, N + 1):\n        prefix_xor[i] = prefix_xor[i-1] ^ A[i-1]\n    \n    ans = 0\n    for k in range(31):\n        count_0 = 1\n        count_1 = 0\n        total_k = 0\n        for j in range(1, N + 1):\n            current = prefix_xor[j]\n            bit = (current >> k) & 1\n            if bit == 0:\n                total_k += count_1\n                count_0 += 1\n            else:\n                total_k += count_0\n                count_1 += 1\n        # Compute single_k\n        single_k = 0\n        for num in A:\n            if (num >> k) & 1:\n                single_k += 1\n        ans += (total_k - single_k) * (1 << k)\n    print(ans)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "code_list": [
+      "def main():\n    import sys\n    input = sys.stdin.read().split()\n    N = int(input[0])\n    A = list(map(int, input[1:N+1]))\n    \n    prefix_xor = [0] * (N + 1)\n    for i in range(1, N + 1):\n        prefix_xor[i] = prefix_xor[i-1] ^ A[i-1]\n    \n    ans = 0\n    for k in range(31):\n        count_0 = 1\n        count_1 = 0\n        total_k = 0\n        for j in range(1, N + 1):\n            current = prefix_xor[j]\n            bit = (current >> k) & 1\n            if bit == 0:\n                total_k += count_1\n                count_0 += 1\n            else:\n                total_k += count_0\n                count_1 += 1\n        # Compute single_k\n        single_k = 0\n        for num in A:\n            if (num >> k) & 1:\n                single_k += 1\n        ans += (total_k - single_k) * (1 << k)\n    print(ans)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 10.001358985900879}"
+    ]
+  },
+  {
+    "question_title": "Binary Alchemy",
+    "question_content": "There are N types of elements numbered 1, 2, \\ldots, N.\nElements can be combined with each other. When elements i and j are combined, they transform into element A_{i, j} if i \\geq j, and into element A_{j, i} if i < j.\nStarting with element 1, combine it with elements 1, 2, \\ldots, N in this order. Find the final element obtained.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nA_{1, 1}\r\nA_{2, 1} A_{2, 2}\r\n\\vdots\r\nA_{N, 1} A_{N, 2} \\ldots A_{N, N}\n\nOutput\n\nPrint the number representing the final element obtained.\n\nConstraints\n\n\n- 1 \\leq N \\leq 100\n- 1 \\leq A_{i, j} \\leq N\n- All input values are integers.\n\nSample Input 1\n\n4\r\n3\r\n2 4\r\n3 1 2\r\n2 1 2 4\n\nSample Output 1\n\n2\r\n\n\n- \r\nCombining element 1 with element 1 results in element 3.\n\n- \r\nCombining element 3 with element 2 results in element 1.\n\n- \r\nCombining element 1 with element 3 results in element 3.\n\n- \r\nCombining element 3 with element 4 results in element 2.\n\n\nTherefore, the value to be printed is 2.\n\nSample Input 2\n\n5\r\n5\r\n5 5\r\n5 5 5\r\n5 5 5 5\r\n5 5 5 5 5\n\nSample Output 2\n\n5\n\nSample Input 3\n\n6\r\n2\r\n1 5\r\n1 6 3\r\n2 6 1 4\r\n2 1 1 1 6\r\n5 6 1 2 2 5\n\nSample Output 3\n\n5",
+    "platform": "atcoder",
+    "question_id": "abc370_b",
+    "contest_id": "abc370",
+    "contest_date": "2024-09-07T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "n = int(input())\nA = [[] for _ in range(n + 1)]\nfor i in range(1, n + 1):\n    values = list(map(int, input().split()))\n    A[i] = values\n\ncurrent = 1\nfor k in range(1, n + 1):\n    i = max(current, k)\n    j = min(current, k)\n    current = A[i][j - 1]\n\nprint(current)"
+    ],
+    "code_list": [
+      "n = int(input())\nA = [[] for _ in range(n + 1)]\nfor i in range(1, n + 1):\n    values = list(map(int, input().split()))\n    A[i] = values\n\ncurrent = 1\nfor k in range(1, n + 1):\n    i = max(current, k)\n    j = min(current, k)\n    current = A[i][j - 1]\n\nprint(current)"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.031015634536743164}"
+    ]
+  },
+  {
+    "question_title": "Max Ai+Bj",
+    "question_content": "You are given two integer sequences A and B, each of length N. Choose integers i, j (1 \\leq i, j \\leq N) to maximize the value of A_i + B_j.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nA_1 A_2 \\dots A_N\r\nB_1 B_2 \\dots B_N\n\nOutput\n\nPrint the maximum possible value of A_i + B_j.\n\nConstraints\n\n\n- 1 \\leq N \\leq 5 \\times 10^5\n- |A_i| \\leq 10^9 (i=1,2,\\dots,N)\n- |B_j| \\leq 10^9 (j=1,2,\\dots,N)\n- All input values are integers.\n\nSample Input 1\n\n2\r\n-1 5\r\n3 -7\n\nSample Output 1\n\n8\r\n\nFor (i,j) = (1,1), (1,2), (2,1), (2,2), the values of A_i + B_j are 2, -8, 8, -2 respectively, and (i,j) = (2,1) achieves the maximum value 8.\n\nSample Input 2\n\n6\r\n15 12 3 -13 -1 -19\r\n7 17 -13 -10 18 4\n\nSample Output 2\n\n33",
+    "platform": "atcoder",
+    "question_id": "abc373_c",
+    "contest_id": "abc373",
+    "contest_date": "2024-09-28T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "n = int(input())\na = list(map(int, input().split()))\nb = list(map(int, input().split()))\nprint(max(a) + max(b))"
+    ],
+    "code_list": [
+      "n = int(input())\na = list(map(int, input().split()))\nb = list(map(int, input().split()))\nprint(max(a) + max(b))"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 2.7759947776794434}"
+    ]
+  },
+  {
+    "question_title": "ABA",
+    "question_content": "You are given a string S consisting of uppercase English letters.\nFind the number of integer triples (i, j, k) satisfying both of the following conditions:\n\n- 1 \\leq i < j < k \\leq |S|\n- The length-3 string formed by concatenating S_i, S_j, and S_k in this order is a palindrome.\n\nHere, |S| denotes the length of S, and S_x denotes the x-th character of S.\n\nInput\n\nThe input is given from Standard Input in the following format:\nS\n\nOutput\n\nPrint the answer.\n\nConstraints\n\n\n- S is a string of length between 1 and 2 \\times 10^5, inclusive, consisting of uppercase English letters.\n\nSample Input 1\n\nABCACC\n\nSample Output 1\n\n5\r\n\nThe triples satisfying the conditions are (i, j, k) = (1, 2, 4), (1, 3, 4), (3, 4, 5), (3, 4, 6), (3, 5, 6).\n\nSample Input 2\n\nOOOOOOOO\n\nSample Output 2\n\n56\n\nSample Input 3\n\nXYYXYYXYXXX\n\nSample Output 3\n\n75",
+    "platform": "atcoder",
+    "question_id": "abc375_d",
+    "contest_id": "abc375",
+    "contest_date": "2024-10-12T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      "import sys\nfrom collections import defaultdict\n\ndef main():\n    S = sys.stdin.readline().strip()\n    positions = defaultdict(list)\n    for idx, c in enumerate(S, start=1):\n        positions[c].append(idx)\n    total = 0\n    for pos_list in positions.values():\n        m = len(pos_list)\n        if m < 2:\n            continue\n        sum1 = 0\n        sum2 = 0\n        for idx in range(m):\n            x = pos_list[idx]\n            sum1 += x * idx\n            sum2 += x * (m - idx - 1)\n        sum_k_i = sum1 - sum2\n        contribution = sum_k_i - (m * (m - 1) // 2)\n        total += contribution\n    print(total)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "code_list": [
+      "import sys\nfrom collections import defaultdict\n\ndef main():\n    S = sys.stdin.readline().strip()\n    positions = defaultdict(list)\n    for idx, c in enumerate(S, start=1):\n        positions[c].append(idx)\n    total = 0\n    for pos_list in positions.values():\n        m = len(pos_list)\n        if m < 2:\n            continue\n        sum1 = 0\n        sum2 = 0\n        for idx in range(m):\n            x = pos_list[idx]\n            sum1 += x * idx\n            sum2 += x * (m - idx - 1)\n        sum_k_i = sum1 - sum2\n        contribution = sum_k_i - (m * (m - 1) // 2)\n        total += contribution\n    print(total)\n\nif __name__ == \"__main__\":\n    main()"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.6284754276275635}"
+    ]
+  },
+  {
+    "question_title": "Santa Claus 1",
+    "question_content": "There is a grid with H rows and W columns. Let (i,j) denote the cell at the i-th row from the top and the j-th column from the left.\nIf S_{i,j} is #, the cell (i,j) is impassable; if it is ., the cell is passable and contains no house; if it is @, the cell is passable and contains a house.\nInitially, Santa Claus is in cell (X,Y). He will act according to the string T as follows.\n\n- Let |T| be the length of the string T. For i=1,2,\\ldots,|T|, he moves as follows.\n- Let (x,y) be the cell he is currently in.\n- If T_i is U and cell (x-1,y) is passable, move to cell (x-1,y).\n- If T_i is D and cell (x+1,y) is passable, move to cell (x+1,y).\n- If T_i is L and cell (x,y-1) is passable, move to cell (x,y-1).\n- If T_i is R and cell (x,y+1) is passable, move to cell (x,y+1).\n- Otherwise, stay in cell (x,y).\n\n\n\n\n\nFind the cell where he is after completing all actions, and the number of distinct houses that he passed through or arrived at during his actions. If the same house is passed multiple times, it is only counted once.\n\nInput\n\nThe Input is given from Standard Input in the following format:\nH W X Y\nS_{1,1}S_{1,2}\\ldots S_{1,W}\n\\dots\nS_{H,1}S_{H,2}\\ldots S_{H,W}\nT\n\nOutput\n\nLet (X,Y) be the cell where he is after completing all actions, and C be the number of distinct houses he passed through or arrived at during his actions. Print X,Y,C in this order separated by spaces.\n\nConstraints\n\n\n- 3 \\leq H,W \\leq 100\n- 1 \\leq X \\leq H\n- 1 \\leq Y \\leq W\n- All given numbers are integers.\n- Each S_{i,j} is one of #, ., @.\n- S_{i,1} and S_{i,W} are # for every 1 \\leq i \\leq H.\n- S_{1,j} and S_{H,j} are # for every 1 \\leq j \\leq W.\n- S_{X,Y}= .\n- T is a string of length at least 1 and at most 10^4, consisting of U, D, L, R.\n\nSample Input 1\n\n5 5 3 4\n#####\n#...#\n#.@.#\n#..@#\n#####\nLLLDRUU\n\nSample Output 1\n\n2 3 1\n\nSanta Claus behaves as follows:\n\n\n- T_1= L, so he moves from (3,4) to (3,3). A house is passed.\n- T_2= L, so he moves from (3,3) to (3,2).\n- T_3= L, but cell (3,1) is impassable, so he stays at (3,2).\n- T_4= D, so he moves from (3,2) to (4,2).\n- T_5= R, so he moves from (4,2) to (4,3).\n- T_6= U, so he moves from (4,3) to (3,3). A house is passed, but it has already been passed.\n- T_7= U, so he moves from (3,3) to (2,3).\n\nThe number of houses he passed or arrived during his actions is 1.\n\nSample Input 2\n\n6 13 4 6\n#############\n#@@@@@@@@@@@#\n#@@@@@@@@@@@#\n#@@@@.@@@@@@#\n#@@@@@@@@@@@#\n#############\nUURUURLRLUUDDURDURRR\n\nSample Output 2\n\n3 11 11\n\nSample Input 3\n\n12 35 7 10\n###################################\n#.................................#\n#..........@......................#\n#......@................@.........#\n#.............##............@.....#\n#...##........##....##............#\n#...##........##....##.......##...#\n#....##......##......##....##.....#\n#....##......##......##..##.......#\n#.....#######.........###.........#\n#.................................#\n###################################\nLRURRRUUDDULUDUUDLRLRDRRLULRRUDLDRU\n\nSample Output 3\n\n4 14 1",
+    "platform": "atcoder",
+    "question_id": "abc385_b",
+    "contest_id": "abc385",
+    "contest_date": "2024-12-21T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "Stone XOR",
+    "question_content": "There are N bags, labeled bag 1, bag 2, \\ldots, bag N.\r\nBag i (1 \\leq i \\leq N) contains A_i stones.\nTakahashi can perform the following operation any number of times, possibly zero:\n\nChoose two bags A and B, and move all stones from bag A into bag B.\n\nFind the number of different possible values for the following after repeating the operation.\n\n- B_1 \\oplus B_2 \\oplus \\cdots \\oplus B_N, where B_i is the final number of stones in bag i.\r\nHere, \\oplus denotes bitwise XOR.\n\n\nAbout bitwise XOR\r\nFor non-negative integers a and b, the bitwise XOR a \\oplus b is defined as follows:\r\n\r\n\r\nIn the binary representation of a \\oplus b, the digit in the 2^k place (k \\ge 0) is 1 if and only if exactly one of the digits in the 2^k place of a and b is 1; otherwise, it is 0.\r\n\r\n\r\nFor example, 3 \\oplus 5 = 6 (in binary, 011 \\oplus 101 = 110).\r\nIn general, for k non-negative integers x_1, x_2, \\ldots, x_k, their bitwise XOR x_1 \\oplus x_2 \\oplus \\cdots \\oplus x_k is defined as (\\cdots((x_1 \\oplus x_2) \\oplus x_3) \\oplus \\cdots) \\oplus x_k, which does not depend on the order of x_1, x_2, \\ldots, x_k.\r\n\nIt can be proved that under the constraints of this problem, the number of possible values is finite.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nA_1 A_2 \\ldots A_N\n\nOutput\n\nPrint the number of different possible values for B_1 \\oplus B_2 \\oplus \\cdots \\oplus B_N after repeating the operation.\n\nConstraints\n\n\n- 2 \\leq N \\leq 12\n- 1 \\leq A_i \\leq 10^{17}\n- All input values are integers.\n\nSample Input 1\n\n3\r\n2 5 7\n\nSample Output 1\n\n3\r\n\nFor example, if Takahashi chooses bags 1 and 3 for the operation, then the numbers of stones in bags 1, 2, 3 become 0, 5, 9.\r\nIf he stops at this point, the XOR is 0 \\oplus 5 \\oplus 9 = 12.\nThe other possible XOR values after repeating the operation are 0 and 14.\r\nTherefore, the possible values are 0, 12, 14; there are three values, so the output is 3.\n\nSample Input 2\n\n2\r\n100000000000000000 100000000000000000\n\nSample Output 2\n\n2\n\nSample Input 3\n\n6\r\n71 74 45 34 31 60\n\nSample Output 3\n\n84",
+    "platform": "atcoder",
+    "question_id": "abc390_d",
+    "contest_id": "abc390",
+    "contest_date": "2025-01-25T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "Insert",
+    "question_content": "There is an empty array A. For i = 1,2,\\ldots,N, perform the following operation in order:\n\n- Insert the number i into A so that it becomes the P_i-th element from the beginning.\n- More precisely, replace A with the concatenation of the first P_i-1 elements of A, then i, then the remaining elements of A starting from the P_i-th element, in this order.\n\n\n\nOutput the final array A after all operations have been completed.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN\r\nP_1 P_2 \\ldots P_N\n\nOutput\n\nLet the final array be A = (A_1, A_2, \\ldots, A_N).\r\nPrint A_1, A_2, \\ldots, A_N in this order, separated by spaces.\n\nConstraints\n\n\n- 1 \\leq N \\leq 5\\times 10^5\n- 1 \\leq P_i \\leq i\n- All input values are integers.\n\nSample Input 1\n\n4\r\n1 1 2 1\n\nSample Output 1\n\n4 2 3 1\r\n\nThe operations are performed as follows:\n\n- Insert the number 1 so that it becomes the 1st element of A. Now, A = (1).\n- Insert the number 2 so that it becomes the 1st element of A. Now, A = (2, 1).\n- Insert the number 3 so that it becomes the 2nd element of A. Now, A = (2, 3, 1).\n- Insert the number 4 so that it becomes the 1st element of A. Now, A = (4, 2, 3, 1).\n\nSample Input 2\n\n5\r\n1 2 3 4 5\n\nSample Output 2\n\n1 2 3 4 5",
+    "platform": "atcoder",
+    "question_id": "abc392_f",
+    "contest_id": "abc392",
+    "contest_date": "2025-02-08T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to insert numbers into an array such that each number becomes the P_i-th element from the beginning. The challenge is to efficiently perform these insertions and determine the final array after all operations."
+    ],
+    "code_list": [
+      "To solve this problem, we need to insert numbers into an array such that each number becomes the P_i-th element from the beginning. The challenge is to efficiently perform these insertions and determine the final array after all operations."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "ABC400 Party",
+    "question_content": "In the ceremony commemorating ABC400, we want to arrange 400 people in a rectangular formation of A rows and B columns without any gaps.\nYou are given a positive integer A. Print the value of a positive integer B for which such an arrangement is possible. If there is no such positive integer B, print -1.\n\nInput\n\nThe input is given from Standard Input in the following format:\nA\n\nOutput\n\nPrint the value of B or -1 as specified by the problem statement.\n\nConstraints\n\n\n- A is an integer between 1 and 400, inclusive.\n\nSample Input 1\n\n10\n\nSample Output 1\n\n40\r\n\nWe can arrange 400 people in 10 rows and 40 columns.\n\nSample Input 2\n\n11\n\nSample Output 2\n\n-1\n\nSample Input 3\n\n400\n\nSample Output 3\n\n1",
+    "platform": "atcoder",
+    "question_id": "abc400_a",
+    "contest_id": "abc400",
+    "contest_date": "2025-04-05T00:00:00",
+    "starter_code": "",
+    "difficulty": "easy",
+    "output_list": [
+      "# Read the input\nA = int(input())\n\n# Check if 400 is divisible by A\nif 400 % A == 0:\n    print(400 // A)\nelse:\n    print(-1)"
+    ],
+    "code_list": [
+      "# Read the input\nA = int(input())\n\n# Check if 400 is divisible by A\nif 400 % A == 0:\n    print(400 // A)\nelse:\n    print(-1)"
+    ],
+    "graded_list": [
+      true
+    ],
+    "pass@1": 1.0,
+    "metadata": [
+      "{\"execution time\": 0.054502010345458984}"
+    ]
+  },
+  {
+    "question_title": "Takahashi the Wall Breaker",
+    "question_content": "Takahashi is about to go buy eel at a fish shop.\nThe town where he lives is divided into a grid of H rows and W columns. Each cell is either a road or a wall.\r\nLet us denote the cell at the i-th row from the top (1\\leq i \\leq H) and the j-th column from the left (1\\leq j \\leq W) as cell (i,j).\r\nInformation about each cell is given by H strings S_1,S_2,\\ldots,S_H, each of length W. Specifically, if the j-th character of S_i (1\\leq i \\leq H,1\\leq j\\leq W) is ., cell (i,j) is a road; if it is #, cell (i,j) is a wall.\nHe can repeatedly perform the following two types of actions in any order:\n\n- Move to an adjacent cell (up, down, left, or right) that is within the town and is a road.\n- Choose one of the four directions (up, down, left, or right) and perform a front kick in that direction.\r\n  When he performs a front kick, for each of the cells at most 2 steps away in that direction from the cell he is currently in, if that cell is a wall, it becomes a road.\r\n  If some of the cells at most 2 steps away are outside the town, a front kick can still be performed, but anything outside the town does not change.\n\nHe starts in cell (A,B), and he wants to move to the fish shop in cell (C,D).\r\nIt is guaranteed that both the cell where he starts and the cell with the fish shop are roads.\r\nFind the minimum number of front kicks he needs in order to reach the fish shop.\n\nInput\n\nThe input is given from Standard Input in the following format:\nH W\r\nS_1\r\nS_2\r\n\\vdots\r\nS_H\r\nA B C D\n\nOutput\n\nPrint the minimum number of front kicks needed for Takahashi to reach the fish shop.\n\nConstraints\n\n\n- 1\\leq H\\leq 1000\n- 1\\leq W\\leq 1000\n- Each S_i is a string of length W consisting of . and #.\n- 1\\leq A,C\\leq H\n- 1\\leq B,D\\leq W\n- (A,B)\\neq (C,D)\n- H, W, A, B, C, and D are integers.\n- The cell where Takahashi starts and the cell with the fish shop are roads.\n\nSample Input 1\n\n10 10\r\n..........\r\n#########.\r\n#.......#.\r\n#..####.#.\r\n##....#.#.\r\n#####.#.#.\r\n.##.#.#.#.\r\n###.#.#.#.\r\n###.#.#.#.\r\n#.....#...\r\n1 1 7 1\n\nSample Output 1\n\n1\r\n\nTakahashi starts in cell (1,1).\r\nBy repeatedly moving to adjacent road cells, he can reach cell (7,4).\r\nIf he performs a front kick to the left from cell (7,4), cells (7,3) and (7,2) turn from walls to roads.\r\nThen, by continuing to move through road cells (including those that have become roads), he can reach the fish shop in cell (7,1).\nIn this case, the number of front kicks performed is 1, and it is impossible to reach the fish shop without performing any front kicks, so print 1.\n\nSample Input 2\n\n2 2\r\n.#\r\n#.\r\n1 1 2 2\n\nSample Output 2\n\n1\r\n\nTakahashi starts in cell (1,1).\r\nWhen he performs a front kick to the right, cell (1,2) turns from a wall to a road.\r\nThe cell two steps to the right of (1,1) is outside the town, so it does not change.\r\nThen, he can move to cell (1,2) and then to the fish shop in cell (2,2).\nIn this case, the number of front kicks performed is 1, and it is impossible to reach the fish shop without performing any front kicks, so print 1.\n\nSample Input 3\n\n1 3\r\n.#.\r\n1 1 1 3\n\nSample Output 3\n\n1\r\n\nWhen performing a front kick, it is fine if the fish shop\u2019s cell is within the cells that could be turned into a road. Specifically, the fish shop\u2019s cell is a road from the beginning, so it remains unchanged; particularly, the shop is not destroyed by the front kick.\n\nSample Input 4\n\n20 20\r\n####################\r\n##...##....###...###\r\n#.....#.....#.....##\r\n#..#..#..#..#..#..##\r\n#..#..#....##..#####\r\n#.....#.....#..#####\r\n#.....#..#..#..#..##\r\n#..#..#.....#.....##\r\n#..#..#....###...###\r\n####################\r\n####################\r\n##..#..##...###...##\r\n##..#..#.....#.....#\r\n##..#..#..#..#..#..#\r\n##..#..#..#..#..#..#\r\n##.....#..#..#..#..#\r\n###....#..#..#..#..#\r\n#####..#.....#.....#\r\n#####..##...###...##\r\n####################\r\n3 3 18 18\n\nSample Output 4\n\n3",
+    "platform": "atcoder",
+    "question_id": "abc400_d",
+    "contest_id": "abc400",
+    "contest_date": "2025-04-05T00:00:00",
+    "starter_code": "",
+    "difficulty": "medium",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "Patisserie ABC 3",
+    "question_content": "Takahashi, a patissier working at the ABC pastry shop, decided to sell assorted cakes to commemorate AtCoder Beginner Contest 400.\nThe shop sells N kinds of cakes: cake 1, cake 2, \\ldots, cake N.\r\nEach cake has three non-negative integer values: beauty, tastiness, and popularity. Specifically, cake i has beauty X_i, tastiness Y_i, and popularity Z_i.\nHe considers pairing up these cakes into K pairs without overlaps.\r\nFormally, he will choose 2K distinct integers a_1,b_1,a_2,b_2,\\ldots,a_K,b_K between 1 and N (inclusive), and pair cake a_i with cake b_i.\r\nThe price of a pair formed by cakes a_i and b_i is \\max(X_{a_i} + X_{b_i},\\, Y_{a_i} + Y_{b_i},\\, Z_{a_i} + Z_{b_i}).\r\nHere, \\max(P,Q,R) denotes the greatest value among P,Q,R.\nFind the maximum possible total price of the K pairs.\nYou are given T test cases; solve each of them.\n\nInput\n\nThe input is given from Standard Input in the following format:\nT\r\n\\mathrm{case}_1\r\n\\mathrm{case}_2\r\n\\vdots\r\n\\mathrm{case}_T\r\n\n\\mathrm{case}_i represents the i-th test case. Each test case is given in the following format:\nN K\r\nX_1 Y_1 Z_1\r\nX_2 Y_2 Z_2\r\n\\vdots\r\nX_N Y_N Z_N\n\nOutput\n\nPrint T lines. The i-th line (1\\leq i\\leq T) should contain the answer to the i-th test case.\n\nConstraints\n\n\n- 1\\leq T\\leq 1000\n- 2\\leq N \\leq 10^5\n- The sum of N over all test cases in each input file is at most 10^5.\n- 1\\leq K \\leq \\lfloor \\frac{N}{2}\\rfloor (For a real number x, \\lfloor x\\rfloor denotes the greatest integer not exceeding x.)\n- 0\\leq X_i,Y_i,Z_i \\leq 10^9\n- All input values are integers.\n\nSample Input 1\n\n1\r\n3 1\r\n6 3 8\r\n3 5 0\r\n2 7 3\n\nSample Output 1\n\n12\r\n\nWe form one pair out of three cakes.\nIf we pair cake 1 with cake 2, the price is \\max(6+3,\\,3+5,\\,8+0) = 9.\r\nIf we pair cake 1 with cake 3, the price is \\max(6+2,\\,3+7,\\,8+3) = 11.\r\nIf we pair cake 2 with cake 3, the price is \\max(3+2,\\,5+7,\\,0+3) = 12.\nHence, pairing cake 2 with cake 3 gives the highest price, which is 12.\n\nSample Input 2\n\n2\r\n5 2\r\n1 2 3\r\n1 2 3\r\n1 2 3\r\n1 2 3\r\n100 100 200\r\n6 2\r\n21 74 25\r\n44 71 80\r\n46 28 96\r\n1 74 24\r\n81 83 16\r\n55 31 1\n\nSample Output 2\n\n209\r\n333\r\n\nNote that each cake can appear in at most one pair.\r\nAlso note that there can be different cakes with identical values of beauty, tastiness, and popularity.\nFor the first test case, pairing cake 1 with cake 2 gives a price of 6, pairing cake 3 with cake 5 gives a price of 203, and choosing these two pairs yields a total price of 209, which is the maximum.  \nFor the second test case, pairing cake 2 with cake 3 gives a price of 176, pairing cake 4 with cake 5 gives a price of 157, and choosing these two pairs yields a total price of 333, which is the maximum.",
+    "platform": "atcoder",
+    "question_id": "abc400_g",
+    "contest_id": "abc400",
+    "contest_date": "2025-04-05T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to maximize the total price of K pairs of cakes, where the price of each pair is determined by the maximum of the sum of their beauty, tastiness, and popularity values. The solution involves generating candidate pairs from sorted lists of cakes based on each of the three attributes (beauty, tastiness, and popularity) and then selecting the optimal pairs using a greedy approach."
+    ],
+    "code_list": [
+      "To solve this problem, we need to maximize the total price of K pairs of cakes, where the price of each pair is determined by the maximum of the sum of their beauty, tastiness, and popularity values. The solution involves generating candidate pairs from sorted lists of cakes based on each of the three attributes (beauty, tastiness, and popularity) and then selecting the optimal pairs using a greedy approach."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+    ]
+  },
+  {
+    "question_title": "Random Walk on Tree",
+    "question_content": "There is a tree with N \\times M + 1 vertices numbered 0, 1, \\dots, N \\times M. The i-th edge (1 \\leq i \\leq N \\times M) connects vertices i and \\max(i - N, 0).\r\nVertex 0 is painted. The other vertices are unpainted.\r\nTakahashi is at vertex 0. As long as there exists an unpainted vertex, he performs the following operation:\n\n- He chooses one of the vertices adjacent to his current vertex uniformly at random (all choices are independent) and moves to that vertex. Then, if the vertex he is on is unpainted, he paints it.\n\nFind the expected number of times he performs the operation, modulo 998244353.\n\nWhat is the expected value modulo 998244353?\r\n\r\nIt can be proved that the sought expected value is always rational. Under the constraints of this problem, when that value is expressed as an irreducible fraction \\frac{P}{Q}, it can also be proved that Q \\not\\equiv 0 \\pmod{998244353}. Then, there uniquely exists an integer R such that R \\times Q \\equiv P \\pmod{998244353}, 0 \\leq R \\lt 998244353. Report this R.\n\nInput\n\nThe input is given from Standard Input in the following format:\nN M\n\nOutput\n\nPrint the expected number of times he performs the operation, modulo 998244353.\n\nConstraints\n\n\n- 1 \\leq N \\leq 2 \\times 10^5\n- 1 \\leq M \\leq 2 \\times 10^5\n- N and M are integers.\n\nSample Input 1\n\n2 2\n\nSample Output 1\n\n20\r\n\nFor example, Takahashi could behave as follows.\n\n- Moves to vertex 1 and paints it. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 0. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 1. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 3 and paints it. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 1. This action is chosen with probability 1.\n- Moves to vertex 0. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 2 and paints it. This action is chosen with probability \\frac{1}{2}.\n- Moves to vertex 4 and paints it. This action is chosen with probability \\frac{1}{2}.\n\nHe behaves in this way with probability \\frac{1}{128}, in which case the number of operations is 8. The expected number of operations is 20.\n\nSample Input 2\n\n123456 185185\n\nSample Output 2\n\n69292914",
+    "platform": "atcoder",
+    "question_id": "arc185_d",
+    "contest_id": "arc185",
+    "contest_date": "2024-10-13T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      ""
+    ],
+    "code_list": [
+      ""
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+    ]
+  },
+  {
+    "question_title": "A^n",
+    "question_content": "You are given a positive integer N between 1 and 10^9, inclusive.\nFind one pair of positive integers (A, M) satisfying the following conditions. It can be proved that such a pair of integers always exists under the constraints.\n\n- Both A and M are positive integers between 1 and 10^{18}, inclusive.\n- There exists a positive integer n such that A^n - 1 is a multiple of M, and the smallest such n is N.\n\nYou are given T test cases; solve each of them.\n\nInput\n\nThe input is given from Standard Input in the following format:\nT\n\\text{case}_1\n\\text{case}_2\n\\vdots\n\\text{case}_T\n\nHere, \\text{case}_i denotes the i-th test case.\nEach test case is given in the following format:\nN\n\nOutput\n\nFor each test case, print a pair of positive integers (A, M) in the following format:\nA M\n\nIf there are multiple valid solutions, any one of them is considered correct.\n\nConstraints\n\n\n- 1 \\le T \\le 10^4\n- 1 \\le N \\le 10^9\n- All input values are integers.\n\nSample Input 1\n\n4\n3\n16\n1\n55\n\nSample Output 1\n\n2 7\n11 68\n20250126 1\n33 662\n\nConsider \\text{case}_1.\nFor example, if we choose (A,M)=(2,7), then:\n\n- When n=1: 2^1 - 1 = 1 is not a multiple of 7.\n- When n=2: 2^2 - 1 = 3 is not a multiple of 7.\n- When n=3: 2^3 - 1 = 7 is a multiple of 7.\n\nHence, the smallest n for which A^n - 1 is a multiple of M is 3. Therefore, (A,M)=(2,7) is a correct solution. Other valid solutions include (A,M)=(100,777).",
+    "platform": "atcoder",
+    "question_id": "arc191_c",
+    "contest_id": "arc191",
+    "contest_date": "2025-01-26T00:00:00",
+    "starter_code": "",
+    "difficulty": "hard",
+    "output_list": [
+      "To solve this problem, we need to find a pair of positive integers (A, M) such that the smallest positive integer n for which A^n \u2261 1 (mod M) is exactly N. This requires understanding of number theory concepts such as prime numbers, modular arithmetic, and primitive roots."
+    ],
+    "code_list": [
+      "To solve this problem, we need to find a pair of positive integers (A, M) such that the smallest positive integer n for which A^n \u2261 1 (mod M) is exactly N. This requires understanding of number theory concepts such as prime numbers, modular arithmetic, and primitive roots."
+    ],
+    "graded_list": [
+      false
+    ],
+    "pass@1": 0.0,
+    "metadata": [
+      "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid character '\\u2261' (U+2261) (<string>, line 1)\"}"
+    ]
+  }
+]

@@ -1,0 +1,594 @@
+{
+  "release_version": "release_v6",
+  "source": "livecodebench/code_generation_lite",
+  "not_fast": false,
+  "start_date": null,
+  "end_date": null,
+  "seed": 42,
+  "num_questions": 50,
+  "selection": "platform+difficulty proportional; date_bin+starter_code round-robin within groups",
+  "question_ids": [
+    "1883_B",
+    "1899_A",
+    "1899_C",
+    "2817",
+    "2857",
+    "2869",
+    "3174",
+    "3176",
+    "3223",
+    "3279",
+    "3420",
+    "3460",
+    "3487",
+    "3494",
+    "3519",
+    "3552",
+    "3579",
+    "3621",
+    "3700",
+    "3722",
+    "3773",
+    "3777",
+    "3799",
+    "abc303_d",
+    "abc303_e",
+    "abc306_b",
+    "abc308_b",
+    "abc309_e",
+    "abc314_c",
+    "abc327_e",
+    "abc329_b",
+    "abc338_b",
+    "abc339_d",
+    "abc344_d",
+    "abc351_e",
+    "abc355_c",
+    "abc358_b",
+    "abc359_d",
+    "abc365_e",
+    "abc370_b",
+    "abc373_c",
+    "abc375_d",
+    "abc385_b",
+    "abc390_d",
+    "abc392_f",
+    "abc400_a",
+    "abc400_d",
+    "abc400_g",
+    "arc185_d",
+    "arc191_c"
+  ],
+  "summary": {
+    "full": {
+      "num_questions": 1055,
+      "platform": {
+        "codeforces": 9,
+        "leetcode": 444,
+        "atcoder": 602
+      },
+      "difficulty": {
+        "easy": 322,
+        "medium": 383,
+        "hard": 350
+      },
+      "date_bin": {
+        "2023-Q3": 134,
+        "2023-Q4": 119,
+        "2023-Q2": 73,
+        "2024-Q1": 113,
+        "2024-Q3": 156,
+        "2024-Q2": 119,
+        "2024-Q4": 159,
+        "2025-Q1": 170,
+        "2025-Q2": 12
+      },
+      "starter_code": {
+        "no_starter": 611,
+        "with_starter": 444
+      },
+      "platform_difficulty": {
+        "codeforces|easy": 4,
+        "codeforces|medium": 2,
+        "codeforces|hard": 3,
+        "leetcode|easy": 135,
+        "leetcode|medium": 207,
+        "leetcode|hard": 102,
+        "atcoder|easy": 183,
+        "atcoder|medium": 174,
+        "atcoder|hard": 245
+      }
+    },
+    "subset": {
+      "num_questions": 50,
+      "platform": {
+        "codeforces": 3,
+        "leetcode": 20,
+        "atcoder": 27
+      },
+      "difficulty": {
+        "medium": 18,
+        "easy": 15,
+        "hard": 17
+      },
+      "date_bin": {
+        "2023-Q3": 5,
+        "2023-Q4": 7,
+        "2023-Q2": 5,
+        "2024-Q1": 4,
+        "2024-Q2": 6,
+        "2024-Q4": 7,
+        "2024-Q3": 6,
+        "2025-Q1": 5,
+        "2025-Q2": 5
+      },
+      "starter_code": {
+        "no_starter": 30,
+        "with_starter": 20
+      },
+      "platform_difficulty": {
+        "codeforces|medium": 1,
+        "codeforces|easy": 1,
+        "codeforces|hard": 1,
+        "leetcode|medium": 9,
+        "leetcode|easy": 6,
+        "leetcode|hard": 5,
+        "atcoder|medium": 8,
+        "atcoder|hard": 11,
+        "atcoder|easy": 8
+      }
+    }
+  },
+  "questions": [
+    {
+      "question_id": "1883_B",
+      "question_title": "B. Chemistry",
+      "platform": "codeforces",
+      "difficulty": "medium",
+      "contest_date": "2023-09-22T00:00:00",
+      "date_bin": "2023-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "1899_A",
+      "question_title": "A. Game with Integers",
+      "platform": "codeforces",
+      "difficulty": "easy",
+      "contest_date": "2023-10-17T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "1899_C",
+      "question_title": "C. Yarik and Array",
+      "platform": "codeforces",
+      "difficulty": "hard",
+      "contest_date": "2023-10-17T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "2817",
+      "question_title": "minimum-cost-to-make-all-characters-equal",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2023-05-28T00:00:00",
+      "date_bin": "2023-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "2857",
+      "question_title": "total-distance-traveled",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2023-06-18T00:00:00",
+      "date_bin": "2023-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "2869",
+      "question_title": "longest-non-decreasing-subarray-from-two-arrays",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2023-07-09T00:00:00",
+      "date_bin": "2023-Q3",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3174",
+      "question_title": "minimum-number-of-changes-to-make-binary-string-beautiful",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2023-10-28T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3176",
+      "question_title": "minimum-sum-of-mountain-triplets-i",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2023-10-22T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3223",
+      "question_title": "count-complete-substrings",
+      "platform": "leetcode",
+      "difficulty": "hard",
+      "contest_date": "2023-12-02T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3279",
+      "question_title": "alice-and-bob-playing-flower-game",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2024-01-27T00:00:00",
+      "date_bin": "2024-Q1",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3420",
+      "question_title": "find-occurrences-of-an-element-in-an-array",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2024-05-25T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3460",
+      "question_title": "count-the-number-of-inversions",
+      "platform": "leetcode",
+      "difficulty": "hard",
+      "contest_date": "2024-06-22T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3487",
+      "question_title": "find-maximum-removals-from-source-string",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2024-10-12T07:30:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3494",
+      "question_title": "minimum-cost-for-cutting-cake-i",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2024-07-13T00:00:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3519",
+      "question_title": "find-the-number-of-winning-players",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2024-08-03T00:00:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3552",
+      "question_title": "find-the-largest-palindrome-divisible-by-k",
+      "platform": "leetcode",
+      "difficulty": "hard",
+      "contest_date": "2024-08-17T19:30:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3579",
+      "question_title": "maximum-possible-number-by-binary-concatenation",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2024-10-05T19:30:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3621",
+      "question_title": "minimum-operations-to-make-array-values-equal-to-k",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2024-12-07T06:30:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3700",
+      "question_title": "subsequences-with-a-unique-middle-mode-i",
+      "platform": "leetcode",
+      "difficulty": "hard",
+      "contest_date": "2024-12-21T06:30:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3722",
+      "question_title": "sum-of-k-subarrays-with-length-at-least-m",
+      "platform": "leetcode",
+      "difficulty": "medium",
+      "contest_date": "2025-03-01T18:30:00",
+      "date_bin": "2025-Q1",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3773",
+      "question_title": "minimum-pair-removal-to-sort-array-i",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2025-04-05T19:30:00",
+      "date_bin": "2025-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3777",
+      "question_title": "maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k",
+      "platform": "leetcode",
+      "difficulty": "hard",
+      "contest_date": "2025-04-05T19:30:00",
+      "date_bin": "2025-Q2",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "3799",
+      "question_title": "unique-3-digit-even-numbers",
+      "platform": "leetcode",
+      "difficulty": "easy",
+      "contest_date": "2025-03-15T07:30:00",
+      "date_bin": "2025-Q1",
+      "has_starter_code": true
+    },
+    {
+      "question_id": "abc303_d",
+      "question_title": "Shift vs. CapsLock",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2023-05-27T00:00:00",
+      "date_bin": "2023-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc303_e",
+      "question_title": "A Gift From the Stars",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2023-05-27T00:00:00",
+      "date_bin": "2023-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc306_b",
+      "question_title": "Base 2",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2023-06-17T00:00:00",
+      "date_bin": "2023-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc308_b",
+      "question_title": "Default Price",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2023-07-01T00:00:00",
+      "date_bin": "2023-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc309_e",
+      "question_title": "Family and Insurance",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2023-07-08T00:00:00",
+      "date_bin": "2023-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc314_c",
+      "question_title": "Rotate Colored Subsequence",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2023-08-12T00:00:00",
+      "date_bin": "2023-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc327_e",
+      "question_title": "Maximize Rating",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2023-11-04T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc329_b",
+      "question_title": "Next",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2023-11-18T00:00:00",
+      "date_bin": "2023-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc338_b",
+      "question_title": "Frequency",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2024-01-27T00:00:00",
+      "date_bin": "2024-Q1",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc339_d",
+      "question_title": "Synchronized Players",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2024-02-03T00:00:00",
+      "date_bin": "2024-Q1",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc344_d",
+      "question_title": "String Bags",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2024-03-09T00:00:00",
+      "date_bin": "2024-Q1",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc351_e",
+      "question_title": "Jump Distance Sum",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2024-04-27T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc355_c",
+      "question_title": "Bingo 2",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2024-05-25T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc358_b",
+      "question_title": "Ticket Counter",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2024-06-15T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc359_d",
+      "question_title": "Avoid K Palindrome",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2024-06-22T00:00:00",
+      "date_bin": "2024-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc365_e",
+      "question_title": "Xor Sigma Problem",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2024-08-03T00:00:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc370_b",
+      "question_title": "Binary Alchemy",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2024-09-07T00:00:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc373_c",
+      "question_title": "Max Ai+Bj",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2024-09-28T00:00:00",
+      "date_bin": "2024-Q3",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc375_d",
+      "question_title": "ABA",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2024-10-12T00:00:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc385_b",
+      "question_title": "Santa Claus 1",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2024-12-21T00:00:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc390_d",
+      "question_title": "Stone XOR",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2025-01-25T00:00:00",
+      "date_bin": "2025-Q1",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc392_f",
+      "question_title": "Insert",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2025-02-08T00:00:00",
+      "date_bin": "2025-Q1",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc400_a",
+      "question_title": "ABC400 Party",
+      "platform": "atcoder",
+      "difficulty": "easy",
+      "contest_date": "2025-04-05T00:00:00",
+      "date_bin": "2025-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc400_d",
+      "question_title": "Takahashi the Wall Breaker",
+      "platform": "atcoder",
+      "difficulty": "medium",
+      "contest_date": "2025-04-05T00:00:00",
+      "date_bin": "2025-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "abc400_g",
+      "question_title": "Patisserie ABC 3",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2025-04-05T00:00:00",
+      "date_bin": "2025-Q2",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "arc185_d",
+      "question_title": "Random Walk on Tree",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2024-10-13T00:00:00",
+      "date_bin": "2024-Q4",
+      "has_starter_code": false
+    },
+    {
+      "question_id": "arc191_c",
+      "question_title": "A^n",
+      "platform": "atcoder",
+      "difficulty": "hard",
+      "contest_date": "2025-01-26T00:00:00",
+      "date_bin": "2025-Q1",
+      "has_starter_code": false
+    }
+  ]
+}
